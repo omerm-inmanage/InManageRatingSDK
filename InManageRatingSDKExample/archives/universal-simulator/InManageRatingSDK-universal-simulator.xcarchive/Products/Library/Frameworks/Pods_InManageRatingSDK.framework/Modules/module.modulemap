@@ -1,0 +1,6 @@
+framework module Pods_InManageRatingSDK {
+  umbrella header "Pods-InManageRatingSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

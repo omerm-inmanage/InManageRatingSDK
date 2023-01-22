@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name InManageRatingSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import InManageRatingSDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc open class InManageRating : ObjectiveC.NSObject {
+  @objc weak open var delegate: InManageRatingSDK.InmanageDelegate?
+  @objc open var isDebugMode: Swift.Bool
+  @objc open class func shared() -> InManageRatingSDK.InManageRating
+  open class func destroy()
+  public func welcome(sum: Swift.Int)
+  @objc deinit
+}
+@objc public protocol InmanageDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func didCloseInManageRatingSDK()
+}
+public typealias Dict = [Swift.String : Any]
+@_hasMissingDesignatedInitializers public class Constants {
+  @objc deinit
+}

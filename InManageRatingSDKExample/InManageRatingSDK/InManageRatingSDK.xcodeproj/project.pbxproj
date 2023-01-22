@@ -24,6 +24,7 @@
 		C75CCE2E297C674B00D03264 /* InmanageDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InmanageDelegate.swift; sourceTree = "<group>"; };
 		C75CCE30297C679400D03264 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C75CCE32297C67CD00D03264 /* InManageRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InManageRating.swift; sourceTree = "<group>"; };
+		C75CCE3A297D234A00D03264 /* XCFrameWork.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = XCFrameWork.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 				C75CCE2E297C674B00D03264 /* InmanageDelegate.swift */,
 				C75CCE30297C679400D03264 /* Constants.swift */,
 				C75CCE32297C67CD00D03264 /* InManageRating.swift */,
+				C75CCE3A297D234A00D03264 /* XCFrameWork.md */,
 			);
 			path = InManageRatingSDK;
 			sourceTree = "<group>";

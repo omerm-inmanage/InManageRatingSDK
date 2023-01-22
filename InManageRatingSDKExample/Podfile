@@ -2,7 +2,7 @@ platform :ios, '13.0'
 ENV['SWIFT_VERSION'] = '5.0'
 use_frameworks!
 
-workspace 'InManageRatingSDKExamplekspace'
+workspace 'InManageRatingSDKExamplespace'
 
 def shared_pods
   pod 'Alamofire'

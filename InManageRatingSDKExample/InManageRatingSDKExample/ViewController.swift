@@ -8,17 +8,28 @@
 import UIKit
 import InManageRatingSDK
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, InmanageDelegate {
     
     var inManageRatingSDK: InManageRating!
     
+    // MARK: Setup
+
     override func viewDidLoad() {
         super.viewDidLoad()
         inManageRatingSDK = InManageRating.shared()
         inManageRatingSDK.isDebugMode = true
+        inManageRatingSDK.delegate = self
         inManageRatingSDK.welcome(sum: 0)
     }
 
+    // MARK: InmanageDelegate
 
+    func didCloseInManageRatingSDK() {
+        print("d")
+    }
+    
+    @IBAction func didTap(_ sender: Any) {
+        print("גג")
+    }
 }
 
