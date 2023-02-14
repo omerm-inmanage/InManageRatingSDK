@@ -16,20 +16,31 @@ class ViewController: UIViewController, InmanageDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupView()
+    }
+    
+    private func setupView() {
         inManageRatingSDK = InManageRating.shared()
         inManageRatingSDK.isDebugMode = true
         inManageRatingSDK.delegate = self
-        inManageRatingSDK.welcome(sum: 0)
+        
+        let imgRateUs = UIImage(named: "imgRateUs")!
+        let imgThanksForRating = UIImage(named: "imgThanksForRating")!
+        let imgRateInAppstore = UIImage(named: "imgRateInAppstore")!
+        let color = UIColor.green
+        let strAppStore:String = "itms-apps://itunes.apple.com/app/id967762450"
+
+        inManageRatingSDK.initInManageRating(colorApp: color, imgRateUs: imgRateUs, imgThanksForRating: imgThanksForRating, imgRateInAppstore: imgRateInAppstore, strAppstoreUrl: strAppStore)
     }
 
     // MARK: InmanageDelegate
 
     func didCloseInManageRatingSDK() {
-        print("d")
+        print("didCloseInManageRatingSDK")
     }
     
     @IBAction func didTap(_ sender: Any) {
-        print("גג")
+        inManageRatingSDK.presentRateUsScreen()
     }
 }
 

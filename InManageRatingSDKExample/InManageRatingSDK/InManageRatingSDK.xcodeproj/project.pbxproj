@@ -11,6 +11,30 @@
 		C75CCE2F297C674B00D03264 /* InmanageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CCE2E297C674B00D03264 /* InmanageDelegate.swift */; };
 		C75CCE31297C679400D03264 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CCE30297C679400D03264 /* Constants.swift */; };
 		C75CCE33297C67CD00D03264 /* InManageRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CCE32297C67CD00D03264 /* InManageRating.swift */; };
+		C770C3202994D3B90053AA19 /* RateInAppstoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C770C31F2994D3B90053AA19 /* RateInAppstoreViewController.xib */; };
+		C770C3262994D4D80053AA19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C770C3252994D4D80053AA19 /* UIKit.framework */; };
+		C770C3292994D6400053AA19 /* UIApplicationExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770C3282994D6400053AA19 /* UIApplicationExtenstion.swift */; };
+		C770C32B2994D6650053AA19 /* NSObjectExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770C32A2994D6650053AA19 /* NSObjectExtenstion.swift */; };
+		C770C32D2994E2B10053AA19 /* UIViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770C32C2994E2B10053AA19 /* UIViewExtenstion.swift */; };
+		C770C32F2994E4BD0053AA19 /* UIFontExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770C32E2994E4BD0053AA19 /* UIFontExtenstion.swift */; };
+		C770C33F2994E6270053AA19 /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770C3382994E6260053AA19 /* Heebo-Black.ttf */; };
+		C770C3402994E6270053AA19 /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770C3392994E6260053AA19 /* Heebo-Light.ttf */; };
+		C770C3412994E6270053AA19 /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770C33A2994E6260053AA19 /* Heebo-ExtraBold.ttf */; };
+		C770C3422994E6270053AA19 /* Heebo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770C33B2994E6270053AA19 /* Heebo-Thin.ttf */; };
+		C770C3432994E6270053AA19 /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770C33C2994E6270053AA19 /* Heebo-Regular.ttf */; };
+		C770C3442994E6270053AA19 /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770C33D2994E6270053AA19 /* Heebo-Medium.ttf */; };
+		C770C3452994E6270053AA19 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770C33E2994E6270053AA19 /* Heebo-Bold.ttf */; };
+		C770C3472994EFA20053AA19 /* star_not_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C770C3462994EFA20053AA19 /* star_not_selected.png */; };
+		C7883AFC29937FBB009FB2A5 /* ThanksForRatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7883AFB29937FBB009FB2A5 /* ThanksForRatingViewController.xib */; };
+		C7883AFE29937FCE009FB2A5 /* ThanksForRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7883AFD29937FCE009FB2A5 /* ThanksForRatingViewController.swift */; };
+		C7883B0229938594009FB2A5 /* RateUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7883B0129938594009FB2A5 /* RateUsViewController.xib */; };
+		C7883B04299385A9009FB2A5 /* RateUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7883B03299385A9009FB2A5 /* RateUsViewController.swift */; };
+		C7883B062993ECBD009FB2A5 /* star_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C7883B052993ECBD009FB2A5 /* star_selected.png */; };
+		C7883B092993ED81009FB2A5 /* subtract.png in Resources */ = {isa = PBXBuildFile; fileRef = C7883B082993ED81009FB2A5 /* subtract.png */; };
+		C7883B0C2994C9A3009FB2A5 /* RateUsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7883B0B2994C9A3009FB2A5 /* RateUsViewModel.swift */; };
+		C7883B0E2994C9B1009FB2A5 /* RateUsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7883B0D2994C9B1009FB2A5 /* RateUsModel.swift */; };
+		C7883B122994D34E009FB2A5 /* RateInAppstoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7883B102994D34E009FB2A5 /* RateInAppstoreViewController.swift */; };
+		C7C9B5F9299BC1DF00ED7694 /* UIButtonExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C9B5F8299BC1DF00ED7694 /* UIButtonExtenstion.swift */; };
 		D1CED0F90AE92E640247EFA4 /* Pods_InManageRatingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B070B9F20E514275CC28EFC3 /* Pods_InManageRatingSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +49,30 @@
 		C75CCE30297C679400D03264 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C75CCE32297C67CD00D03264 /* InManageRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InManageRating.swift; sourceTree = "<group>"; };
 		C75CCE3A297D234A00D03264 /* XCFrameWork.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = XCFrameWork.md; sourceTree = "<group>"; };
+		C770C31F2994D3B90053AA19 /* RateInAppstoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RateInAppstoreViewController.xib; sourceTree = "<group>"; };
+		C770C3252994D4D80053AA19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C770C3282994D6400053AA19 /* UIApplicationExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtenstion.swift; sourceTree = "<group>"; };
+		C770C32A2994D6650053AA19 /* NSObjectExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtenstion.swift; sourceTree = "<group>"; };
+		C770C32C2994E2B10053AA19 /* UIViewExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtenstion.swift; sourceTree = "<group>"; };
+		C770C32E2994E4BD0053AA19 /* UIFontExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtenstion.swift; sourceTree = "<group>"; };
+		C770C3382994E6260053AA19 /* Heebo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Black.ttf"; sourceTree = "<group>"; };
+		C770C3392994E6260053AA19 /* Heebo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Light.ttf"; sourceTree = "<group>"; };
+		C770C33A2994E6260053AA19 /* Heebo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C770C33B2994E6270053AA19 /* Heebo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Thin.ttf"; sourceTree = "<group>"; };
+		C770C33C2994E6270053AA19 /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
+		C770C33D2994E6270053AA19 /* Heebo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.ttf"; sourceTree = "<group>"; };
+		C770C33E2994E6270053AA19 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
+		C770C3462994EFA20053AA19 /* star_not_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_not_selected.png; sourceTree = "<group>"; };
+		C7883AFB29937FBB009FB2A5 /* ThanksForRatingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThanksForRatingViewController.xib; sourceTree = "<group>"; };
+		C7883AFD29937FCE009FB2A5 /* ThanksForRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksForRatingViewController.swift; sourceTree = "<group>"; };
+		C7883B0129938594009FB2A5 /* RateUsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateUsViewController.xib; sourceTree = "<group>"; };
+		C7883B03299385A9009FB2A5 /* RateUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsViewController.swift; sourceTree = "<group>"; };
+		C7883B052993ECBD009FB2A5 /* star_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_selected.png; sourceTree = "<group>"; };
+		C7883B082993ED81009FB2A5 /* subtract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subtract.png; sourceTree = "<group>"; };
+		C7883B0B2994C9A3009FB2A5 /* RateUsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsViewModel.swift; sourceTree = "<group>"; };
+		C7883B0D2994C9B1009FB2A5 /* RateUsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsModel.swift; sourceTree = "<group>"; };
+		C7883B102994D34E009FB2A5 /* RateInAppstoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateInAppstoreViewController.swift; sourceTree = "<group>"; };
+		C7C9B5F8299BC1DF00ED7694 /* UIButtonExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtenstion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1CED0F90AE92E640247EFA4 /* Pods_InManageRatingSDK.framework in Frameworks */,
+				C770C3262994D4D80053AA19 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +91,7 @@
 		4EDBE4832C6EACA1F6FFB876 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C770C3252994D4D80053AA19 /* UIKit.framework */,
 				B070B9F20E514275CC28EFC3 /* Pods_InManageRatingSDK.framework */,
 			);
 			name = Frameworks;
@@ -68,6 +118,9 @@
 		C75CCE23297C62BC00D03264 /* InManageRatingSDK */ = {
 			isa = PBXGroup;
 			children = (
+				C770C3272994D6250053AA19 /* Extenstions */,
+				C7883B072993ECCA009FB2A5 /* ViewController */,
+				C7883AFA29937F6E009FB2A5 /* Resources */,
 				C75CCE2C297C641100D03264 /* Info.plist */,
 				C75CCE24297C62BC00D03264 /* InManageRatingSDK.h */,
 				C75CCE2E297C674B00D03264 /* InmanageDelegate.swift */,
@@ -76,6 +129,74 @@
 				C75CCE3A297D234A00D03264 /* XCFrameWork.md */,
 			);
 			path = InManageRatingSDK;
+			sourceTree = "<group>";
+		};
+		C770C3212994D3C20053AA19 /* ThanksForRating */ = {
+			isa = PBXGroup;
+			children = (
+				C7883AFD29937FCE009FB2A5 /* ThanksForRatingViewController.swift */,
+			);
+			path = ThanksForRating;
+			sourceTree = "<group>";
+		};
+		C770C3272994D6250053AA19 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				C770C3282994D6400053AA19 /* UIApplicationExtenstion.swift */,
+				C770C32A2994D6650053AA19 /* NSObjectExtenstion.swift */,
+				C770C32C2994E2B10053AA19 /* UIViewExtenstion.swift */,
+				C770C32E2994E4BD0053AA19 /* UIFontExtenstion.swift */,
+				C7C9B5F8299BC1DF00ED7694 /* UIButtonExtenstion.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		C7883AFA29937F6E009FB2A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C770C3382994E6260053AA19 /* Heebo-Black.ttf */,
+				C770C33E2994E6270053AA19 /* Heebo-Bold.ttf */,
+				C770C33A2994E6260053AA19 /* Heebo-ExtraBold.ttf */,
+				C770C3392994E6260053AA19 /* Heebo-Light.ttf */,
+				C770C33D2994E6270053AA19 /* Heebo-Medium.ttf */,
+				C770C33C2994E6270053AA19 /* Heebo-Regular.ttf */,
+				C770C33B2994E6270053AA19 /* Heebo-Thin.ttf */,
+				C7883B082993ED81009FB2A5 /* subtract.png */,
+				C7883B052993ECBD009FB2A5 /* star_selected.png */,
+				C770C3462994EFA20053AA19 /* star_not_selected.png */,
+				C7883AFB29937FBB009FB2A5 /* ThanksForRatingViewController.xib */,
+				C770C31F2994D3B90053AA19 /* RateInAppstoreViewController.xib */,
+				C7883B0129938594009FB2A5 /* RateUsViewController.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7883B072993ECCA009FB2A5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C770C3212994D3C20053AA19 /* ThanksForRating */,
+				C7883B0F2994D33C009FB2A5 /* RateInAppstore */,
+				C7883B0A2994C98A009FB2A5 /* RateUs */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C7883B0A2994C98A009FB2A5 /* RateUs */ = {
+			isa = PBXGroup;
+			children = (
+				C7883B03299385A9009FB2A5 /* RateUsViewController.swift */,
+				C7883B0B2994C9A3009FB2A5 /* RateUsViewModel.swift */,
+				C7883B0D2994C9B1009FB2A5 /* RateUsModel.swift */,
+			);
+			path = RateUs;
+			sourceTree = "<group>";
+		};
+		C7883B0F2994D33C009FB2A5 /* RateInAppstore */ = {
+			isa = PBXGroup;
+			children = (
+				C7883B102994D34E009FB2A5 /* RateInAppstoreViewController.swift */,
+			);
+			path = RateInAppstore;
 			sourceTree = "<group>";
 		};
 		C7FEC590E85D595167A0AE2E /* Pods */ = {
@@ -159,6 +280,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C770C33F2994E6270053AA19 /* Heebo-Black.ttf in Resources */,
+				C7883B0229938594009FB2A5 /* RateUsViewController.xib in Resources */,
+				C770C3442994E6270053AA19 /* Heebo-Medium.ttf in Resources */,
+				C770C3452994E6270053AA19 /* Heebo-Bold.ttf in Resources */,
+				C7883AFC29937FBB009FB2A5 /* ThanksForRatingViewController.xib in Resources */,
+				C770C3202994D3B90053AA19 /* RateInAppstoreViewController.xib in Resources */,
+				C770C3412994E6270053AA19 /* Heebo-ExtraBold.ttf in Resources */,
+				C770C3432994E6270053AA19 /* Heebo-Regular.ttf in Resources */,
+				C770C3422994E6270053AA19 /* Heebo-Thin.ttf in Resources */,
+				C770C3402994E6270053AA19 /* Heebo-Light.ttf in Resources */,
+				C7883B062993ECBD009FB2A5 /* star_selected.png in Resources */,
+				C770C3472994EFA20053AA19 /* star_not_selected.png in Resources */,
+				C7883B092993ED81009FB2A5 /* subtract.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,8 +328,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7883B0C2994C9A3009FB2A5 /* RateUsViewModel.swift in Sources */,
+				C7883B122994D34E009FB2A5 /* RateInAppstoreViewController.swift in Sources */,
+				C770C32B2994D6650053AA19 /* NSObjectExtenstion.swift in Sources */,
+				C770C32F2994E4BD0053AA19 /* UIFontExtenstion.swift in Sources */,
+				C770C32D2994E2B10053AA19 /* UIViewExtenstion.swift in Sources */,
+				C7C9B5F9299BC1DF00ED7694 /* UIButtonExtenstion.swift in Sources */,
+				C7883B04299385A9009FB2A5 /* RateUsViewController.swift in Sources */,
 				C75CCE33297C67CD00D03264 /* InManageRating.swift in Sources */,
+				C7883B0E2994C9B1009FB2A5 /* RateUsModel.swift in Sources */,
 				C75CCE2F297C674B00D03264 /* InmanageDelegate.swift in Sources */,
+				C770C3292994D6400053AA19 /* UIApplicationExtenstion.swift in Sources */,
+				C7883AFE29937FCE009FB2A5 /* ThanksForRatingViewController.swift in Sources */,
 				C75CCE31297C679400D03264 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
