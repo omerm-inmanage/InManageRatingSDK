@@ -33,7 +33,11 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
     
     //MARK: Setup
     
-    private func fillStaticOutletsWithTranslations() { }
+    private func fillStaticOutletsWithTranslations() {
+        let strFirst = "כתוב כאן עד"
+        let strLast = "תווים"
+        lblPlaceHolder.text = "\(strFirst) \(InManageRating.inManageRatingModel.rateWithCommentFields?.limitCommentCount ?? 250) \(strLast)"
+    }
     
     private func setupView() {
         
@@ -49,6 +53,7 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
         let reset = UIBarButtonItem(title: "אישור", style: .done, target: self, action: #selector(closeKeyBoard))
         let flexButtonLeft = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
         bar.items = [flexButtonRight,reset,flexButtonLeft]
+        bar.tintColor = InManageRating.inManageRatingModel.colorApp
         bar.sizeToFit()
         textView.inputAccessoryView = bar
         
@@ -67,7 +72,7 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
     // MARK: UITextViewDelegate
     
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
-        return textView.text.count + (text.count - range.length) <= viewModel.model.limitCommentCount
+        return textView.text.count + (text.count - range.length) <= InManageRating.inManageRatingModel.rateWithCommentFields?.limitCommentCount ?? 250
     }
     
     func textViewDidChangeSelection(_ textView: UITextView) {

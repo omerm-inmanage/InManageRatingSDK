@@ -21,7 +21,6 @@ class InManageRatingModel: NSObject {
     var rateInAppstoreFields: RateInAppstoreFields?
     var rateWithCommentFields: RateWithCommentFields?
     var thanksForRatingFields: ThanksForRatingFields?
-
 }
 
 @objc open class InManageRating: NSObject {

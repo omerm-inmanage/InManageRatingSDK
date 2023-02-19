@@ -39,12 +39,19 @@
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subtract.png" translatesAutoresizingMaskIntoConstraints="NO" id="xHp-B5-BHs">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
                         </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mhs-It-GNp">
+                            <rect key="frame" x="70" y="0.0" width="180" height="81"/>
+                        </imageView>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
+                        <constraint firstItem="Mhs-It-GNp" firstAttribute="top" secondItem="FIu-lo-LNp" secondAttribute="top" id="0wi-WU-9s5"/>
                         <constraint firstAttribute="bottom" secondItem="xHp-B5-BHs" secondAttribute="bottom" id="8tI-K0-MPe"/>
                         <constraint firstItem="xHp-B5-BHs" firstAttribute="top" secondItem="FIu-lo-LNp" secondAttribute="top" id="MnS-TS-u1r"/>
+                        <constraint firstItem="Mhs-It-GNp" firstAttribute="leading" secondItem="FIu-lo-LNp" secondAttribute="leading" constant="70" id="anQ-9G-YAJ"/>
+                        <constraint firstAttribute="bottom" secondItem="Mhs-It-GNp" secondAttribute="bottom" id="cW0-n7-q6G"/>
                         <constraint firstItem="xHp-B5-BHs" firstAttribute="leading" secondItem="FIu-lo-LNp" secondAttribute="leading" id="gEK-dF-tLa"/>
+                        <constraint firstAttribute="trailing" secondItem="Mhs-It-GNp" secondAttribute="trailing" constant="70" id="jmC-yl-tRM"/>
                         <constraint firstAttribute="trailing" secondItem="xHp-B5-BHs" secondAttribute="trailing" id="ki8-57-c6J"/>
                         <constraint firstAttribute="height" constant="81" id="z3w-Uf-gC7"/>
                     </constraints>
@@ -107,13 +114,6 @@
                         <constraint firstAttribute="height" constant="221" id="yjI-PE-nd2"/>
                     </constraints>
                 </view>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mhs-It-GNp">
-                    <rect key="frame" x="135" y="230.66666666666663" width="123" height="85"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="85" id="Nwx-Th-a9C"/>
-                        <constraint firstAttribute="width" constant="123" id="kxV-WV-rpt"/>
-                    </constraints>
-                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="WhR-W6-Tgc"/>
             <color key="backgroundColor" white="0.0" alpha="0.24841874480000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -121,12 +121,10 @@
                 <constraint firstItem="FIu-lo-LNp" firstAttribute="centerX" secondItem="Aff-Ns-8I5" secondAttribute="centerX" id="4uf-32-gPF"/>
                 <constraint firstItem="Aff-Ns-8I5" firstAttribute="centerX" secondItem="ZlW-wd-4UT" secondAttribute="centerX" id="EMw-pF-avD"/>
                 <constraint firstItem="FIu-lo-LNp" firstAttribute="width" secondItem="Aff-Ns-8I5" secondAttribute="width" id="JSi-gb-izG"/>
-                <constraint firstItem="Aff-Ns-8I5" firstAttribute="top" secondItem="Mhs-It-GNp" secondAttribute="bottom" id="fc2-l1-Bsd"/>
                 <constraint firstItem="Aff-Ns-8I5" firstAttribute="top" secondItem="FIu-lo-LNp" secondAttribute="bottom" id="fqk-mT-gAc"/>
                 <constraint firstItem="Aff-Ns-8I5" firstAttribute="centerY" secondItem="ZlW-wd-4UT" secondAttribute="centerY" id="lEL-KZ-Lvb"/>
-                <constraint firstItem="Mhs-It-GNp" firstAttribute="centerX" secondItem="ZlW-wd-4UT" secondAttribute="centerX" id="lip-WD-Clj"/>
             </constraints>
-            <point key="canvasLocation" x="132" y="-33"/>
+            <point key="canvasLocation" x="130.53435114503816" y="-33.098591549295776"/>
         </view>
     </objects>
     <resources>

@@ -9,9 +9,5 @@
 
 import Foundation
 
-class RateWithCommentModel: NSObject {
-    
-    var limitCommentCount: Int = 1000
-
-}
+class RateWithCommentModel: NSObject { }
 

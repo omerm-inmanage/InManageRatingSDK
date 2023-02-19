@@ -12,10 +12,12 @@ public class RateWithCommentFields : NSObject {
     
     let imgBackgroundHeader: UIImage
     let imgMainCenterHeader: UIImage
+    var limitCommentCount: Int = 500
  
-    public init(imgBackgroundHeader: UIImage, imgMainCenterHeader: UIImage) {
+    public init(imgBackgroundHeader: UIImage, imgMainCenterHeader: UIImage, limitCommentCount: Int) {
         self.imgBackgroundHeader = imgBackgroundHeader
         self.imgMainCenterHeader = imgMainCenterHeader
+        self.limitCommentCount = limitCommentCount
     }
     
 }
