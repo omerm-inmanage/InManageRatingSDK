@@ -24,8 +24,8 @@ class ViewController: UIViewController, InmanageDelegate {
         inManageRatingSDK.isDebugMode = true
         inManageRatingSDK.delegate = self
 
-        setupAzrieli()
-//        setupMcdolads()
+//        setupAzrieli()
+        setupMcdolads()
     }
     
     private func setupAzrieli() {

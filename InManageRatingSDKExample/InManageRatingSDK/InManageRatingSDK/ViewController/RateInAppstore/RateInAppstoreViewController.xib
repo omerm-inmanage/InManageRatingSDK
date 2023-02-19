@@ -66,7 +66,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="דרגו אותנו בחנות!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bE4-VY-AD9">
-                            <rect key="frame" x="99.666666666666686" y="65" width="120.66666666666669" height="25"/>
+                            <rect key="frame" x="99.666666666666686" y="45" width="120.66666666666669" height="25"/>
                             <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -81,7 +81,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="18"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="לא תודה"/>
+                                    <state key="normal" title="לא, תודה"/>
                                     <connections>
                                         <action selector="didTapNoThanks:" destination="-1" eventType="touchUpInside" id="4HB-g1-vPI"/>
                                     </connections>
@@ -109,7 +109,7 @@
                         <constraint firstItem="bE4-VY-AD9" firstAttribute="centerX" secondItem="Aff-Ns-8I5" secondAttribute="centerX" id="MKg-ev-heH"/>
                         <constraint firstItem="Hge-sU-lm7" firstAttribute="top" secondItem="Aff-Ns-8I5" secondAttribute="top" constant="16" id="NRk-iY-0K9"/>
                         <constraint firstAttribute="trailing" secondItem="cAG-e8-i6w" secondAttribute="trailing" constant="15" id="RqM-Fh-C1s"/>
-                        <constraint firstItem="bE4-VY-AD9" firstAttribute="top" secondItem="Hge-sU-lm7" secondAttribute="bottom" constant="24" id="fV9-by-WCL"/>
+                        <constraint firstItem="bE4-VY-AD9" firstAttribute="top" secondItem="Hge-sU-lm7" secondAttribute="bottom" constant="4" id="fV9-by-WCL"/>
                         <constraint firstAttribute="bottom" secondItem="cAG-e8-i6w" secondAttribute="bottom" constant="20" id="g6v-tc-qzU"/>
                         <constraint firstAttribute="height" constant="221" id="yjI-PE-nd2"/>
                     </constraints>

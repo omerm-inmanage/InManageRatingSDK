@@ -71,7 +71,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="נשמח לשמוע על החוויה שלך" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jT-Os-JHP">
-                            <rect key="frame" x="59.666666666666671" y="55" width="200.33333333333331" height="25"/>
+                            <rect key="frame" x="59.666666666666671" y="45" width="200.33333333333331" height="25"/>
                             <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -106,7 +106,7 @@
                             </subviews>
                         </stackView>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="LAw-wK-TWN">
-                            <rect key="frame" x="16" y="101" width="288" height="117"/>
+                            <rect key="frame" x="16" y="91" width="288" height="127"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <color key="textColor" systemColor="labelColor"/>
                             <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="14"/>
@@ -121,7 +121,7 @@
                             </userDefinedRuntimeAttributes>
                         </textView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="כתוב כאן" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohd-Um-OEX">
-                            <rect key="frame" x="229" y="109" width="63" height="25"/>
+                            <rect key="frame" x="229" y="99" width="63" height="25"/>
                             <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
                             <color key="textColor" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -131,7 +131,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="300" id="3Tc-tu-n8f"/>
                         <constraint firstAttribute="trailing" secondItem="SaN-e7-awb" secondAttribute="trailing" constant="15" id="6l4-d0-T1C"/>
-                        <constraint firstItem="3jT-Os-JHP" firstAttribute="top" secondItem="p6t-On-zcF" secondAttribute="bottom" constant="14" id="9On-HF-TtO"/>
+                        <constraint firstItem="3jT-Os-JHP" firstAttribute="top" secondItem="p6t-On-zcF" secondAttribute="bottom" constant="4" id="9On-HF-TtO"/>
                         <constraint firstItem="p6t-On-zcF" firstAttribute="centerX" secondItem="8JC-OG-FVB" secondAttribute="centerX" id="FyH-ao-qVa"/>
                         <constraint firstAttribute="width" constant="320" id="Kqu-HP-jn1"/>
                         <constraint firstItem="LAw-wK-TWN" firstAttribute="top" secondItem="3jT-Os-JHP" secondAttribute="bottom" constant="21" id="NKm-p3-yXh"/>
