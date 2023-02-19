@@ -9,6 +9,7 @@ import UIKit
 
 class RateInAppstoreViewController: UIViewController {
     
+    @IBOutlet weak var imgBackgroundHeader: UIImageView!
     @IBOutlet weak var viewHeader: UIView!
     @IBOutlet weak var viewContent: UIView!
     @IBOutlet weak var img: UIImageView!
@@ -21,7 +22,8 @@ class RateInAppstoreViewController: UIViewController {
     }
     
     private func setupView() {
-        img.image = InManageRating.inManageRatingModel.imgRateInAppstore
+        imgBackgroundHeader.image = InManageRating.inManageRatingModel.rateInAppstoreFields?.imgBackgroundHeader
+        img.image = InManageRating.inManageRatingModel.rateInAppstoreFields?.imgMainCenterHeader
         
         btnAppStore.setAttributeSelected(color:InManageRating.inManageRatingModel.colorApp)
         btnNoThanks.setAttributeUnSelected(color: InManageRating.inManageRatingModel.colorApp)
@@ -30,20 +32,12 @@ class RateInAppstoreViewController: UIViewController {
         viewHeader.roundCorners(corners: [.topLeft, .topRight], radius: 18)
     }
     
-    private func dismissView(completion: (() -> Void)? = nil) {
-        UIView.animate(withDuration: 0.3) {
-            self.view.alpha = 0
-            self.view.layoutIfNeeded()
-        } completion: { _ in
-            if let completion = completion {
-                self.dismiss(animated: true)
-                completion()
-            }
-        }
-    }
-    
+    // MARK: Actions
+
     @IBAction func didTapNoThanks(_ sender: Any) {
-        InManageRating.shared().closeSDK()
+        dismissView() {
+            InManageRating.shared().presentThanksForRatingScreen()
+        }
     }
     
     @IBAction func didTapRatingAppStore(_ sender: Any) {

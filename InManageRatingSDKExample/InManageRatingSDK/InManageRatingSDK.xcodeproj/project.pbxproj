@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C72CDBCE299E601F008D38EE /* RateWithCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBCA299E601F008D38EE /* RateWithCommentModel.swift */; };
+		C72CDBCF299E601F008D38EE /* RateWithCommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBCB299E601F008D38EE /* RateWithCommentViewModel.swift */; };
+		C72CDBD0299E601F008D38EE /* RateWithCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBCC299E601F008D38EE /* RateWithCommentViewController.swift */; };
+		C72CDBD3299E603C008D38EE /* RateWithCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72CDBD2299E603C008D38EE /* RateWithCommentViewController.xib */; };
+		C72CDBD5299E9BEB008D38EE /* UITextViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBD4299E9BEB008D38EE /* UITextViewExtenstion.swift */; };
+		C72CDBD829A1FD2B008D38EE /* RateUsFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBD729A1FD2B008D38EE /* RateUsFields.swift */; };
+		C72CDBDA29A1FFFC008D38EE /* RateWithCommentFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBD929A1FFFC008D38EE /* RateWithCommentFields.swift */; };
+		C72CDBDC29A20015008D38EE /* ThanksForRatingFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBDB29A20015008D38EE /* ThanksForRatingFields.swift */; };
+		C72CDBDE29A20021008D38EE /* RateInAppstoreFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBDD29A20020008D38EE /* RateInAppstoreFields.swift */; };
 		C75CCE25297C62BC00D03264 /* InManageRatingSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C75CCE24297C62BC00D03264 /* InManageRatingSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C75CCE2F297C674B00D03264 /* InmanageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CCE2E297C674B00D03264 /* InmanageDelegate.swift */; };
 		C75CCE31297C679400D03264 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CCE30297C679400D03264 /* Constants.swift */; };
@@ -25,9 +34,10 @@
 		C770C3442994E6270053AA19 /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770C33D2994E6270053AA19 /* Heebo-Medium.ttf */; };
 		C770C3452994E6270053AA19 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770C33E2994E6270053AA19 /* Heebo-Bold.ttf */; };
 		C770C3472994EFA20053AA19 /* star_not_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C770C3462994EFA20053AA19 /* star_not_selected.png */; };
+		C773ECD6299E222D00EA1877 /* UIImageExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773ECD5299E222D00EA1877 /* UIImageExtenstion.swift */; };
+		C773ECD8299E228300EA1877 /* UIViewControllerExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773ECD7299E228300EA1877 /* UIViewControllerExtenstion.swift */; };
 		C7883AFC29937FBB009FB2A5 /* ThanksForRatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7883AFB29937FBB009FB2A5 /* ThanksForRatingViewController.xib */; };
 		C7883AFE29937FCE009FB2A5 /* ThanksForRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7883AFD29937FCE009FB2A5 /* ThanksForRatingViewController.swift */; };
-		C7883B0229938594009FB2A5 /* RateUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7883B0129938594009FB2A5 /* RateUsViewController.xib */; };
 		C7883B04299385A9009FB2A5 /* RateUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7883B03299385A9009FB2A5 /* RateUsViewController.swift */; };
 		C7883B062993ECBD009FB2A5 /* star_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C7883B052993ECBD009FB2A5 /* star_selected.png */; };
 		C7883B092993ED81009FB2A5 /* subtract.png in Resources */ = {isa = PBXBuildFile; fileRef = C7883B082993ED81009FB2A5 /* subtract.png */; };
@@ -35,6 +45,7 @@
 		C7883B0E2994C9B1009FB2A5 /* RateUsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7883B0D2994C9B1009FB2A5 /* RateUsModel.swift */; };
 		C7883B122994D34E009FB2A5 /* RateInAppstoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7883B102994D34E009FB2A5 /* RateInAppstoreViewController.swift */; };
 		C7C9B5F9299BC1DF00ED7694 /* UIButtonExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C9B5F8299BC1DF00ED7694 /* UIButtonExtenstion.swift */; };
+		C7F8AF1E299D029800CDE55E /* RateUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F8AF1D299D029800CDE55E /* RateUsViewController.xib */; };
 		D1CED0F90AE92E640247EFA4 /* Pods_InManageRatingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B070B9F20E514275CC28EFC3 /* Pods_InManageRatingSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +53,15 @@
 		7CDC34590015C8B30F8F2E67 /* Pods-InManageRatingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InManageRatingSDK.debug.xcconfig"; path = "Target Support Files/Pods-InManageRatingSDK/Pods-InManageRatingSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		89D13532B45B875D3D8198B3 /* Pods-InManageRatingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InManageRatingSDK.release.xcconfig"; path = "Target Support Files/Pods-InManageRatingSDK/Pods-InManageRatingSDK.release.xcconfig"; sourceTree = "<group>"; };
 		B070B9F20E514275CC28EFC3 /* Pods_InManageRatingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InManageRatingSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72CDBCA299E601F008D38EE /* RateWithCommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateWithCommentModel.swift; sourceTree = "<group>"; };
+		C72CDBCB299E601F008D38EE /* RateWithCommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateWithCommentViewModel.swift; sourceTree = "<group>"; };
+		C72CDBCC299E601F008D38EE /* RateWithCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateWithCommentViewController.swift; sourceTree = "<group>"; };
+		C72CDBD2299E603C008D38EE /* RateWithCommentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateWithCommentViewController.xib; sourceTree = "<group>"; };
+		C72CDBD4299E9BEB008D38EE /* UITextViewExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtenstion.swift; sourceTree = "<group>"; };
+		C72CDBD729A1FD2B008D38EE /* RateUsFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsFields.swift; sourceTree = "<group>"; };
+		C72CDBD929A1FFFC008D38EE /* RateWithCommentFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateWithCommentFields.swift; sourceTree = "<group>"; };
+		C72CDBDB29A20015008D38EE /* ThanksForRatingFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksForRatingFields.swift; sourceTree = "<group>"; };
+		C72CDBDD29A20020008D38EE /* RateInAppstoreFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateInAppstoreFields.swift; sourceTree = "<group>"; };
 		C75CCE21297C62BC00D03264 /* InManageRatingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InManageRatingSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75CCE24297C62BC00D03264 /* InManageRatingSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InManageRatingSDK.h; sourceTree = "<group>"; };
 		C75CCE2C297C641100D03264 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,9 +83,10 @@
 		C770C33D2994E6270053AA19 /* Heebo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.ttf"; sourceTree = "<group>"; };
 		C770C33E2994E6270053AA19 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
 		C770C3462994EFA20053AA19 /* star_not_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_not_selected.png; sourceTree = "<group>"; };
+		C773ECD5299E222D00EA1877 /* UIImageExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtenstion.swift; sourceTree = "<group>"; };
+		C773ECD7299E228300EA1877 /* UIViewControllerExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtenstion.swift; sourceTree = "<group>"; };
 		C7883AFB29937FBB009FB2A5 /* ThanksForRatingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThanksForRatingViewController.xib; sourceTree = "<group>"; };
 		C7883AFD29937FCE009FB2A5 /* ThanksForRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksForRatingViewController.swift; sourceTree = "<group>"; };
-		C7883B0129938594009FB2A5 /* RateUsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateUsViewController.xib; sourceTree = "<group>"; };
 		C7883B03299385A9009FB2A5 /* RateUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsViewController.swift; sourceTree = "<group>"; };
 		C7883B052993ECBD009FB2A5 /* star_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_selected.png; sourceTree = "<group>"; };
 		C7883B082993ED81009FB2A5 /* subtract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subtract.png; sourceTree = "<group>"; };
@@ -73,6 +94,7 @@
 		C7883B0D2994C9B1009FB2A5 /* RateUsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsModel.swift; sourceTree = "<group>"; };
 		C7883B102994D34E009FB2A5 /* RateInAppstoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateInAppstoreViewController.swift; sourceTree = "<group>"; };
 		C7C9B5F8299BC1DF00ED7694 /* UIButtonExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtenstion.swift; sourceTree = "<group>"; };
+		C7F8AF1D299D029800CDE55E /* RateUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RateUsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C72CDBD629A1FD1E008D38EE /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				C72CDBD729A1FD2B008D38EE /* RateUsFields.swift */,
+				C72CDBD929A1FFFC008D38EE /* RateWithCommentFields.swift */,
+				C72CDBDB29A20015008D38EE /* ThanksForRatingFields.swift */,
+				C72CDBDD29A20020008D38EE /* RateInAppstoreFields.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
 		C75CCE17297C62BC00D03264 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +151,7 @@
 		C75CCE23297C62BC00D03264 /* InManageRatingSDK */ = {
 			isa = PBXGroup;
 			children = (
+				C72CDBD629A1FD1E008D38EE /* Object */,
 				C770C3272994D6250053AA19 /* Extenstions */,
 				C7883B072993ECCA009FB2A5 /* ViewController */,
 				C7883AFA29937F6E009FB2A5 /* Resources */,
@@ -135,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				C7883AFD29937FCE009FB2A5 /* ThanksForRatingViewController.swift */,
+				C7883AFB29937FBB009FB2A5 /* ThanksForRatingViewController.xib */,
 			);
 			path = ThanksForRating;
 			sourceTree = "<group>";
@@ -147,6 +182,9 @@
 				C770C32C2994E2B10053AA19 /* UIViewExtenstion.swift */,
 				C770C32E2994E4BD0053AA19 /* UIFontExtenstion.swift */,
 				C7C9B5F8299BC1DF00ED7694 /* UIButtonExtenstion.swift */,
+				C773ECD5299E222D00EA1877 /* UIImageExtenstion.swift */,
+				C773ECD7299E228300EA1877 /* UIViewControllerExtenstion.swift */,
+				C72CDBD4299E9BEB008D38EE /* UITextViewExtenstion.swift */,
 			);
 			path = Extenstions;
 			sourceTree = "<group>";
@@ -164,9 +202,6 @@
 				C7883B082993ED81009FB2A5 /* subtract.png */,
 				C7883B052993ECBD009FB2A5 /* star_selected.png */,
 				C770C3462994EFA20053AA19 /* star_not_selected.png */,
-				C7883AFB29937FBB009FB2A5 /* ThanksForRatingViewController.xib */,
-				C770C31F2994D3B90053AA19 /* RateInAppstoreViewController.xib */,
-				C7883B0129938594009FB2A5 /* RateUsViewController.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -174,6 +209,7 @@
 		C7883B072993ECCA009FB2A5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C7F8AF1F299D02AD00CDE55E /* RateWithComment */,
 				C770C3212994D3C20053AA19 /* ThanksForRating */,
 				C7883B0F2994D33C009FB2A5 /* RateInAppstore */,
 				C7883B0A2994C98A009FB2A5 /* RateUs */,
@@ -184,6 +220,7 @@
 		C7883B0A2994C98A009FB2A5 /* RateUs */ = {
 			isa = PBXGroup;
 			children = (
+				C7F8AF1D299D029800CDE55E /* RateUsViewController.xib */,
 				C7883B03299385A9009FB2A5 /* RateUsViewController.swift */,
 				C7883B0B2994C9A3009FB2A5 /* RateUsViewModel.swift */,
 				C7883B0D2994C9B1009FB2A5 /* RateUsModel.swift */,
@@ -195,8 +232,20 @@
 			isa = PBXGroup;
 			children = (
 				C7883B102994D34E009FB2A5 /* RateInAppstoreViewController.swift */,
+				C770C31F2994D3B90053AA19 /* RateInAppstoreViewController.xib */,
 			);
 			path = RateInAppstore;
+			sourceTree = "<group>";
+		};
+		C7F8AF1F299D02AD00CDE55E /* RateWithComment */ = {
+			isa = PBXGroup;
+			children = (
+				C72CDBCA299E601F008D38EE /* RateWithCommentModel.swift */,
+				C72CDBCB299E601F008D38EE /* RateWithCommentViewModel.swift */,
+				C72CDBCC299E601F008D38EE /* RateWithCommentViewController.swift */,
+				C72CDBD2299E603C008D38EE /* RateWithCommentViewController.xib */,
+			);
+			path = RateWithComment;
 			sourceTree = "<group>";
 		};
 		C7FEC590E85D595167A0AE2E /* Pods */ = {
@@ -281,9 +330,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C770C33F2994E6270053AA19 /* Heebo-Black.ttf in Resources */,
-				C7883B0229938594009FB2A5 /* RateUsViewController.xib in Resources */,
 				C770C3442994E6270053AA19 /* Heebo-Medium.ttf in Resources */,
 				C770C3452994E6270053AA19 /* Heebo-Bold.ttf in Resources */,
+				C7F8AF1E299D029800CDE55E /* RateUsViewController.xib in Resources */,
+				C72CDBD3299E603C008D38EE /* RateWithCommentViewController.xib in Resources */,
 				C7883AFC29937FBB009FB2A5 /* ThanksForRatingViewController.xib in Resources */,
 				C770C3202994D3B90053AA19 /* RateInAppstoreViewController.xib in Resources */,
 				C770C3412994E6270053AA19 /* Heebo-ExtraBold.ttf in Resources */,
@@ -328,16 +378,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72CDBDA29A1FFFC008D38EE /* RateWithCommentFields.swift in Sources */,
 				C7883B0C2994C9A3009FB2A5 /* RateUsViewModel.swift in Sources */,
+				C72CDBCE299E601F008D38EE /* RateWithCommentModel.swift in Sources */,
+				C72CDBD5299E9BEB008D38EE /* UITextViewExtenstion.swift in Sources */,
 				C7883B122994D34E009FB2A5 /* RateInAppstoreViewController.swift in Sources */,
+				C72CDBD829A1FD2B008D38EE /* RateUsFields.swift in Sources */,
 				C770C32B2994D6650053AA19 /* NSObjectExtenstion.swift in Sources */,
+				C72CDBD0299E601F008D38EE /* RateWithCommentViewController.swift in Sources */,
 				C770C32F2994E4BD0053AA19 /* UIFontExtenstion.swift in Sources */,
 				C770C32D2994E2B10053AA19 /* UIViewExtenstion.swift in Sources */,
+				C72CDBDE29A20021008D38EE /* RateInAppstoreFields.swift in Sources */,
 				C7C9B5F9299BC1DF00ED7694 /* UIButtonExtenstion.swift in Sources */,
+				C773ECD8299E228300EA1877 /* UIViewControllerExtenstion.swift in Sources */,
 				C7883B04299385A9009FB2A5 /* RateUsViewController.swift in Sources */,
 				C75CCE33297C67CD00D03264 /* InManageRating.swift in Sources */,
 				C7883B0E2994C9B1009FB2A5 /* RateUsModel.swift in Sources */,
 				C75CCE2F297C674B00D03264 /* InmanageDelegate.swift in Sources */,
+				C773ECD6299E222D00EA1877 /* UIImageExtenstion.swift in Sources */,
+				C72CDBCF299E601F008D38EE /* RateWithCommentViewModel.swift in Sources */,
+				C72CDBDC29A20015008D38EE /* ThanksForRatingFields.swift in Sources */,
 				C770C3292994D6400053AA19 /* UIApplicationExtenstion.swift in Sources */,
 				C7883AFE29937FCE009FB2A5 /* ThanksForRatingViewController.swift in Sources */,
 				C75CCE31297C679400D03264 /* Constants.swift in Sources */,

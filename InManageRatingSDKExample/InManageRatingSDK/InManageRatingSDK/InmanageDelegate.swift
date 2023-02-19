@@ -8,5 +8,8 @@
 import Foundation
 
 @objc public protocol InmanageDelegate: NSObjectProtocol {
-    func didCloseInManageRatingSDK()
+    func didTapCloseInManageRatingSDK()
+    func didTapHighRatingScore(score: Int)
+    func didTapLowRatingScore(score: Int)
+    func didSendCommentRating(comment: String)
 }

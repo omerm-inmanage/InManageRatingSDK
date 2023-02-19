@@ -10,6 +10,7 @@ import UIKit
 class RateUsViewController: UIViewController {
     
     @IBOutlet weak var viewHeader: UIView!
+    @IBOutlet weak var imgBackgroundHeader: UIImageView!
     @IBOutlet weak var viewContent: UIView!
     @IBOutlet weak var img: UIImageView!
     
@@ -18,6 +19,12 @@ class RateUsViewController: UIViewController {
     @IBOutlet weak var btnStar3: UIButton!
     @IBOutlet weak var btnStar2: UIButton!
     @IBOutlet weak var btnStar1: UIButton!
+    
+    @IBOutlet weak var imgStar1: UIImageView!
+    @IBOutlet weak var imgStar2: UIImageView!
+    @IBOutlet weak var imgStar3: UIImageView!
+    @IBOutlet weak var imgStar4: UIImageView!
+    @IBOutlet weak var imgStar5: UIImageView!
     
     @IBOutlet weak var btnSendRating: UIButton!
     @IBOutlet weak var btnNoThanks: UIButton!
@@ -31,57 +38,70 @@ class RateUsViewController: UIViewController {
     }
     
     private func setupView() {
-        img.image = InManageRating.inManageRatingModel.imgRateUs
+        imgBackgroundHeader.image = InManageRating.inManageRatingModel.rateUsFields?.imgBackgroundHeader
+        img.image = InManageRating.inManageRatingModel.rateUsFields?.imgMainCenterHeader
+        
+        let colorApp = InManageRating.inManageRatingModel.colorApp
         
         viewContent.roundCorners(corners: [.bottomRight, .bottomLeft], radius: 18)
         viewHeader.roundCorners(corners: [.topLeft, .topRight], radius: 18)
         
         viewModel.model.btnArr = [btnStar1,btnStar2,btnStar3,btnStar4,btnStar5]
+        viewModel.model.imgArr = [imgStar1,imgStar2,imgStar3,imgStar4,imgStar5]
+
+        btnSendRating.setAttributeSelected(color:colorApp)
+        btnNoThanks.setAttributeUnSelected(color:colorApp)
         
-        btnSendRating.setAttributeSelected(color:InManageRating.inManageRatingModel.colorApp)
-        btnNoThanks.setAttributeUnSelected(color: InManageRating.inManageRatingModel.colorApp)
+        let image = UIImage(named: "star_selected",
+                            in:  Bundle(for: InManageRating.self),
+                            compatibleWith: nil)
+        
+        viewModel.model.imgStarSelected = image?.withColor(colorApp)
+    }
+    
+    func saveStringToUserDefault(_ string: String, forKey key: String) {
+        UserDefaults.standard.set(string, forKey: key)
     }
     
     private func setupTranslations() { }
     
-    private func dismissView(completion: (() -> Void)? = nil) {
-        UIView.animate(withDuration: 0.3) {
-            self.view.alpha = 0
-            self.view.layoutIfNeeded()
-        } completion: { _ in
-            if let completion = completion {
-                self.dismiss(animated: true)
-                completion()
-            }
-        }
-    }
+    // MARK: Actions
     
     @IBAction func didTapSend(_ sender: Any) {
         if viewModel.model.selectedScore > 3 {
-            dismissView() {
+            self.dismissView() {
+                InManageRating.shared().delegate?.didTapHighRatingScore(score: self.viewModel.model.selectedScore)
                 InManageRating.shared().presentRateInAppstore()
             }
         } else {
-            dismissView() {
-                InManageRating.shared().presentThanksForRatingScreen()
+            self.dismissView() {
+                InManageRating.shared().delegate?.didTapLowRatingScore(score: self.viewModel.model.selectedScore)
+                if InManageRating.inManageRatingModel.appBundle == .azrieli {
+                    InManageRating.shared().presentRateWithComment()
+                } else {
+                    InManageRating.shared().presentThanksForRatingScreen()
+                }
             }
         }
     }
     
     @IBAction func didTapDismiss(_ sender: Any) {
+        // Update Three App
+        InManageRating.shared().delegate?.didTapCloseInManageRatingSDK()
+        
+        // Close SDK
         InManageRating.shared().closeSDK()
     }
     
     @IBAction func didTapStar(_ sender: Any) {
-        
         guard let senderBtn = sender as? UIButton else {return}
         viewModel.model.selectedScore = senderBtn.tag
 
         for btn in viewModel.model.btnArr {
             if btn.tag <= viewModel.model.selectedScore {
-                btn.setImage(viewModel.model.imgStarSelected, for: .normal)
+                viewModel.model.imgArr[btn.tag - 1].image = viewModel.model.imgStarSelected
             } else {
-                btn.setImage(viewModel.model.imgStarUnSelected, for: .normal)
+                viewModel.model.imgArr[btn.tag - 1].image = viewModel.model.imgStarUnSelected
             }
         }
     }
@@ -89,10 +109,3 @@ class RateUsViewController: UIViewController {
 
 
 
-
-
-extension UILabel {
-    func sizeFont(_ size: CGFloat) {
-        self.font = self.font.withSize(size)
-    }
-}

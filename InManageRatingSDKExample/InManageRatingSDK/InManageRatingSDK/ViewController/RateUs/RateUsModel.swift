@@ -10,11 +10,12 @@ import UIKit
 class RateUsModel: NSObject {
     
     var btnArr: [UIButton] = []
-    var selectedScore: Int = 5
-    let imgStarSelected = UIImage(named: "star_selected",
+    var imgArr: [UIImageView] = []
+    var selectedScore: Int = 0
+    var imgStarSelected = UIImage(named: "star_selected",
                         in: Bundle(for: InManageRating.self),
                         compatibleWith: nil)
-    let imgStarUnSelected = UIImage(named: "star_not_selected",
+    var imgStarUnSelected = UIImage(named: "star_not_selected",
                         in: Bundle(for: InManageRating.self),
                         compatibleWith: nil)
 }

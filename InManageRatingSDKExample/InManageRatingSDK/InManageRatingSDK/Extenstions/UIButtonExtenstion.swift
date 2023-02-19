@@ -23,4 +23,10 @@ extension UIButton {
         self.layer.borderColor = color.cgColor
         self.setTitleColor(.black, for: .normal)
     }
+    
+    func setImageTintColor(_ color: UIColor) {
+        let tintedImage = self.imageView?.image?.withRenderingMode(.alwaysTemplate)
+        self.setImage(tintedImage, for: .normal)
+        self.tintColor = color
+    }
 }
