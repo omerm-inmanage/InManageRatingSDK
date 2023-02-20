@@ -17,6 +17,7 @@ class InManageRatingModel: NSObject {
     var colorApp: UIColor = .black
     var strAppstoreUrl: String = ""
     var appBundle: AppBundle = .none
+    var chosenDefaultRate: Int = 0
     var rateUsFields: RateUsFields?
     var rateInAppstoreFields: RateInAppstoreFields?
     var rateWithCommentFields: RateWithCommentFields?
@@ -34,8 +35,9 @@ class InManageRatingModel: NSObject {
     @objc open weak var delegate: InmanageDelegate?
     @objc open var isDebugMode: Bool = false
     
-    private var window: UIViewController?
-    
+    private var window: UIWindow = UIWindow(frame: UIScreen.main.bounds)
+    private let navigation = UINavigationController()
+
     /**
      Initialize `InManageRating` (as singleton)
      Returns the default singleton instance. You are not allowed to create your own instances of this class.
@@ -62,7 +64,7 @@ class InManageRatingModel: NSObject {
         initCustomFont()
     }
     
-    public func initInManageRating(appBundle: AppBundle, colorApp: UIColor, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String) {
+    public func initInManageRating(appBundle: AppBundle, colorApp: UIColor, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int? = 0) {
         InManageRating.inManageRatingModel.colorApp = colorApp
         InManageRating.inManageRatingModel.strAppstoreUrl = strAppstoreUrl
         InManageRating.inManageRatingModel.appBundle = appBundle
@@ -70,49 +72,39 @@ class InManageRatingModel: NSObject {
         InManageRating.inManageRatingModel.rateInAppstoreFields = rateInAppstoreFields
         InManageRating.inManageRatingModel.rateWithCommentFields = rateWithCommentFields
         InManageRating.inManageRatingModel.thanksForRatingFields = thanksForRatingFields
+        if let defaultRate = chosenDefaultRate {
+            InManageRating.inManageRatingModel.chosenDefaultRate = defaultRate
+        }
     }
     
     public func presentThanksForRatingScreen() {
         let vc = ThanksForRatingViewController(nibName: ThanksForRatingViewController.className, bundle: frameworkBundle)
-        if let nv = window {
-            nv.modalTransitionStyle = .crossDissolve
-            nv.modalPresentationStyle = .overCurrentContext
-            nv.present(vc, animated: true)
-        }
+        navigation.popViewController(animated: true)
+        navigation.viewControllers = [vc]
     }
     
     public func presentRateUsScreen() {
         let vc = RateUsViewController(nibName: RateUsViewController.className, bundle: frameworkBundle)
-        if let nv = UIApplication.getTopViewController() {
-            window = nv
-            nv.modalTransitionStyle = .crossDissolve
-            nv.modalPresentationStyle = .overCurrentContext
-            nv.present(vc, animated: true)
-        }
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        navigation.viewControllers = [vc]
+        self.window.rootViewController = navigation
+        self.window.makeKeyAndVisible()
     }
     
     public func presentRateInAppstore() {
         let vc = RateInAppstoreViewController(nibName: RateInAppstoreViewController.className, bundle: frameworkBundle)
-        if let nv = window {
-            nv.modalTransitionStyle = .crossDissolve
-            nv.modalPresentationStyle = .overCurrentContext
-            nv.present(vc, animated: true)
-        }
+        navigation.popViewController(animated: true)
+        navigation.viewControllers = [vc]
     }
     
     public func presentRateWithComment() {
         let vc = RateWithCommentViewController(nibName: RateWithCommentViewController.className, bundle: frameworkBundle)
-        if let nv = window {
-            nv.modalTransitionStyle = .crossDissolve
-            nv.modalPresentationStyle = .overCurrentContext
-            nv.present(vc, animated: true)
-        }
+        navigation.popViewController(animated: true)
+        navigation.viewControllers = [vc]
     }
     
     public func closeSDK() {
-        if let window = window {
-            window.dismiss(animated: true)
-        }
+        self.window.dismiss()
     }
     
     private func initCustomFont() {
@@ -128,5 +120,16 @@ class InManageRatingModel: NSObject {
             withFilenameString: "Heebo-Bold.ttf",
             bundle: frameworkBundle
         )
+    }
+}
+
+
+extension UIWindow {
+    func dismiss() {
+        isHidden = true
+
+        if #available(iOS 13, *) {
+            windowScene = nil
+        }
     }
 }

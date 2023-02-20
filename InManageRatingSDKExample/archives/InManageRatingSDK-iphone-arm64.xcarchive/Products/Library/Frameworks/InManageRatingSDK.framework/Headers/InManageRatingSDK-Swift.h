@@ -264,11 +264,57 @@ SWIFT_CLASS("_TtC17InManageRatingSDK14InManageRating")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class NSString;
 
 SWIFT_PROTOCOL("_TtP17InManageRatingSDK16InmanageDelegate_")
 @protocol InmanageDelegate <NSObject>
-- (void)didCloseInManageRatingSDK;
+- (void)didTapCloseInManageRatingSDK;
+- (void)didTapHighRatingScoreWithScore:(NSInteger)score;
+- (void)didTapLowRatingScoreWithScore:(NSInteger)score;
+- (void)didSendCommentRatingWithComment:(NSString * _Nonnull)comment;
 @end
+
+
+@class UIImage;
+
+SWIFT_CLASS("_TtC17InManageRatingSDK20RateInAppstoreFields")
+@interface RateInAppstoreFields : NSObject
+- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC17InManageRatingSDK12RateUsFields")
+@interface RateUsFields : NSObject
+- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC17InManageRatingSDK21RateWithCommentFields")
+@interface RateWithCommentFields : NSObject
+- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader limitCommentCount:(NSInteger)limitCommentCount OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC17InManageRatingSDK21ThanksForRatingFields")
+@interface ThanksForRatingFields : NSObject
+- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+
+
+
 
 #endif
 #if defined(__cplusplus)

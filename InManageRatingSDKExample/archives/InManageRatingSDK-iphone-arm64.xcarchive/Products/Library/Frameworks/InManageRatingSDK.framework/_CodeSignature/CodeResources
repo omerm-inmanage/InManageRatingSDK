@@ -6,23 +6,51 @@
 	<dict>
 		<key>Headers/InManageRatingSDK-Swift.h</key>
 		<data>
-		T0rxe2aVz1R1AQZGTZGK8U2D95g=
+		r1XtuW0OUtlEJRmKNVuao/zbkq8=
 		</data>
 		<key>Headers/InManageRatingSDK.h</key>
 		<data>
 		aECI2FIXf4T9z5Y8HgsK9a1Zua8=
 		</data>
+		<key>Heebo-Black.ttf</key>
+		<data>
+		WTeOkJAX7OzsWigqFV91qyGADBs=
+		</data>
+		<key>Heebo-Bold.ttf</key>
+		<data>
+		6OwKy/1w0ervZgbMe8f2c0xiVtM=
+		</data>
+		<key>Heebo-ExtraBold.ttf</key>
+		<data>
+		HPsNQ4msrmCR2BeMR40sFjS9lak=
+		</data>
+		<key>Heebo-Light.ttf</key>
+		<data>
+		1GdeGsBWMsJ7NZKwRuePEne7e/g=
+		</data>
+		<key>Heebo-Medium.ttf</key>
+		<data>
+		JZUkaK+ubvleOle1Pt1uN6OQW3k=
+		</data>
+		<key>Heebo-Regular.ttf</key>
+		<data>
+		mR2+sTJv08+g+I/vlNSfq9rLRVY=
+		</data>
+		<key>Heebo-Thin.ttf</key>
+		<data>
+		CVs8nSjcWrlBbcnzZPpcc3QPEF8=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		iB3ItfZy8FuK3S5XlqIcTHu4ZWc=
+		MrTmGxJABz8o0jEgqEehMG79BCc=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		jciodWI9/41NvYThYZLuQAp87a0=
+		5pgJK7VUJ1UHs8a2MdNDdhgXOEI=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		3A2ChCvdiwU9u+busWmlwecKYII=
+		CrnorBLzWDOmVx6jQGbAAQsHsVA=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,15 +58,43 @@
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3A2ChCvdiwU9u+busWmlwecKYII=
+		CrnorBLzWDOmVx6jQGbAAQsHsVA=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		bMvVNR4UQCwqoEpDDENCxQYSX+8=
+		QR3/m0/K6w///olMVYfvLJDgHOs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		F59zdcF2yjuYM3tgs/S21rwiHBA=
+		</data>
+		<key>RateInAppstoreViewController.nib</key>
+		<data>
+		YJLed2YEpJwQD/9iTb9uetohiF8=
+		</data>
+		<key>RateUsViewController.nib</key>
+		<data>
+		6fQlLLMXzfLwWkHH+m86zQSMoiE=
+		</data>
+		<key>RateWithCommentViewController.nib</key>
+		<data>
+		o4CHzB08ElegRu+WPFKDhtsxsHM=
+		</data>
+		<key>ThanksForRatingViewController.nib</key>
+		<data>
+		yr7es6dfABNGxGCAFupC/UT4o8Y=
+		</data>
+		<key>star_not_selected.png</key>
+		<data>
+		8aNBzEi5yKKIpQjXEXxfVeWvDw0=
+		</data>
+		<key>star_selected.png</key>
+		<data>
+		kAI2FiQ9o95NtLS9am8uesWuSuE=
+		</data>
+		<key>subtract.png</key>
+		<data>
+		Nbvf0GMybjOn9NH6QabZG+clsuc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -47,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JRXGUzxh/QNXtpOd7B8n+YMu2MczXNKBYYjGTGowl8M=
+			7sZBWdXmZZienTa6F2+gfyBd19rj0Vm6WMTCr5sBmzE=
 			</data>
 		</dict>
 		<key>Headers/InManageRatingSDK.h</key>
@@ -57,18 +113,67 @@
 			3WLmD9aHMvNkS9ZyDlyhnDI4bPLX6qcx+hceKn7/mag=
 			</data>
 		</dict>
+		<key>Heebo-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eKgA5tQMN1IsDeXgBcdnc30v7etMZ/Qh1OfdxCfhPQE=
+			</data>
+		</dict>
+		<key>Heebo-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WKVxLrl1lQSQhkIyYTtFgXY49hE/73D8Zr+FXYESIeM=
+			</data>
+		</dict>
+		<key>Heebo-ExtraBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KXNH0Th1WGTnxK/OfIisCRLWjJS7Mbv0fxI+MCt+lvk=
+			</data>
+		</dict>
+		<key>Heebo-Light.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u+d/ZQd9rYNXEGbRIKaWnSAiHCnDqjsmFlu6lnWoFIA=
+			</data>
+		</dict>
+		<key>Heebo-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hvmQWRy3DlMDn7fCLYzn+Ce90vv0JnJ/oX3qlRRnrN8=
+			</data>
+		</dict>
+		<key>Heebo-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RpQ4kJMiOJsuCD1Tzem9bUTFSFqni3MrjSDe4OBkff8=
+			</data>
+		</dict>
+		<key>Heebo-Thin.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cnVngOqi/Bb+xzSqnv7cdyVzT9j631dowfr2DJyfmdE=
+			</data>
+		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O7H3ABlwpbkcfXy/6ygzbOSluhFFzItFlIt7N6894/k=
+			bO9yvXIJhqZdH4ryc2ba5McN1cXL5IJ6BzlnY/vWm6E=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G08ol6L8sX0J1PLqpzFH9+YQE5FX2rv/rIAmXBzeL/g=
+			LvYuJWqK3JXw9mpqjanJ6wr1NNYVeElW7qHur+5GDQs=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +187,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G08ol6L8sX0J1PLqpzFH9+YQE5FX2rv/rIAmXBzeL/g=
+			LvYuJWqK3JXw9mpqjanJ6wr1NNYVeElW7qHur+5GDQs=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JgEv9FxVN7KcbzQrWAImTyv0U2r+wDPtUzh3mE3QCyw=
+			evWTmd5qVlEn6S35S1FrjHMvfyk9STrouU1B6AjaeZE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -97,6 +202,55 @@
 			<key>hash2</key>
 			<data>
 			3TXZTUuvhrATWfaQPKV/fjUgRYexXLi7/65MhXTSoow=
+			</data>
+		</dict>
+		<key>RateInAppstoreViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jn93b/Q2niT4wDEmuvuBVIQE92sV4bt9DeUSRE3Dd8U=
+			</data>
+		</dict>
+		<key>RateUsViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DOxqWoKc0xjiTA2u6z/NyohVY0TfXSVlWVTdCdhVE8o=
+			</data>
+		</dict>
+		<key>RateWithCommentViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J4lSm7sINI/HGBLUwrY4w1kQiuX64VyFa9wZPv05oSo=
+			</data>
+		</dict>
+		<key>ThanksForRatingViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G1/BLkjfoW7OEzVzn2BRn5eDPSU571EvkRuiVaenidQ=
+			</data>
+		</dict>
+		<key>star_not_selected.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HpD7cQN8Aa54UOjXq2gPAxpZpnPt699To8jPnRV5A1o=
+			</data>
+		</dict>
+		<key>star_selected.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6pmHeqMz/nGaEvjxythEoxaQAtrOu18FDwBRBZgZ838=
+			</data>
+		</dict>
+		<key>subtract.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IMwaIO4p4qZ2Dt/Z0tG2pXfLnyJyvo7bPGDxp70HmJk=
 			</data>
 		</dict>
 	</dict>

@@ -38,6 +38,8 @@ class RateUsViewController: UIViewController {
     }
     
     private func setupView() {
+        
+//        if InManageRating.inManageRatingModel.chosenDefaultRate
         imgBackgroundHeader.image = InManageRating.inManageRatingModel.rateUsFields?.imgBackgroundHeader
         img.image = InManageRating.inManageRatingModel.rateUsFields?.imgMainCenterHeader
         
@@ -57,10 +59,21 @@ class RateUsViewController: UIViewController {
                             compatibleWith: nil)
         
         viewModel.model.imgStarSelected = image?.withColor(colorApp)
+        
+        setupChosenDefaultRate()
     }
     
-    func saveStringToUserDefault(_ string: String, forKey key: String) {
-        UserDefaults.standard.set(string, forKey: key)
+    func setupChosenDefaultRate() {
+        if InManageRating.inManageRatingModel.chosenDefaultRate > 0 {
+            viewModel.model.selectedScore = InManageRating.inManageRatingModel.chosenDefaultRate
+            for btn in viewModel.model.btnArr {
+                if btn.tag <= InManageRating.inManageRatingModel.chosenDefaultRate {
+                    viewModel.model.imgArr[btn.tag - 1].image = viewModel.model.imgStarSelected
+                } else {
+                    viewModel.model.imgArr[btn.tag - 1].image = viewModel.model.imgStarUnSelected
+                }
+            }
+        }
     }
     
     private func setupTranslations() { }

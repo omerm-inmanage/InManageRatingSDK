@@ -34,7 +34,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FIu-lo-LNp" userLabel="Header">
-                    <rect key="frame" x="36.666666666666657" y="234.66666666666663" width="320" height="81"/>
+                    <rect key="frame" x="36.666666666666657" y="255" width="320" height="81"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subtract.png" translatesAutoresizingMaskIntoConstraints="NO" id="xHp-B5-BHs">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
@@ -57,22 +57,22 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aff-Ns-8I5">
-                    <rect key="frame" x="36.666666666666657" y="315.66666666666669" width="320" height="221.00000000000006"/>
+                    <rect key="frame" x="36.666666666666657" y="336" width="320" height="180"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="תרצו לתת לנו ציון?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hge-sU-lm7">
-                            <rect key="frame" x="91.999999999999986" y="16" width="135.66666666666663" height="25"/>
+                            <rect key="frame" x="97.666666666666686" y="16" width="124.33333333333331" height="20"/>
                             <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="דרגו אותנו בחנות!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bE4-VY-AD9">
-                            <rect key="frame" x="99.666666666666686" y="45" width="120.66666666666669" height="25"/>
+                            <rect key="frame" x="101" y="40" width="117.66666666666669" height="20"/>
                             <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cAG-e8-i6w">
-                            <rect key="frame" x="15" y="160" width="290" height="41"/>
+                            <rect key="frame" x="15" y="119" width="290" height="41"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFx-kw-wvx">
                                     <rect key="frame" x="0.0" y="0.0" width="140" height="41"/>
@@ -111,7 +111,7 @@
                         <constraint firstAttribute="trailing" secondItem="cAG-e8-i6w" secondAttribute="trailing" constant="15" id="RqM-Fh-C1s"/>
                         <constraint firstItem="bE4-VY-AD9" firstAttribute="top" secondItem="Hge-sU-lm7" secondAttribute="bottom" constant="4" id="fV9-by-WCL"/>
                         <constraint firstAttribute="bottom" secondItem="cAG-e8-i6w" secondAttribute="bottom" constant="20" id="g6v-tc-qzU"/>
-                        <constraint firstAttribute="height" constant="221" id="yjI-PE-nd2"/>
+                        <constraint firstAttribute="height" constant="180" id="yjI-PE-nd2"/>
                     </constraints>
                 </view>
             </subviews>

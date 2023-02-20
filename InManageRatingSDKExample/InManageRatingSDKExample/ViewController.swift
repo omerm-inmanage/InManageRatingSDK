@@ -60,7 +60,7 @@ class ViewController: UIViewController, InmanageDelegate {
         let rateWithCommentFields = RateWithCommentFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgRateWithComment, limitCommentCount: 250)
         let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating)
         
-        inManageRatingSDK.initInManageRating(appBundle: .mcdonalds, colorApp: color, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore)
+        inManageRatingSDK.initInManageRating(appBundle: .mcdonalds, colorApp: color, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore, chosenDefaultRate: 5)
     }
 
     // MARK: InmanageDelegate
