@@ -279,7 +279,7 @@ SWIFT_PROTOCOL("_TtP17InManageRatingSDK16InmanageDelegate_")
 
 SWIFT_CLASS("_TtC17InManageRatingSDK20RateInAppstoreFields")
 @interface RateInAppstoreFields : NSObject
-- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader translatingMainTitle:(NSString * _Nullable)translatingMainTitle translatingMainContent:(NSString * _Nullable)translatingMainContent translatingBtnNoThanks:(NSString * _Nullable)translatingBtnNoThanks translatingBtnAppStore:(NSString * _Nullable)translatingBtnAppStore OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -287,7 +287,7 @@ SWIFT_CLASS("_TtC17InManageRatingSDK20RateInAppstoreFields")
 
 SWIFT_CLASS("_TtC17InManageRatingSDK12RateUsFields")
 @interface RateUsFields : NSObject
-- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader translatingMainTitle:(NSString * _Nullable)translatingMainTitle translatingMainContent:(NSString * _Nullable)translatingMainContent translatingBtnNoThanks:(NSString * _Nullable)translatingBtnNoThanks translatingBtnSendRating:(NSString * _Nullable)translatingBtnSendRating OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -303,10 +303,11 @@ SWIFT_CLASS("_TtC17InManageRatingSDK21RateWithCommentFields")
 
 SWIFT_CLASS("_TtC17InManageRatingSDK21ThanksForRatingFields")
 @interface ThanksForRatingFields : NSObject
-- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader translatingMainTitle:(NSString * _Nullable)translatingMainTitle translatingMainContent:(NSString * _Nullable)translatingMainContent translatingBtnClose:(NSString * _Nullable)translatingBtnClose OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 

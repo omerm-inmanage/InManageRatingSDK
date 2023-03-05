@@ -13,14 +13,14 @@ import _StringProcessing
   @objc deinit
 }
 @objc @objcMembers public class RateUsFields : ObjectiveC.NSObject {
-  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage)
+  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnNoThanks: Swift.String? = nil, translatingBtnSendRating: Swift.String? = nil)
   @objc deinit
 }
 extension UIKit.UIFont {
   public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
 }
 @objc @objcMembers public class RateInAppstoreFields : ObjectiveC.NSObject {
-  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage)
+  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnNoThanks: Swift.String? = nil, translatingBtnAppStore: Swift.String? = nil)
   @objc deinit
 }
 public enum AppBundle {
@@ -53,7 +53,7 @@ public enum AppBundle {
   @objc func didSendCommentRating(comment: Swift.String)
 }
 @objc @objcMembers public class ThanksForRatingFields : ObjectiveC.NSObject {
-  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage)
+  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnClose: Swift.String? = nil)
   @objc deinit
 }
 public typealias Dict = [Swift.String : Any]

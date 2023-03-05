@@ -209,7 +209,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(imgBackgroundHeader:imgMainCenterHeader:)",
+            "printedName": "init(imgBackgroundHeader:imgMainCenterHeader:translatingMainTitle:translatingMainContent:translatingBtnNoThanks:translatingBtnSendRating:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -228,11 +228,71 @@
                 "name": "UIImage",
                 "printedName": "UIKit.UIImage",
                 "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)RateUsFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:",
-            "mangledName": "$s17InManageRatingSDK12RateUsFieldsC19imgBackgroundHeader0h10MainCenterJ0ACSo7UIImageC_AGtcfc",
+            "usr": "c:@M@InManageRatingSDK@objc(cs)RateUsFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:translatingMainTitle:translatingMainContent:translatingBtnNoThanks:translatingBtnSendRating:",
+            "mangledName": "$s17InManageRatingSDK12RateUsFieldsC19imgBackgroundHeader0h10MainCenterJ0011translatingK5Title0mK7Content0M11BtnNoThanks0mp4SendC0ACSo7UIImageC_AKSSSgA3Ltcfc",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
               "AccessControl",
@@ -390,7 +450,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(imgBackgroundHeader:imgMainCenterHeader:)",
+            "printedName": "init(imgBackgroundHeader:imgMainCenterHeader:translatingMainTitle:translatingMainContent:translatingBtnNoThanks:translatingBtnAppStore:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -409,11 +469,71 @@
                 "name": "UIImage",
                 "printedName": "UIKit.UIImage",
                 "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)RateInAppstoreFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:",
-            "mangledName": "$s17InManageRatingSDK04RateA14AppstoreFieldsC19imgBackgroundHeader0h10MainCenterJ0ACSo7UIImageC_AGtcfc",
+            "usr": "c:@M@InManageRatingSDK@objc(cs)RateInAppstoreFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:translatingMainTitle:translatingMainContent:translatingBtnNoThanks:translatingBtnAppStore:",
+            "mangledName": "$s17InManageRatingSDK04RateA14AppstoreFieldsC19imgBackgroundHeader0h10MainCenterJ0011translatingK5Title0mK7Content0M11BtnNoThanks0mP8AppStoreACSo7UIImageC_AKSSSgA3Ltcfc",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
               "AccessControl",
@@ -1496,7 +1616,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(imgBackgroundHeader:imgMainCenterHeader:)",
+            "printedName": "init(imgBackgroundHeader:imgMainCenterHeader:translatingMainTitle:translatingMainContent:translatingBtnClose:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1515,11 +1635,56 @@
                 "name": "UIImage",
                 "printedName": "UIKit.UIImage",
                 "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)ThanksForRatingFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:",
-            "mangledName": "$s17InManageRatingSDK09ThanksForC6FieldsC19imgBackgroundHeader0h10MainCenterJ0ACSo7UIImageC_AGtcfc",
+            "usr": "c:@M@InManageRatingSDK@objc(cs)ThanksForRatingFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:translatingMainTitle:translatingMainContent:translatingBtnClose:",
+            "mangledName": "$s17InManageRatingSDK09ThanksForC6FieldsC19imgBackgroundHeader0h10MainCenterJ0011translatingK5Title0mK7Content0M8BtnCloseACSo7UIImageC_AJSSSgA2Ktcfc",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
               "AccessControl",
@@ -1838,7 +2003,7 @@
     {
       "filePath": "\/Users\/omercohen\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 1954,
+      "offset": 2035,
       "length": 1,
       "value": "0"
     },
