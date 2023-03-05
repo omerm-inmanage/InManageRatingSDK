@@ -9,6 +9,8 @@ import UIKit
 
 class RateUsViewController: UIViewController {
     
+    @IBOutlet weak var lblMainTitle: UILabel!
+    @IBOutlet weak var lblMainContent: UILabel!
     @IBOutlet weak var viewHeader: UIView!
     @IBOutlet weak var imgBackgroundHeader: UIImageView!
     @IBOutlet weak var viewContent: UIView!
@@ -39,7 +41,6 @@ class RateUsViewController: UIViewController {
     
     private func setupView() {
         
-//        if InManageRating.inManageRatingModel.chosenDefaultRate
         imgBackgroundHeader.image = InManageRating.inManageRatingModel.rateUsFields?.imgBackgroundHeader
         img.image = InManageRating.inManageRatingModel.rateUsFields?.imgMainCenterHeader
         
@@ -76,7 +77,33 @@ class RateUsViewController: UIViewController {
         }
     }
     
-    private func setupTranslations() { }
+    private func setupTranslations() {
+        
+        if let translatingMainTitle = InManageRating.inManageRatingModel.rateUsFields?.translatingMainTitle {
+            if !translatingMainTitle.isEmpty {
+                lblMainTitle.text = translatingMainTitle
+            }
+        }
+        
+        if let translatingMainContent = InManageRating.inManageRatingModel.rateUsFields?.translatingMainContent{
+            if !translatingMainContent.isEmpty {
+                lblMainContent.text = translatingMainContent
+            }
+        }
+        
+        if let translatingBtnSendRating = InManageRating.inManageRatingModel.rateUsFields?.translatingBtnSendRating {
+            if !translatingBtnSendRating.isEmpty {
+                btnSendRating.setTitle(translatingBtnSendRating, for: .normal)
+            }
+        }
+        
+        if let translatingBtnNoThanks = InManageRating.inManageRatingModel.rateUsFields?.translatingBtnNoThanks {
+            if !translatingBtnNoThanks.isEmpty {
+                btnNoThanks.setTitle(translatingBtnNoThanks, for: .normal)
+            }
+        }
+        
+    }
     
     // MARK: Actions
     

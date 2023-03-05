@@ -9,6 +9,8 @@ import UIKit
 
 class RateInAppstoreViewController: UIViewController {
     
+    @IBOutlet weak var lblMainTitle: UILabel!
+    @IBOutlet weak var lblMainContent: UILabel!
     @IBOutlet weak var imgBackgroundHeader: UIImageView!
     @IBOutlet weak var viewHeader: UIView!
     @IBOutlet weak var viewContent: UIView!
@@ -19,6 +21,7 @@ class RateInAppstoreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        setupTranslations()
     }
     
     private func setupView() {
@@ -30,6 +33,34 @@ class RateInAppstoreViewController: UIViewController {
         
         viewContent.roundCorners(corners: [.bottomRight, .bottomLeft], radius: 18)
         viewHeader.roundCorners(corners: [.topLeft, .topRight], radius: 18)
+    }
+    
+    private func setupTranslations() {
+        
+        if let translatingMainTitle = InManageRating.inManageRatingModel.rateInAppstoreFields?.translatingMainTitle {
+            if !translatingMainTitle.isEmpty {
+                lblMainTitle.text = translatingMainTitle
+            }
+        }
+        
+        if let translatingMainContent = InManageRating.inManageRatingModel.rateInAppstoreFields?.translatingMainContent{
+            if !translatingMainContent.isEmpty {
+                lblMainContent.text = translatingMainContent
+            }
+        }
+        
+        if let translatingBtnAppStore = InManageRating.inManageRatingModel.rateInAppstoreFields?.translatingBtnAppStore {
+            if !translatingBtnAppStore.isEmpty {
+                btnAppStore.setTitle(translatingBtnAppStore, for: .normal)
+            }
+        }
+        
+        if let translatingBtnNoThanks = InManageRating.inManageRatingModel.rateInAppstoreFields?.translatingBtnNoThanks {
+            if !translatingBtnNoThanks.isEmpty {
+                btnNoThanks.setTitle(translatingBtnNoThanks, for: .normal)
+            }
+        }
+        
     }
     
     // MARK: Actions

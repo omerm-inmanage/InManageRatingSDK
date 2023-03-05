@@ -10,6 +10,8 @@ import UIKit
 
 class ThanksForRatingViewController: UIViewController {
 
+    @IBOutlet weak var lblMainTitle: UILabel!
+    @IBOutlet weak var lblMainContent: UILabel!
     @IBOutlet weak var viewHeader: UIView!
     @IBOutlet weak var viewContent: UIView!
     @IBOutlet weak var img: UIImageView!
@@ -19,6 +21,7 @@ class ThanksForRatingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        setupTranslations()
     }
     
     func setupView() {
@@ -38,6 +41,28 @@ class ThanksForRatingViewController: UIViewController {
         
         viewContent.roundCorners(corners: [.bottomRight, .bottomLeft], radius: 18)
         viewHeader.roundCorners(corners: [.topLeft, .topRight], radius: 18)
+    }
+    
+    private func setupTranslations() {
+        
+        if let translatingMainTitle = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingMainTitle {
+            if !translatingMainTitle.isEmpty {
+                lblMainTitle.text = translatingMainTitle
+            }
+        }
+        
+        if let translatingMainContent = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingMainContent{
+            if !translatingMainContent.isEmpty {
+                lblMainContent.text = translatingMainContent
+            }
+        }
+        
+        if let translatingBtnClose = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingBtnClose{
+            if !translatingBtnClose.isEmpty {
+                btnClose.setTitle(translatingBtnClose, for: .normal)
+            }
+        }
+        
     }
     
     // MARK: Actions

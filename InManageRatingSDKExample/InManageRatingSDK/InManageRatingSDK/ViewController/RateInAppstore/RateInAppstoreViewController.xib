@@ -23,6 +23,8 @@
                 <outlet property="btnNoThanks" destination="MFx-kw-wvx" id="mhW-g9-kg7"/>
                 <outlet property="img" destination="Mhs-It-GNp" id="3Oi-nq-TzL"/>
                 <outlet property="imgBackgroundHeader" destination="xHp-B5-BHs" id="Wjb-D0-lST"/>
+                <outlet property="lblMainContent" destination="bE4-VY-AD9" id="bkF-Wk-6My"/>
+                <outlet property="lblMainTitle" destination="Hge-sU-lm7" id="0BP-Mi-MWR"/>
                 <outlet property="view" destination="ZlW-wd-4UT" id="D1X-oh-mF2"/>
                 <outlet property="viewContent" destination="Aff-Ns-8I5" id="ndd-kW-E7Z"/>
                 <outlet property="viewHeader" destination="FIu-lo-LNp" id="lXB-iF-noF"/>
@@ -60,13 +62,13 @@
                     <rect key="frame" x="36.666666666666657" y="336" width="320" height="180"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="תרצו לתת לנו ציון?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hge-sU-lm7">
-                            <rect key="frame" x="97.666666666666686" y="16" width="124.33333333333331" height="20"/>
+                            <rect key="frame" x="91.999999999999986" y="16" width="135.66666666666663" height="25"/>
                             <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="דרגו אותנו בחנות!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bE4-VY-AD9">
-                            <rect key="frame" x="101" y="40" width="117.66666666666669" height="20"/>
+                            <rect key="frame" x="99.666666666666686" y="45" width="120.66666666666669" height="25"/>
                             <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>

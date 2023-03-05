@@ -55,10 +55,19 @@ class ViewController: UIViewController, InmanageDelegate {
         let color = UIColor(red: 255/255.0, green: 194/255.0, blue: 4/255.0, alpha:  1.0)
         let strAppStore:String = "itms-apps://itunes.apple.com/app/id967762450"
 
-        let rateUsFields = RateUsFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgRateUs)
-        let rateInAppstoreFields = RateInAppstoreFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgRateInAppstore)
+        //rateUsFields
+        //let rateUsFields = RateUsFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgRateUs)
+        let rateUsFields = RateUsFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgRateUs, translatingMainTitle: "rateUsFields", translatingMainContent: "rateUsFields", translatingBtnNoThanks: "rateUsFields", translatingBtnSendRating: "rateUsFields")
+        
+        //rateInAppstoreFields
+        //let rateInAppstoreFields = RateInAppstoreFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgRateInAppstore)
+        let rateInAppstoreFields = RateInAppstoreFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgRateInAppstore, translatingMainTitle: "rateInAppstoreFields", translatingMainContent: "rateInAppstoreFields", translatingBtnNoThanks: "rateInAppstoreFields", translatingBtnAppStore: "rateInAppstoreFields")
+
         let rateWithCommentFields = RateWithCommentFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgRateWithComment, limitCommentCount: 250)
-        let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating)
+        
+        //thanksForRatingFields
+        //let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating)
+        let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating, translatingMainTitle: "thanksForRatingFields", translatingMainContent: "thanksForRatingFields", translatingBtnClose: "thanksForRatingFields")
         
         inManageRatingSDK.initInManageRating(appBundle: .mcdonalds, colorApp: color, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore, chosenDefaultRate: 5)
     }

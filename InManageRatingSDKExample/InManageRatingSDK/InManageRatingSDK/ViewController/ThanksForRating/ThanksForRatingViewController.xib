@@ -22,6 +22,8 @@
                 <outlet property="btnClose" destination="xqM-4f-KYq" id="7p6-gl-1qI"/>
                 <outlet property="img" destination="nyX-nl-6va" id="XBm-NX-fBO"/>
                 <outlet property="imgBackgroundHeader" destination="uHU-0J-dUz" id="Qi8-ET-0Wk"/>
+                <outlet property="lblMainContent" destination="ifh-Yf-LG4" id="PxW-oO-BS4"/>
+                <outlet property="lblMainTitle" destination="Msk-zi-FDC" id="uQT-8X-sNc"/>
                 <outlet property="view" destination="xVF-Ki-jVS" id="ZiS-cC-7fA"/>
                 <outlet property="viewContent" destination="Syi-Fx-8Bw" id="btT-LU-0ab"/>
                 <outlet property="viewHeader" destination="zgP-bR-0MN" id="XKI-OU-Ls4"/>
@@ -60,13 +62,13 @@
                     <rect key="frame" x="35" y="327" width="320" height="190"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="תודה, קיבלנו את הפידבק שלך!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msk-zi-FDC">
-                            <rect key="frame" x="48.333333333333329" y="10" width="223.33333333333337" height="25"/>
+                            <rect key="frame" x="58.666666666666671" y="10" width="202.66666666666663" height="20"/>
                             <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="עכשיו נוכל לשפר את החוויה שלך" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifh-Yf-LG4">
-                            <rect key="frame" x="60" y="39" width="200" height="50"/>
+                            <rect key="frame" x="60" y="34" width="200" height="39.666666666666657"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="200" id="WlF-We-ynl"/>
                             </constraints>

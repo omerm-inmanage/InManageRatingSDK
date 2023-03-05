@@ -33,6 +33,8 @@
                 <outlet property="imgStar3" destination="h91-WD-GJK" id="hO5-13-jRD"/>
                 <outlet property="imgStar4" destination="GOM-G3-mnx" id="qEv-nf-qpF"/>
                 <outlet property="imgStar5" destination="7Pl-v9-vCH" id="l3e-am-rpk"/>
+                <outlet property="lblMainContent" destination="nNm-Lc-w7l" id="Zgo-dS-coG"/>
+                <outlet property="lblMainTitle" destination="IvT-Id-RAw" id="1O6-F3-qpM"/>
                 <outlet property="view" destination="nxn-Qr-Jxe" id="DsF-Fd-H71"/>
                 <outlet property="viewContent" destination="ZO0-0b-iOK" id="Cna-rL-gCe"/>
                 <outlet property="viewHeader" destination="FmB-Ev-V0r" id="sa2-bu-r3L"/>
