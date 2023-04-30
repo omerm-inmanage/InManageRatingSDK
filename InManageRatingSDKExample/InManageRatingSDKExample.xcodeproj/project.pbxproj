@@ -118,7 +118,6 @@
 				C75CCDE8297C612900D03264 /* Sources */,
 				C75CCDE9297C612900D03264 /* Frameworks */,
 				C75CCDEA297C612900D03264 /* Resources */,
-				385C20E330EA36753E96AB62 /* [CP] Embed Pods Frameworks */,
 				C75CCE37297D22C000D03264 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -177,23 +176,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		385C20E330EA36753E96AB62 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InManageRatingSDKExample/Pods-InManageRatingSDKExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InManageRatingSDKExample/Pods-InManageRatingSDKExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InManageRatingSDKExample/Pods-InManageRatingSDKExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9B9CF1CDB097324190773767 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

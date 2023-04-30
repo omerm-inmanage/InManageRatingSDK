@@ -23,6 +23,8 @@
                 <outlet property="btnSend" destination="f4E-8q-msH" id="Cdm-dZ-0Yb"/>
                 <outlet property="imgBackgroundHeader" destination="syO-ba-SyE" id="m8C-Tr-fqA"/>
                 <outlet property="imgCenterHeader" destination="F8p-22-2Wu" id="f6V-ID-Vkq"/>
+                <outlet property="lblMainContent" destination="3jT-Os-JHP" id="d1K-c8-cpG"/>
+                <outlet property="lblMainTitle" destination="p6t-On-zcF" id="YSB-na-VFc"/>
                 <outlet property="lblPlaceHolder" destination="ohd-Um-OEX" id="eO0-rz-3Sw"/>
                 <outlet property="textView" destination="LAw-wK-TWN" id="Jve-WG-lFr"/>
                 <outlet property="view" destination="Cai-eo-kLt" id="8v7-qa-YDu"/>

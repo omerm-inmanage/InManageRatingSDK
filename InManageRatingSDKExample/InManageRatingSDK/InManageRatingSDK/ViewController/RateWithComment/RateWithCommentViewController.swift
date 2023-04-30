@@ -12,6 +12,8 @@ import UIKit
 
 class RateWithCommentViewController: UIViewController, UITextViewDelegate {
     
+    @IBOutlet weak var lblMainTitle: UILabel!
+    @IBOutlet weak var lblMainContent: UILabel!
     @IBOutlet weak var imgBackgroundHeader: UIImageView!
     @IBOutlet weak var imgCenterHeader: UIImageView!
     @IBOutlet weak var textView: UITextView!
@@ -27,16 +29,51 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fillStaticOutletsWithTranslations()
+        setupTranslations()
         setupView()
     }
     
     //MARK: Setup
     
-    private func fillStaticOutletsWithTranslations() {
-        let strFirst = "כתוב כאן עד"
-        let strLast = "תווים"
-        lblPlaceHolder.text = "\(strFirst) \(InManageRating.inManageRatingModel.rateWithCommentFields?.limitCommentCount ?? 250) \(strLast)"
+    private func setupTranslations() {
+        
+
+        
+        if let translatingMainTitle = InManageRating.inManageRatingModel.rateWithCommentFields?.translatingMainTitle {
+            if !translatingMainTitle.isEmpty {
+                lblMainTitle.text = translatingMainTitle
+            }
+        }
+        
+        if let translatingMainContent = InManageRating.inManageRatingModel.rateWithCommentFields?.translatingMainContent{
+            if !translatingMainContent.isEmpty {
+                lblMainContent.text = translatingMainContent
+            }
+        }
+        
+        if let translatingPlaceHolder = InManageRating.inManageRatingModel.rateWithCommentFields?.translatingPlaceHolder {
+            var strFirst = "כתוב כאן עד"
+            let strLast = "תווים"
+            
+            if !translatingPlaceHolder.isEmpty {
+                strFirst = translatingPlaceHolder
+            }
+            
+            lblPlaceHolder.text = "\(strFirst) \(InManageRating.inManageRatingModel.rateWithCommentFields?.limitCommentCount ?? 250) \(strLast)"
+        }
+        
+        if let translatingBtnAppStore = InManageRating.inManageRatingModel.rateWithCommentFields?.translatingBtnSendRating {
+            if !translatingBtnAppStore.isEmpty {
+                btnSend.setTitle(translatingBtnAppStore, for: .normal)
+            }
+        }
+        
+        if let translatingBtnNoThanks = InManageRating.inManageRatingModel.rateWithCommentFields?.translatingBtnNoThanks {
+            if !translatingBtnNoThanks.isEmpty {
+                btnNoThanks.setTitle(translatingBtnNoThanks, for: .normal)
+            }
+        }
+        
     }
     
     private func setupView() {
