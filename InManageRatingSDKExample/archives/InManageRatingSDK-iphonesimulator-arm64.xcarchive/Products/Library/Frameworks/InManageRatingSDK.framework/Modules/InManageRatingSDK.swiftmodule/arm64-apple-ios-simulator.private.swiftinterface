@@ -9,7 +9,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 @objc @objcMembers public class RateWithCommentFields : ObjectiveC.NSObject {
-  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, limitCommentCount: Swift.Int)
+  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, limitCommentCount: Swift.Int, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingPlaceHolder: Swift.String? = nil, translatingBtnNoThanks: Swift.String? = nil, translatingBtnSendRating: Swift.String? = nil)
   @objc deinit
 }
 @objc @objcMembers public class RateUsFields : ObjectiveC.NSObject {

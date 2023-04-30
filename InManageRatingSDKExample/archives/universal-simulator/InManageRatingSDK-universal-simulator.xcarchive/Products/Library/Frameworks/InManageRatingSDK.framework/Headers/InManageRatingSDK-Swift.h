@@ -295,7 +295,7 @@ SWIFT_CLASS("_TtC17InManageRatingSDK12RateUsFields")
 
 SWIFT_CLASS("_TtC17InManageRatingSDK21RateWithCommentFields")
 @interface RateWithCommentFields : NSObject
-- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader limitCommentCount:(NSInteger)limitCommentCount OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithImgBackgroundHeader:(UIImage * _Nonnull)imgBackgroundHeader imgMainCenterHeader:(UIImage * _Nonnull)imgMainCenterHeader limitCommentCount:(NSInteger)limitCommentCount translatingMainTitle:(NSString * _Nullable)translatingMainTitle translatingMainContent:(NSString * _Nullable)translatingMainContent translatingPlaceHolder:(NSString * _Nullable)translatingPlaceHolder translatingBtnNoThanks:(NSString * _Nullable)translatingBtnNoThanks translatingBtnSendRating:(NSString * _Nullable)translatingBtnSendRating OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

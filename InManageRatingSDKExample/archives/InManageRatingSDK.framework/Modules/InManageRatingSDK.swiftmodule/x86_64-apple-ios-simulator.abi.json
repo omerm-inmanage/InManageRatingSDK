@@ -22,7 +22,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(imgBackgroundHeader:imgMainCenterHeader:limitCommentCount:)",
+            "printedName": "init(imgBackgroundHeader:imgMainCenterHeader:limitCommentCount:translatingMainTitle:translatingMainContent:translatingPlaceHolder:translatingBtnNoThanks:translatingBtnSendRating:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -47,11 +47,86 @@
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)RateWithCommentFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:limitCommentCount:",
-            "mangledName": "$s17InManageRatingSDK21RateWithCommentFieldsC19imgBackgroundHeader0i10MainCenterK005limitG5CountACSo7UIImageC_AHSitcfc",
+            "usr": "c:@M@InManageRatingSDK@objc(cs)RateWithCommentFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:limitCommentCount:translatingMainTitle:translatingMainContent:translatingPlaceHolder:translatingBtnNoThanks:translatingBtnSendRating:",
+            "mangledName": "$s17InManageRatingSDK21RateWithCommentFieldsC19imgBackgroundHeader0i10MainCenterK005limitG5Count011translatingL5Title0pL7Content0P11PlaceHolder0P11BtnNoThanks0pu4SendC0ACSo7UIImageC_AMSiSSSgA4Ntcfc",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
               "AccessControl",
