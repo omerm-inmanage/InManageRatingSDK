@@ -26,7 +26,7 @@ class ThanksForRatingViewController: UIViewController {
     
     func setupView() {
         
-        if InManageRating.inManageRatingModel.appBundle == .azrieli {
+        if InManageRating.inManageRatingModel.appBundle == .mallsApp {
             img.image = InManageRating.inManageRatingModel.thanksForRatingFields?.imgMainCenterHeader
             imgBackgroundHeader.image = InManageRating.inManageRatingModel.thanksForRatingFields?.imgBackgroundHeader
         } else if InManageRating.inManageRatingModel.appBundle == .mcdonalds {

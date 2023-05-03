@@ -9,7 +9,7 @@ import UIKit
 
 public enum AppBundle {
     case mcdonalds
-    case azrieli
+    case mallsApp
     case none
 }
 

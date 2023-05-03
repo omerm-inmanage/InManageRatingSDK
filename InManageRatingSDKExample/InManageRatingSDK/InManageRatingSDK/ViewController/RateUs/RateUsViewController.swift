@@ -118,7 +118,7 @@ class RateUsViewController: UIViewController {
         } else {
             self.dismissView() {
                 InManageRating.shared().delegate?.didTapLowRatingScore(score: self.viewModel.model.selectedScore)
-                if InManageRating.inManageRatingModel.appBundle == .azrieli {
+                if InManageRating.inManageRatingModel.appBundle == .mallsApp {
                     InManageRating.shared().presentRateWithComment()
                 } else {
                     InManageRating.shared().presentThanksForRatingScreen()

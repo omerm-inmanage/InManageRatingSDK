@@ -24,16 +24,16 @@ class ViewController: UIViewController, InmanageDelegate {
         inManageRatingSDK.isDebugMode = true
         inManageRatingSDK.delegate = self
 
-        setupAzrieli()
+//        setupMallsApp()
 //        setupMcdolads()
     }
     
-    private func setupAzrieli() {
+    private func setupMallsApp() {
         let imgRateUs = UIImage(named: "mask_group")!
         let imgThanksForRating = UIImage(named: "Group 37")!
         let imgRateInAppstore = UIImage(named: "Group 37")!
-        let imgBackgroundHeader = UIImage(named: "subtract-azrieli")!
-        let imgBackgroundEmptyHeader = UIImage(named: "subtract-empty-azrieli")!
+        let imgBackgroundHeader = UIImage(named: "malls_background")!
+        let imgBackgroundEmptyHeader = UIImage(named: "malls_empty_background")!
         let imgRateWithComment = UIImage(named: "Group 49")!
         let color = UIColor(red: 105/255.0, green: 151/255.0, blue: 245/255.0, alpha:  1.0)
         let strAppStore:String = "itms-apps://itunes.apple.com/app/id967762450"
@@ -47,7 +47,7 @@ class ViewController: UIViewController, InmanageDelegate {
 
         let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundEmptyHeader, imgMainCenterHeader: imgThanksForRating)
         
-        inManageRatingSDK.initInManageRating(appBundle: .azrieli, colorApp: color, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore)
+        inManageRatingSDK.initInManageRating(appBundle: .mallsApp, colorApp: color, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore)
     }
     
     private func setupMcdolads() {
