@@ -799,8 +799,8 @@
           },
           {
             "kind": "Var",
-            "name": "azrieli",
-            "printedName": "azrieli",
+            "name": "mallsApp",
+            "printedName": "mallsApp",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -830,8 +830,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:17InManageRatingSDK9AppBundleO7azrieliyA2CmF",
-            "mangledName": "$s17InManageRatingSDK9AppBundleO7azrieliyA2CmF",
+            "usr": "s:17InManageRatingSDK9AppBundleO05mallsE0yA2CmF",
+            "mangledName": "$s17InManageRatingSDK9AppBundleO05mallsE0yA2CmF",
             "moduleName": "InManageRatingSDK"
           },
           {
@@ -2057,28 +2057,28 @@
     {
       "filePath": "\/Users\/omercohen\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 295,
+      "offset": 296,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 368,
+      "offset": 369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/omercohen\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 957,
+      "offset": 958,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/omercohen\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 2035,
+      "offset": 2036,
       "length": 1,
       "value": "0"
     },
