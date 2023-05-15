@@ -121,7 +121,7 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
     @IBAction func didTapSend(_ sender: Any) {
         self.dismissView() {
             InManageRating.shared().delegate?.didSendCommentRating(comment: self.textView.text)
-            InManageRating.shared().presentRateInAppstore()
+            InManageRating.shared().presentThanksForRatingScreen()
         }
     }
 
