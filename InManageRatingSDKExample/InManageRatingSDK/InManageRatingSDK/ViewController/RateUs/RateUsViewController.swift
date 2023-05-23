@@ -52,8 +52,16 @@ class RateUsViewController: UIViewController {
         viewModel.model.btnArr = [btnStar1,btnStar2,btnStar3,btnStar4,btnStar5]
         viewModel.model.imgArr = [imgStar1,imgStar2,imgStar3,imgStar4,imgStar5]
 
-        btnSendRating.setAttributeSelected(color:colorApp)
-        btnNoThanks.setAttributeUnSelected(color:colorApp)
+        if let secondaryColor = InManageRating.inManageRatingModel.secondaryColor {
+            btnSendRating.setAttributeSelected(color:colorApp)
+            btnSendRating.setTitleColor(secondaryColor, for: .normal)
+            
+            btnNoThanks.setAttributeUnSelected(color:colorApp)
+            btnNoThanks.setTitleColor(colorApp, for: .normal)
+        } else {
+            btnSendRating.setAttributeSelected(color:colorApp)
+            btnNoThanks.setAttributeUnSelected(color:colorApp)
+        }
         
         let image = UIImage(named: "star_selected",
                             in:  Bundle(for: InManageRating.self),

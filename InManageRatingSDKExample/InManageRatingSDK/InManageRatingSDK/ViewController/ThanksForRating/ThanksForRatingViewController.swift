@@ -36,8 +36,12 @@ class ThanksForRatingViewController: UIViewController {
             imgBackgroundHeader.contentMode = .scaleAspectFill
         }
         
-            
-        btnClose.setAttributeSelected(color:InManageRating.inManageRatingModel.colorApp)
+        if let secondaryColor = InManageRating.inManageRatingModel.secondaryColor {
+            btnClose.setAttributeSelected(color:InManageRating.inManageRatingModel.colorApp)
+            btnClose.setTitleColor(secondaryColor, for: .normal)
+        } else {
+            btnClose.setAttributeSelected(color:InManageRating.inManageRatingModel.colorApp)
+        }
         
         viewContent.roundCorners(corners: [.bottomRight, .bottomLeft], radius: 18)
         viewHeader.roundCorners(corners: [.topLeft, .topRight], radius: 18)

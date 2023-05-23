@@ -36,6 +36,8 @@ class ViewController: UIViewController, InmanageDelegate {
         let imgBackgroundEmptyHeader = UIImage(named: "subtract-empty-azrieli")!
         let imgRateWithComment = UIImage(named: "Group 49")!
         let color = UIColor(red: 105/255.0, green: 151/255.0, blue: 245/255.0, alpha:  1.0)
+        let secondary = UIColor.white
+
         let strAppStore:String = "itms-apps://itunes.apple.com/app/id967762450"
         
         
@@ -47,7 +49,7 @@ class ViewController: UIViewController, InmanageDelegate {
 
         let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundEmptyHeader, imgMainCenterHeader: imgThanksForRating)
         
-        inManageRatingSDK.initInManageRating(appBundle: .azrieli, colorApp: color, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore)
+        inManageRatingSDK.initInManageRating(appBundle: .azrieli, colorApp: color,secondaryColor: secondary, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore)
     }
     
     private func setupMcdolads() {

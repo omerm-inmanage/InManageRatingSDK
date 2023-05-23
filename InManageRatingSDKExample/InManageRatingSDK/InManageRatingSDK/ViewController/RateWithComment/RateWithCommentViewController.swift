@@ -102,8 +102,16 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
         viewContent.roundCorners(corners: [.bottomRight, .bottomLeft], radius: 18)
         viewHeader.roundCorners(corners: [.topLeft, .topRight], radius: 18)
 
-        btnSend.setAttributeSelected(color:colorApp)
-        btnNoThanks.setAttributeUnSelected(color:colorApp)
+        if let secondaryColor = InManageRating.inManageRatingModel.secondaryColor {
+            btnSend.setAttributeSelected(color:colorApp)
+            btnSend.setTitleColor(secondaryColor, for: .normal)
+
+            btnNoThanks.setAttributeUnSelected(color:colorApp)
+            btnNoThanks.setTitleColor(colorApp, for: .normal)
+        } else {
+            btnSend.setAttributeSelected(color:colorApp)
+            btnNoThanks.setAttributeUnSelected(color:colorApp)
+        }
     }
     
     // MARK: UITextViewDelegate

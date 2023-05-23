@@ -28,9 +28,17 @@ class RateInAppstoreViewController: UIViewController {
         imgBackgroundHeader.image = InManageRating.inManageRatingModel.rateInAppstoreFields?.imgBackgroundHeader
         img.image = InManageRating.inManageRatingModel.rateInAppstoreFields?.imgMainCenterHeader
         
-        btnAppStore.setAttributeSelected(color:InManageRating.inManageRatingModel.colorApp)
-        btnNoThanks.setAttributeUnSelected(color: InManageRating.inManageRatingModel.colorApp)
-        
+        if let secondaryColor = InManageRating.inManageRatingModel.secondaryColor {
+            btnAppStore.setAttributeSelected(color:InManageRating.inManageRatingModel.colorApp)
+            btnAppStore.setTitleColor(secondaryColor, for: .normal)
+            
+            btnNoThanks.setAttributeUnSelected(color:InManageRating.inManageRatingModel.colorApp)
+            btnNoThanks.setTitleColor(InManageRating.inManageRatingModel.colorApp, for: .normal)
+        } else {
+            btnAppStore.setAttributeSelected(color:InManageRating.inManageRatingModel.colorApp)
+            btnNoThanks.setAttributeUnSelected(color:InManageRating.inManageRatingModel.colorApp)
+        }
+
         viewContent.roundCorners(corners: [.bottomRight, .bottomLeft], radius: 18)
         viewHeader.roundCorners(corners: [.topLeft, .topRight], radius: 18)
     }

@@ -15,6 +15,7 @@ public enum AppBundle {
 
 class InManageRatingModel: NSObject {
     var colorApp: UIColor = .black
+    var secondaryColor: UIColor?
     var strAppstoreUrl: String = ""
     var appBundle: AppBundle = .none
     var chosenDefaultRate: Int = 0
@@ -64,8 +65,9 @@ class InManageRatingModel: NSObject {
         initCustomFont()
     }
     
-    public func initInManageRating(appBundle: AppBundle, colorApp: UIColor, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int? = 0) {
+    public func initInManageRating(appBundle: AppBundle, colorApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int? = 0) {
         InManageRating.inManageRatingModel.colorApp = colorApp
+        InManageRating.inManageRatingModel.secondaryColor = secondaryColor
         InManageRating.inManageRatingModel.strAppstoreUrl = strAppstoreUrl
         InManageRating.inManageRatingModel.appBundle = appBundle
         InManageRating.inManageRatingModel.rateUsFields = rateUsFields
