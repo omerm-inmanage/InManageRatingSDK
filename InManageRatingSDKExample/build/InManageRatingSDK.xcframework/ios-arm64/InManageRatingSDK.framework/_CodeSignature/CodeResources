@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		li7sYpAilJhQDf3zyGExYeG78x0=
+		5dG05iWlmqwBvF4dU+++TbXqB04=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		br25fzxo16mgmhT+362vjcMzU5s=
+		r83alMsy7LLC7TiDBGiDJT5FjQc=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		br25fzxo16mgmhT+362vjcMzU5s=
+		r83alMsy7LLC7TiDBGiDJT5FjQc=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qj1e4pMD8I1vY+SkVkY7nfP8vJA=
+		3iU+Ptt4dqGf0SgnJ1uNPcRT7kc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -166,14 +166,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gABX8oYUq9BDYspCg2L5I78XHOvfhPKG2Iyq0M2B/40=
+			cXdJrnm+T0qimA/zaojV3XA+nnrOwbk/gx+KK2+0XWw=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KU6HM576xXNpb5PdVehGrgyhQ6ag6bVRGRcxM/PeMI8=
+			hiGaigbeQqauLok8GUFzIRNyjmA1eFmS7ZXs7AQOjlc=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -187,14 +187,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KU6HM576xXNpb5PdVehGrgyhQ6ag6bVRGRcxM/PeMI8=
+			hiGaigbeQqauLok8GUFzIRNyjmA1eFmS7ZXs7AQOjlc=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zIUgSImkKjsRI7ev+uzxI+lAX/FHnvVjdyUTdVmI9To=
+			aGkTKGXAvWsPjROpncUTpmWHrnUJz7v7/W46CL8DBqA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

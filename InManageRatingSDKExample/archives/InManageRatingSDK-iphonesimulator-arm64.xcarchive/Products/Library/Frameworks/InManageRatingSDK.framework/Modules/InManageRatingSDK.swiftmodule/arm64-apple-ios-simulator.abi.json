@@ -1260,7 +1260,7 @@
           {
             "kind": "Function",
             "name": "initInManageRating",
-            "printedName": "initInManageRating(appBundle:colorApp:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:)",
+            "printedName": "initInManageRating(appBundle:colorApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1278,6 +1278,21 @@
                 "name": "UIColor",
                 "printedName": "UIKit.UIColor",
                 "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1326,8 +1341,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17InManageRatingSDK0abC0C04initabC09appBundle8colorApp12rateUsFields09thanksForcL00ja8AppstoreL00j11WithCommentL003strO3Url17chosenDefaultRateyAA0iG0O_So7UIColorCAA0vkL0CAA06ThanksncL0CAA0vaoL0CAA0vpqL0CSSSiSgtF",
-            "mangledName": "$s17InManageRatingSDK0abC0C04initabC09appBundle8colorApp12rateUsFields09thanksForcL00ja8AppstoreL00j11WithCommentL003strO3Url17chosenDefaultRateyAA0iG0O_So7UIColorCAA0vkL0CAA06ThanksncL0CAA0vaoL0CAA0vpqL0CSSSiSgtF",
+            "usr": "s:17InManageRatingSDK0abC0C04initabC09appBundle8colorApp14secondaryColor12rateUsFields09thanksForcN00la8AppstoreN00l11WithCommentN003strQ3Url17chosenDefaultRateyAA0iG0O_So7UIColorCAQSgAA0xmN0CAA06ThankspcN0CAA0xaqN0CAA0xrsN0CSSSiSgtF",
+            "mangledName": "$s17InManageRatingSDK0abC0C04initabC09appBundle8colorApp14secondaryColor12rateUsFields09thanksForcN00la8AppstoreN00l11WithCommentN003strQ3Url17chosenDefaultRateyAA0iG0O_So7UIColorCAQSgAA0xmN0CAA06ThankspcN0CAA0xaqN0CAA0xrsN0CSSSiSgtF",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
               "AccessControl"
@@ -2057,28 +2072,28 @@
     {
       "filePath": "\/Users\/omercohen\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 295,
+      "offset": 328,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 368,
+      "offset": 401,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/omercohen\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 957,
+      "offset": 990,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/omercohen\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 2035,
+      "offset": 2100,
       "length": 1,
       "value": "0"
     },

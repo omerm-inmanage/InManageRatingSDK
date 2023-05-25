@@ -38,7 +38,7 @@ public enum AppBundle {
   @objc open var isDebugMode: Swift.Bool
   @objc open class func shared() -> InManageRatingSDK.InManageRating
   open class func destroy()
-  public func initInManageRating(appBundle: InManageRatingSDK.AppBundle, colorApp: UIKit.UIColor, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int? = 0)
+  public func initInManageRating(appBundle: InManageRatingSDK.AppBundle, colorApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int? = 0)
   public func presentThanksForRatingScreen()
   public func presentRateUsScreen()
   public func presentRateInAppstore()
