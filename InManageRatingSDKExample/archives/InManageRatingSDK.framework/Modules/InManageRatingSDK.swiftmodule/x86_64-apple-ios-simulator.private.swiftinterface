@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name InManageRatingSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -34,13 +34,15 @@ public enum AppBundle {
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc open class InManageRating : ObjectiveC.NSObject {
-  @objc weak open var delegate: InManageRatingSDK.InmanageDelegate?
+  @objc weak open var delegate: (any InManageRatingSDK.InmanageDelegate)?
   @objc open var isDebugMode: Swift.Bool
   @objc open class func shared() -> InManageRatingSDK.InManageRating
   open class func destroy()
+  @objc public func initInManageRatingObjc(appBundle: Swift.String, colorApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int = 0)
   public func initInManageRating(appBundle: InManageRatingSDK.AppBundle, colorApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int? = 0)
-  public func presentThanksForRatingScreen()
-  public func presentRateUsScreen()
+  @objc public func presentThanksForRatingScreen()
+  @objc public func presentRateUsScreenTest(uiview: UIKit.UIView)
+  @objc public func presentRateUsScreen()
   public func presentRateInAppstore()
   public func presentRateWithComment()
   public func closeSDK()
@@ -53,7 +55,7 @@ public enum AppBundle {
   @objc func didSendCommentRating(comment: Swift.String)
 }
 @objc @objcMembers public class ThanksForRatingFields : ObjectiveC.NSObject {
-  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnClose: Swift.String? = nil)
+  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitleLowRating: Swift.String? = nil, translatingMainTitleHighRating: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnClose: Swift.String? = nil)
   @objc deinit
 }
 public typealias Dict = [Swift.String : Any]

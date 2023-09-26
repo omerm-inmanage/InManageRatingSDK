@@ -47,7 +47,9 @@ class ViewController: UIViewController, InmanageDelegate {
           
         let rateWithCommentFields = RateWithCommentFields(imgBackgroundHeader: imgBackgroundEmptyHeader, imgMainCenterHeader: imgRateWithComment, limitCommentCount: 250, translatingMainTitle: "d" ,translatingMainContent: "dddf", translatingPlaceHolder: "dfdf", translatingBtnNoThanks: "dffdfdf", translatingBtnSendRating: "df")
 
-        let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundEmptyHeader, imgMainCenterHeader: imgThanksForRating)
+        let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating, translatingMainTitleLowRating: "thanksForRatingFields12", translatingMainTitleHighRating: "dsfdsfdsfdsfdsfdsffdsfdsfdsfdsfdsdsfdsfdsfdsf", translatingMainContent: "thanksForRatingFields11", translatingBtnClose: "thanksForRatingFields")
+
+//        let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundEmptyHeader, imgMainCenterHeader: imgThanksForRating)
         
         inManageRatingSDK.initInManageRating(appBundle: .azrieli, colorApp: color,secondaryColor: secondary, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore)
     }
@@ -73,7 +75,7 @@ class ViewController: UIViewController, InmanageDelegate {
         
         //thanksForRatingFields
         //let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating)
-        let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating, translatingMainTitle: "thanksForRatingFields", translatingMainContent: "thanksForRatingFields", translatingBtnClose: "thanksForRatingFields")
+        let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating, translatingMainTitleLowRating: "thanksForRatingFields", translatingMainTitleHighRating: "dsfdsg", translatingMainContent: "thanksForRatingFields", translatingBtnClose: "thanksForRatingFields")
         
         inManageRatingSDK.initInManageRating(appBundle: .mcdonalds, colorApp: color, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore, chosenDefaultRate: 2)
     }

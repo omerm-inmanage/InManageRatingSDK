@@ -12,14 +12,16 @@ public class ThanksForRatingFields : NSObject {
     
     let imgBackgroundHeader: UIImage
     let imgMainCenterHeader: UIImage
-    let translatingMainTitle: String
+    let translatingMainTitleLowRating: String
+    let translatingMainTitleHighRating: String
     let translatingMainContent: String
     let translatingBtnClose: String
  
-    public init(imgBackgroundHeader: UIImage, imgMainCenterHeader: UIImage, translatingMainTitle: String? = nil,  translatingMainContent: String? = nil, translatingBtnClose:String? = nil) {
+    public init(imgBackgroundHeader: UIImage, imgMainCenterHeader: UIImage, translatingMainTitleLowRating: String? = nil,  translatingMainTitleHighRating: String? = nil, translatingMainContent: String? = nil, translatingBtnClose:String? = nil) {
         self.imgBackgroundHeader = imgBackgroundHeader
         self.imgMainCenterHeader = imgMainCenterHeader
-        self.translatingMainTitle = translatingMainTitle ?? ""
+        self.translatingMainTitleLowRating = translatingMainTitleLowRating ?? ""
+        self.translatingMainTitleHighRating = translatingMainTitleHighRating ?? ""
         self.translatingMainContent = translatingMainContent ?? ""
         self.translatingBtnClose = translatingBtnClose ?? ""
     }

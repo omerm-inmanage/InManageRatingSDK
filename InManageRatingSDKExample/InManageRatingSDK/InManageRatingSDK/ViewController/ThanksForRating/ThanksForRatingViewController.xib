@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,6 +24,7 @@
                 <outlet property="imgBackgroundHeader" destination="uHU-0J-dUz" id="Qi8-ET-0Wk"/>
                 <outlet property="lblMainContent" destination="ifh-Yf-LG4" id="PxW-oO-BS4"/>
                 <outlet property="lblMainTitle" destination="Msk-zi-FDC" id="uQT-8X-sNc"/>
+                <outlet property="topMainConstarint" destination="BW0-J2-T6c" id="hXC-0u-oHM"/>
                 <outlet property="view" destination="xVF-Ki-jVS" id="ZiS-cC-7fA"/>
                 <outlet property="viewContent" destination="Syi-Fx-8Bw" id="btT-LU-0ab"/>
                 <outlet property="viewHeader" destination="zgP-bR-0MN" id="XKI-OU-Ls4"/>
@@ -61,14 +62,14 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Syi-Fx-8Bw">
                     <rect key="frame" x="35" y="327" width="320" height="190"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="תודה, קיבלנו את הפידבק שלך!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msk-zi-FDC">
-                            <rect key="frame" x="58.666666666666671" y="10" width="202.66666666666663" height="20"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="תודה, קיבלנו את הפידבק שלך!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msk-zi-FDC">
+                            <rect key="frame" x="20" y="10" width="280" height="25"/>
                             <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="עכשיו נוכל לשפר את החוויה שלך" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifh-Yf-LG4">
-                            <rect key="frame" x="60" y="34" width="200" height="39.666666666666657"/>
+                            <rect key="frame" x="60" y="39" width="200" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="200" id="WlF-We-ynl"/>
                             </constraints>
@@ -99,9 +100,11 @@
                         <constraint firstAttribute="height" constant="190" id="ANr-nT-ptV"/>
                         <constraint firstItem="Msk-zi-FDC" firstAttribute="top" secondItem="Syi-Fx-8Bw" secondAttribute="top" constant="10" id="BW0-J2-T6c"/>
                         <constraint firstAttribute="width" constant="320" id="SEV-EB-uqi"/>
+                        <constraint firstAttribute="trailing" secondItem="Msk-zi-FDC" secondAttribute="trailing" constant="20" id="YUz-tR-rtC"/>
                         <constraint firstItem="ifh-Yf-LG4" firstAttribute="centerX" secondItem="Syi-Fx-8Bw" secondAttribute="centerX" id="eLB-BO-Ubj"/>
                         <constraint firstItem="Msk-zi-FDC" firstAttribute="centerX" secondItem="Syi-Fx-8Bw" secondAttribute="centerX" id="g1m-pq-yJx"/>
                         <constraint firstItem="ifh-Yf-LG4" firstAttribute="top" secondItem="Msk-zi-FDC" secondAttribute="bottom" constant="4" id="lAF-o5-xmV"/>
+                        <constraint firstItem="Msk-zi-FDC" firstAttribute="leading" secondItem="Syi-Fx-8Bw" secondAttribute="leading" constant="20" id="zXh-XW-UD2"/>
                     </constraints>
                 </view>
             </subviews>

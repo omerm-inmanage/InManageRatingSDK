@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/InManageRatingSDK-Swift.h</key>
 		<data>
-		669FwGKc2QiVWe+TMqou6aH8Dw4=
+		4YfbzjIAnAFzg2+NTWFuizY2+O0=
 		</data>
 		<key>Headers/InManageRatingSDK.h</key>
 		<data>
@@ -42,27 +42,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h4cnZnl1loLJ0cugLBKumGZVPG8=
+		A/r/YjZIC0DftmmJGCXN+uW9W64=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5dG05iWlmqwBvF4dU+++TbXqB04=
+		RRPYs/tvPI6YuQ3JYvlho/XI6DM=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UECcyDKGPLJ+73iXzCYkhVj/yeM=
+		92Mh7mPjO9U8WF8wO1dwNDI6iH8=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		q0Axji7w8tIS4SjU9onttXeTkts=
+		S3eROeQH7XEBKnE58Y8wuoKiCUw=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UECcyDKGPLJ+73iXzCYkhVj/yeM=
+		92Mh7mPjO9U8WF8wO1dwNDI6iH8=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3Il+hlk7mfWB4jdKRCqGUnOKeAI=
+		lQs+Dz6XO0J6lNwhAXujGXB1JCQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>RateWithCommentViewController.nib</key>
 		<data>
-		iHm1EvYWwm+MaIVSEGdcVcFs5S4=
+		+pF6/ezY3sX9qOp9SMmtMUNKIM0=
 		</data>
 		<key>ThanksForRatingViewController.nib</key>
 		<data>
-		J5/FWGcXcXN5toro13bnvMQJukg=
+		Mcv3ey2pmmGRw7L5t7Rs1M0gzwM=
 		</data>
 		<key>star_not_selected.png</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YXURPYQZPQ6T1nb3+L3m2XEwcm4n8DNCTYm8wMqrY5w=
+			fG0HPmC2QAgm8WsXEjEnWPCS+btMjset7oKcNoxr7iY=
 			</data>
 		</dict>
 		<key>Headers/InManageRatingSDK.h</key>
@@ -166,35 +166,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cXdJrnm+T0qimA/zaojV3XA+nnrOwbk/gx+KK2+0XWw=
+			MsU61jWcg0/28+bmtFDTtCFXF1BcRWlruPcTVtcdAc8=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			En8mPAtdF7PPiWsIPequKB/LJ4coXKGUKV7vaODVkNA=
+			4cr6lZEvu/4RuZPXGcjXkbCZkxyO1tZPBJWCTFnx0G4=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4dw7l17N9Nf2MqWYGRCfuhekHvfbIPpU5Ky4AacnGl8=
+			KSSLR17bTzqKmVxe6aFpNYUem+grLXy9cpDGNVmmiqw=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			En8mPAtdF7PPiWsIPequKB/LJ4coXKGUKV7vaODVkNA=
+			4cr6lZEvu/4RuZPXGcjXkbCZkxyO1tZPBJWCTFnx0G4=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Is/wXYnjPZI1kZ0wQr/DG/Vdo3yxa6+eUuw5nt9pVkI=
+			8seeTosuVPblUvZxGzn89AtRXydZXIXPC07pLpgMWqY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -222,14 +222,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			guJzRrvP3RnZ5GBCcqhcYhcY04oeeUGpULMxGp7TajU=
+			P0TMU8tUDkZmhNfEx5R4kXl34HB1TynnbuSdMFbAhKE=
 			</data>
 		</dict>
 		<key>ThanksForRatingViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tozpLGv4Z2VB2Ya/ptEaaVmSEjlftKLItCar62lzXAI=
+			bCh0lG9pqrzKUE6UBiydwjC2p2+f1yEW6iKGJKuWq2U=
 			</data>
 		</dict>
 		<key>star_not_selected.png</key>

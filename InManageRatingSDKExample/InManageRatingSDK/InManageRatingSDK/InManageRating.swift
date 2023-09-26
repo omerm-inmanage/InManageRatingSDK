@@ -23,6 +23,7 @@ class InManageRatingModel: NSObject {
     var rateInAppstoreFields: RateInAppstoreFields?
     var rateWithCommentFields: RateWithCommentFields?
     var thanksForRatingFields: ThanksForRatingFields?
+    var userScoreRating: Int = 0
 }
 
 @objc open class InManageRating: NSObject {
@@ -37,6 +38,7 @@ class InManageRatingModel: NSObject {
     @objc open var isDebugMode: Bool = false
     
     private var window: UIWindow = UIWindow(frame: UIScreen.main.bounds)
+    
     private let navigation = UINavigationController()
 
     /**
@@ -65,6 +67,19 @@ class InManageRatingModel: NSObject {
         initCustomFont()
     }
     
+    @objc public func initInManageRatingObjc(appBundle: String, colorApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int = 0) {
+        
+        InManageRating.inManageRatingModel.appBundle = .azrieli
+        InManageRating.inManageRatingModel.colorApp = colorApp
+        InManageRating.inManageRatingModel.secondaryColor = secondaryColor
+        InManageRating.inManageRatingModel.strAppstoreUrl = strAppstoreUrl
+        InManageRating.inManageRatingModel.rateUsFields = rateUsFields
+        InManageRating.inManageRatingModel.rateInAppstoreFields = rateInAppstoreFields
+        InManageRating.inManageRatingModel.rateWithCommentFields = rateWithCommentFields
+        InManageRating.inManageRatingModel.thanksForRatingFields = thanksForRatingFields
+        InManageRating.inManageRatingModel.chosenDefaultRate = chosenDefaultRate
+    }
+    
     public func initInManageRating(appBundle: AppBundle, colorApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int? = 0) {
         InManageRating.inManageRatingModel.colorApp = colorApp
         InManageRating.inManageRatingModel.secondaryColor = secondaryColor
@@ -79,15 +94,21 @@ class InManageRatingModel: NSObject {
         }
     }
     
-    public func presentThanksForRatingScreen() {
+    @objc public func presentThanksForRatingScreen() {
         let vc = ThanksForRatingViewController(nibName: ThanksForRatingViewController.className, bundle: frameworkBundle)
         navigation.popViewController(animated: true)
         navigation.viewControllers = [vc]
     }
     
-    public func presentRateUsScreen() {
+    @objc public func presentRateUsScreenTest(uiview: UIView) {
         let vc = RateUsViewController(nibName: RateUsViewController.className, bundle: frameworkBundle)
-        self.window = UIWindow(frame: UIScreen.main.bounds)
+        navigation.viewControllers = [vc]
+//        self.window.rootViewController = navigation
+//        self.window.makeKeyAndVisible()
+    }
+    
+    @objc public func presentRateUsScreen() {
+        let vc = RateUsViewController(nibName: RateUsViewController.className, bundle: frameworkBundle)
         navigation.viewControllers = [vc]
         self.window.rootViewController = navigation
         self.window.makeKeyAndVisible()

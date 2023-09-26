@@ -118,6 +118,8 @@ class RateUsViewController: UIViewController {
     @IBAction func didTapSend(_ sender: Any) {
         if viewModel.model.selectedScore == 0 {return}
         
+        InManageRating.inManageRatingModel.userScoreRating = self.viewModel.model.selectedScore
+
         if viewModel.model.selectedScore > 3 {
             self.dismissView() {
                 InManageRating.shared().delegate?.didTapHighRatingScore(score: self.viewModel.model.selectedScore)

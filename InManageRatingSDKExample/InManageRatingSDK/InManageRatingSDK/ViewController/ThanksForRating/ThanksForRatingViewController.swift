@@ -17,6 +17,7 @@ class ThanksForRatingViewController: UIViewController {
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var btnClose: UIButton!
     @IBOutlet weak var imgBackgroundHeader: UIImageView!
+    @IBOutlet weak var topMainConstarint: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,15 +50,37 @@ class ThanksForRatingViewController: UIViewController {
     
     private func setupTranslations() {
         
-        if let translatingMainTitle = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingMainTitle {
-            if !translatingMainTitle.isEmpty {
-                lblMainTitle.text = translatingMainTitle
+        if InManageRating.inManageRatingModel.userScoreRating > 3  {
+            
+            if let translatingMainTitleHighRating = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingMainTitleHighRating {
+                if !translatingMainTitleHighRating.isEmpty {
+                    lblMainTitle.text = translatingMainTitleHighRating
+                }
+            }
+             
+        } else {
+            if let translatingMainTitleLowRating = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingMainTitleLowRating {
+                if !translatingMainTitleLowRating.isEmpty {
+                    lblMainTitle.text = translatingMainTitleLowRating
+                }
+            }
+            
+            if let translatingMainContent = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingMainContent {
+                if !translatingMainContent.isEmpty {
+                    lblMainContent.text = translatingMainContent
+                }
             }
         }
+             
         
-        if let translatingMainContent = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingMainContent{
-            if !translatingMainContent.isEmpty {
-                lblMainContent.text = translatingMainContent
+        if InManageRating.inManageRatingModel.userScoreRating > 3  {
+            lblMainContent.text = ""
+            topMainConstarint.constant = 60
+        } else {
+            if let translatingMainContent = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingMainContent{
+                if !translatingMainContent.isEmpty {
+                    lblMainContent.text = translatingMainContent
+                }
             }
         }
         
