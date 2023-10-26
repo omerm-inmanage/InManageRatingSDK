@@ -15,6 +15,7 @@ public enum AppBundle {
 
 class InManageRatingModel: NSObject {
     var colorApp: UIColor = .black
+    var colorStarApp: UIColor = .black
     var secondaryColor: UIColor?
     var strAppstoreUrl: String = ""
     var appBundle: AppBundle = .none
@@ -67,10 +68,11 @@ class InManageRatingModel: NSObject {
         initCustomFont()
     }
     
-    @objc public func initInManageRatingObjc(appBundle: String, colorApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int = 0) {
+    @objc public func initInManageRatingObjc(appBundle: String, colorApp: UIColor, colorStarApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int = 0) {
         
         InManageRating.inManageRatingModel.appBundle = .azrieli
         InManageRating.inManageRatingModel.colorApp = colorApp
+        InManageRating.inManageRatingModel.colorStarApp = colorStarApp
         InManageRating.inManageRatingModel.secondaryColor = secondaryColor
         InManageRating.inManageRatingModel.strAppstoreUrl = strAppstoreUrl
         InManageRating.inManageRatingModel.rateUsFields = rateUsFields
@@ -80,10 +82,11 @@ class InManageRatingModel: NSObject {
         InManageRating.inManageRatingModel.chosenDefaultRate = chosenDefaultRate
     }
     
-    public func initInManageRating(appBundle: AppBundle, colorApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int? = 0) {
+    public func initInManageRating(appBundle: AppBundle, colorApp: UIColor, colorStarApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int? = 0) {
         InManageRating.inManageRatingModel.colorApp = colorApp
         InManageRating.inManageRatingModel.secondaryColor = secondaryColor
         InManageRating.inManageRatingModel.strAppstoreUrl = strAppstoreUrl
+        InManageRating.inManageRatingModel.colorStarApp = colorStarApp
         InManageRating.inManageRatingModel.appBundle = appBundle
         InManageRating.inManageRatingModel.rateUsFields = rateUsFields
         InManageRating.inManageRatingModel.rateInAppstoreFields = rateInAppstoreFields

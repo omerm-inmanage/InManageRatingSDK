@@ -8,6 +8,7 @@
 import UIKit
 
 @objcMembers
+
 public class RateUsFields : NSObject {
     
     let imgBackgroundHeader: UIImage

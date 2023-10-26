@@ -38,7 +38,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34L-ea-En1" userLabel="Header">
-                    <rect key="frame" x="36.666666666666657" y="195" width="320" height="81"/>
+                    <rect key="frame" x="36.666666666666657" y="387" width="320" height="81"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subtract.png" translatesAutoresizingMaskIntoConstraints="NO" id="syO-ba-SyE">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
@@ -64,17 +64,17 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8JC-OG-FVB">
-                    <rect key="frame" x="36.666666666666657" y="276" width="320" height="300"/>
+                    <rect key="frame" x="36.666666666666657" y="468" width="320" height="300"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ספר לנו" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6t-On-zcF">
-                            <rect key="frame" x="131.66666666666669" y="16" width="56.666666666666657" height="25"/>
-                            <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="17"/>
+                            <rect key="frame" x="128.33333333333334" y="16" width="63.333333333333343" height="28"/>
+                            <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="19"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="נשמח לשמוע על החוויה שלך" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jT-Os-JHP">
-                            <rect key="frame" x="59.666666666666671" y="45" width="200.33333333333331" height="25"/>
-                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
+                            <rect key="frame" x="48" y="48" width="224" height="28"/>
+                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="19"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -108,7 +108,7 @@
                             </subviews>
                         </stackView>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="LAw-wK-TWN">
-                            <rect key="frame" x="16" y="91" width="288" height="127"/>
+                            <rect key="frame" x="16" y="97" width="288" height="121"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <color key="textColor" systemColor="labelColor"/>
                             <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="14"/>
@@ -123,7 +123,7 @@
                             </userDefinedRuntimeAttributes>
                         </textView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="כתוב כאן" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohd-Um-OEX">
-                            <rect key="frame" x="229" y="99" width="63" height="25"/>
+                            <rect key="frame" x="229" y="105" width="63" height="25"/>
                             <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
                             <color key="textColor" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -152,8 +152,8 @@
             <viewLayoutGuide key="safeArea" id="F6X-sf-FHi"/>
             <color key="backgroundColor" white="0.0" alpha="0.24841874480000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="8JC-OG-FVB" firstAttribute="centerY" secondItem="Cai-eo-kLt" secondAttribute="centerY" id="92g-En-SgM"/>
                 <constraint firstItem="34L-ea-En1" firstAttribute="width" secondItem="8JC-OG-FVB" secondAttribute="width" id="CdM-tP-ol3"/>
+                <constraint firstItem="F6X-sf-FHi" firstAttribute="bottom" secondItem="8JC-OG-FVB" secondAttribute="bottom" constant="50" id="GKc-Yn-EUi"/>
                 <constraint firstItem="8JC-OG-FVB" firstAttribute="top" secondItem="34L-ea-En1" secondAttribute="bottom" id="N5y-Ja-E5H"/>
                 <constraint firstItem="8JC-OG-FVB" firstAttribute="centerX" secondItem="Cai-eo-kLt" secondAttribute="centerX" id="SFI-L1-Vxm"/>
                 <constraint firstItem="34L-ea-En1" firstAttribute="centerX" secondItem="8JC-OG-FVB" secondAttribute="centerX" id="pOj-g0-3iA"/>

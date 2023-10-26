@@ -75,7 +75,7 @@ class ThanksForRatingViewController: UIViewController {
         
         if InManageRating.inManageRatingModel.userScoreRating > 3  {
             lblMainContent.text = ""
-            topMainConstarint.constant = 60
+            topMainConstarint.constant = 30
         } else {
             if let translatingMainContent = InManageRating.inManageRatingModel.thanksForRatingFields?.translatingMainContent{
                 if !translatingMainContent.isEmpty {

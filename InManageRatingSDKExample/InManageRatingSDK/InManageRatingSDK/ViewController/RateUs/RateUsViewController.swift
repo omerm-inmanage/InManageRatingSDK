@@ -67,7 +67,9 @@ class RateUsViewController: UIViewController {
                             in:  Bundle(for: InManageRating.self),
                             compatibleWith: nil)
         
-        viewModel.model.imgStarSelected = image?.withColor(colorApp)
+        let colorStarApp = InManageRating.inManageRatingModel.colorStarApp
+        
+        viewModel.model.imgStarSelected = image?.withColor(colorStarApp)
         
         setupChosenDefaultRate()
     }

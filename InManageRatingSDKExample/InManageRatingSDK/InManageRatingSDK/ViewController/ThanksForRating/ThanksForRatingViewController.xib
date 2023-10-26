@@ -36,7 +36,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zgP-bR-0MN" userLabel="Header">
-                    <rect key="frame" x="35" y="246" width="320" height="81"/>
+                    <rect key="frame" x="35" y="489" width="320" height="81"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uHU-0J-dUz">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
@@ -60,20 +60,20 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Syi-Fx-8Bw">
-                    <rect key="frame" x="35" y="327" width="320" height="190"/>
+                    <rect key="frame" x="35" y="570" width="320" height="190"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="תודה, קיבלנו את הפידבק שלך!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msk-zi-FDC">
-                            <rect key="frame" x="20" y="10" width="280" height="25"/>
-                            <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="17"/>
+                            <rect key="frame" x="20" y="10" width="280" height="28"/>
+                            <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="19"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="עכשיו נוכל לשפר את החוויה שלך" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifh-Yf-LG4">
-                            <rect key="frame" x="60" y="39" width="200" height="50"/>
+                            <rect key="frame" x="60" y="42" width="200" height="56"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="200" id="WlF-We-ynl"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
+                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="19"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -111,8 +111,8 @@
             <viewLayoutGuide key="safeArea" id="oe3-T9-U9u"/>
             <color key="backgroundColor" white="0.0" alpha="0.24841874480000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="oe3-T9-U9u" firstAttribute="bottom" secondItem="Syi-Fx-8Bw" secondAttribute="bottom" constant="50" id="1q4-Bf-8Pe"/>
                 <constraint firstItem="Syi-Fx-8Bw" firstAttribute="top" secondItem="zgP-bR-0MN" secondAttribute="bottom" id="Dwf-Qo-04E"/>
-                <constraint firstItem="Syi-Fx-8Bw" firstAttribute="centerY" secondItem="xVF-Ki-jVS" secondAttribute="centerY" id="aj2-4K-cMP"/>
                 <constraint firstItem="zgP-bR-0MN" firstAttribute="width" secondItem="Syi-Fx-8Bw" secondAttribute="width" id="nS9-J4-49k"/>
                 <constraint firstItem="zgP-bR-0MN" firstAttribute="centerX" secondItem="Syi-Fx-8Bw" secondAttribute="centerX" id="s7Y-mb-Dx0"/>
                 <constraint firstItem="Syi-Fx-8Bw" firstAttribute="centerX" secondItem="xVF-Ki-jVS" secondAttribute="centerX" id="upM-ql-uYA"/>

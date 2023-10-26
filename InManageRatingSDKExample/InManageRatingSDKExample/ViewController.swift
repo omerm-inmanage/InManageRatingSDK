@@ -51,7 +51,7 @@ class ViewController: UIViewController, InmanageDelegate {
 
 //        let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundEmptyHeader, imgMainCenterHeader: imgThanksForRating)
         
-        inManageRatingSDK.initInManageRating(appBundle: .azrieli, colorApp: color,secondaryColor: secondary, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore)
+        inManageRatingSDK.initInManageRating(appBundle: .azrieli, colorApp: color, colorStarApp: .brown ,secondaryColor: secondary, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore)
     }
     
     private func setupMcdolads() {
@@ -77,7 +77,7 @@ class ViewController: UIViewController, InmanageDelegate {
         //let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating)
         let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating, translatingMainTitleLowRating: "thanksForRatingFields", translatingMainTitleHighRating: "dsfdsg", translatingMainContent: "thanksForRatingFields", translatingBtnClose: "thanksForRatingFields")
         
-        inManageRatingSDK.initInManageRating(appBundle: .mcdonalds, colorApp: color, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore, chosenDefaultRate: 2)
+        inManageRatingSDK.initInManageRating(appBundle: .mcdonalds, colorApp: color, colorStarApp: .brown, rateUsFields: rateUsFields, thanksForRatingFields: thanksForRatingFields, rateInAppstoreFields: rateInAppstoreFields, rateWithCommentFields: rateWithCommentFields, strAppstoreUrl: strAppStore, chosenDefaultRate: 2)
     }
 
     // MARK: InmanageDelegate
