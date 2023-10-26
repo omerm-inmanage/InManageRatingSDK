@@ -1,6 +1,4 @@
 
-
-
 rm -rf archives
 
 rm -rf build

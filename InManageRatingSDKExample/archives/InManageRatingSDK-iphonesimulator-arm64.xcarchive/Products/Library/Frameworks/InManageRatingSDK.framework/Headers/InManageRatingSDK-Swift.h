@@ -299,7 +299,7 @@ SWIFT_CLASS("_TtC17InManageRatingSDK14InManageRating")
 + (InManageRating * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)initInManageRatingObjcWithAppBundle:(NSString * _Nonnull)appBundle colorApp:(UIColor * _Nonnull)colorApp secondaryColor:(UIColor * _Nullable)secondaryColor rateUsFields:(RateUsFields * _Nonnull)rateUsFields thanksForRatingFields:(ThanksForRatingFields * _Nonnull)thanksForRatingFields rateInAppstoreFields:(RateInAppstoreFields * _Nonnull)rateInAppstoreFields rateWithCommentFields:(RateWithCommentFields * _Nonnull)rateWithCommentFields strAppstoreUrl:(NSString * _Nonnull)strAppstoreUrl chosenDefaultRate:(NSInteger)chosenDefaultRate SWIFT_METHOD_FAMILY(none);
+- (void)initInManageRatingObjcWithAppBundle:(NSString * _Nonnull)appBundle colorApp:(UIColor * _Nonnull)colorApp colorStarApp:(UIColor * _Nonnull)colorStarApp secondaryColor:(UIColor * _Nullable)secondaryColor rateUsFields:(RateUsFields * _Nonnull)rateUsFields thanksForRatingFields:(ThanksForRatingFields * _Nonnull)thanksForRatingFields rateInAppstoreFields:(RateInAppstoreFields * _Nonnull)rateInAppstoreFields rateWithCommentFields:(RateWithCommentFields * _Nonnull)rateWithCommentFields strAppstoreUrl:(NSString * _Nonnull)strAppstoreUrl chosenDefaultRate:(NSInteger)chosenDefaultRate SWIFT_METHOD_FAMILY(none);
 - (void)presentThanksForRatingScreen;
 - (void)presentRateUsScreenTestWithUiview:(UIView * _Nonnull)uiview;
 - (void)presentRateUsScreen;

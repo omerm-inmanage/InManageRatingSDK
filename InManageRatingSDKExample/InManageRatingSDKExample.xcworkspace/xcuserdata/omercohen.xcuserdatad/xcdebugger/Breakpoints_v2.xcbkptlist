@@ -7,48 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BE199DEC-952B-4B1B-B2C6-15A4690E8913"
+            uuid = "D1BF4A4F-29CA-43FF-874C-25B6CF7F702C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InManageRatingSDK/InManageRatingSDK/InManageRating.swift"
+            filePath = "InManageRatingSDK/InManageRatingSDK/ViewController/ThanksForRating/ThanksForRatingViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "presentRateUsScreen()"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "setupView()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "019440EF-EB33-48FC-9B2F-D5A576BE6563"
+            uuid = "61164738-1634-4F62-AC49-888F82D4B565"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InManageRatingSDK/InManageRatingSDK/InManageRating.swift"
+            filePath = "InManageRatingSDK/InManageRatingSDK/ViewController/ThanksForRating/ThanksForRatingViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "InManageRating"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4E8D6A5C-DA24-491E-B975-5F5DC3F3A953"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "InManageRatingSDK/InManageRatingSDK/InManageRating.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
-            landmarkName = "closeSDK()"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "setupTranslations()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

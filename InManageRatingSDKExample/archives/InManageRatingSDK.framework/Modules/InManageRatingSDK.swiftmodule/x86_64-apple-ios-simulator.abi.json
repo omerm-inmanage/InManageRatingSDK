@@ -1260,7 +1260,7 @@
           {
             "kind": "Function",
             "name": "initInManageRatingObjc",
-            "printedName": "initInManageRatingObjc(appBundle:colorApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:)",
+            "printedName": "initInManageRatingObjc(appBundle:colorApp:colorStarApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1272,6 +1272,12 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               },
               {
                 "kind": "TypeNominal",
@@ -1333,10 +1339,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)initInManageRatingObjcWithAppBundle:colorApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:",
-            "mangledName": "$s17InManageRatingSDK0abC0C04initabC4Objc9appBundle8colorApp14secondaryColor12rateUsFields09thanksForcO00ma8AppstoreO00m11WithCommentO003strR3Url17chosenDefaultRateySS_So7UIColorCAOSgAA0ynO0CAA06ThanksqcO0CAA0yarO0CAA0ystO0CSSSitF",
+            "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)initInManageRatingObjcWithAppBundle:colorApp:colorStarApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:",
+            "mangledName": "$s17InManageRatingSDK0abC0C04initabC4Objc9appBundle8colorApp0i4StarJ014secondaryColor12rateUsFields09thanksForcP00na8AppstoreP00n11WithCommentP003strS3Url17chosenDefaultRateySS_So7UIColorCA2PSgAA0zoP0CAA06ThanksrcP0CAA0zasP0CAA0ztuP0CSSSitF",
             "moduleName": "InManageRatingSDK",
-            "objc_name": "initInManageRatingObjcWithAppBundle:colorApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:",
+            "objc_name": "initInManageRatingObjcWithAppBundle:colorApp:colorStarApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -1346,7 +1352,7 @@
           {
             "kind": "Function",
             "name": "initInManageRating",
-            "printedName": "initInManageRating(appBundle:colorApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:)",
+            "printedName": "initInManageRating(appBundle:colorApp:colorStarApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1358,6 +1364,12 @@
                 "name": "AppBundle",
                 "printedName": "InManageRatingSDK.AppBundle",
                 "usr": "s:17InManageRatingSDK9AppBundleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               },
               {
                 "kind": "TypeNominal",
@@ -1427,8 +1439,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17InManageRatingSDK0abC0C04initabC09appBundle8colorApp14secondaryColor12rateUsFields09thanksForcN00la8AppstoreN00l11WithCommentN003strQ3Url17chosenDefaultRateyAA0iG0O_So7UIColorCAQSgAA0xmN0CAA06ThankspcN0CAA0xaqN0CAA0xrsN0CSSSiSgtF",
-            "mangledName": "$s17InManageRatingSDK0abC0C04initabC09appBundle8colorApp14secondaryColor12rateUsFields09thanksForcN00la8AppstoreN00l11WithCommentN003strQ3Url17chosenDefaultRateyAA0iG0O_So7UIColorCAQSgAA0xmN0CAA06ThankspcN0CAA0xaqN0CAA0xrsN0CSSSiSgtF",
+            "usr": "s:17InManageRatingSDK0abC0C04initabC09appBundle8colorApp0h4StarI014secondaryColor12rateUsFields09thanksForcO00ma8AppstoreO00m11WithCommentO003strR3Url17chosenDefaultRateyAA0iG0O_So7UIColorCA2RSgAA0ynO0CAA06ThanksqcO0CAA0yarO0CAA0ystO0CSSSiSgtF",
+            "mangledName": "$s17InManageRatingSDK0abC0C04initabC09appBundle8colorApp0h4StarI014secondaryColor12rateUsFields09thanksForcO00ma8AppstoreO00m11WithCommentO003strR3Url17chosenDefaultRateyAA0iG0O_So7UIColorCA2RSgAA0ynO0CAA06ThanksqcO0CAA0yarO0CAA0ystO0CSSSiSgtF",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
               "AccessControl"
@@ -2266,35 +2278,35 @@
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 804,
+      "offset": 805,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 871,
+      "offset": 872,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 938,
+      "offset": 939,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 1011,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 136,
+      "offset": 137,
       "length": 12,
       "value": "\"InManageRatingSDK.RateUsFields\""
     },
@@ -2560,140 +2572,140 @@
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateUs\/RateUsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2755,
+      "offset": 2843,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateUs\/RateUsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3042,
+      "offset": 3130,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateUs\/RateUsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3163,
+      "offset": 3251,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateUs\/RateUsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4492,
+      "offset": 4580,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateUs\/RateUsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4652,
+      "offset": 4740,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateUs\/RateUsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5898,
+      "offset": 5986,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateUs\/RateUsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6011,
+      "offset": 6099,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 328,
+      "offset": 367,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 401,
+      "offset": 440,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 630,
+      "offset": 669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 1023,
+      "offset": 1062,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 2144,
+      "offset": 2206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 3185,
+      "offset": 3341,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 4177,
+      "offset": 4404,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 5057,
+      "offset": 5284,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 5328,
+      "offset": 5555,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 5558,
+      "offset": 5785,
       "length": 19,
       "value": "\"Heebo-Regular.ttf\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 5690,
+      "offset": 5917,
       "length": 18,
       "value": "\"Heebo-Medium.ttf\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 5821,
+      "offset": 6048,
       "length": 16,
       "value": "\"Heebo-Bold.ttf\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 5956,
+      "offset": 6183,
       "length": 4,
       "value": "true"
     },
@@ -2835,7 +2847,7 @@
       "kind": "IntegerLiteral",
       "offset": 3158,
       "length": 2,
-      "value": "60"
+      "value": "30"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Constants.swift",

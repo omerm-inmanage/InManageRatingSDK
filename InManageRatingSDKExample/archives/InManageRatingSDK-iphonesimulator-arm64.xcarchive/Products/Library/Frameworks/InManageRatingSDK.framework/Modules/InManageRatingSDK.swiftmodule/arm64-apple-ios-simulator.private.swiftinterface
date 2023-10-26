@@ -38,8 +38,8 @@ public enum AppBundle {
   @objc open var isDebugMode: Swift.Bool
   @objc open class func shared() -> InManageRatingSDK.InManageRating
   open class func destroy()
-  @objc public func initInManageRatingObjc(appBundle: Swift.String, colorApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int = 0)
-  public func initInManageRating(appBundle: InManageRatingSDK.AppBundle, colorApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int? = 0)
+  @objc public func initInManageRatingObjc(appBundle: Swift.String, colorApp: UIKit.UIColor, colorStarApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int = 0)
+  public func initInManageRating(appBundle: InManageRatingSDK.AppBundle, colorApp: UIKit.UIColor, colorStarApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int? = 0)
   @objc public func presentThanksForRatingScreen()
   @objc public func presentRateUsScreenTest(uiview: UIKit.UIView)
   @objc public func presentRateUsScreen()
