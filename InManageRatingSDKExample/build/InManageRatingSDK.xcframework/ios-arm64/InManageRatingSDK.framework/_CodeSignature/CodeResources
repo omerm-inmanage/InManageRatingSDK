@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		t7hFJ0dV7/4fKBTbuCN7r03Tt2s=
+		Wv4E+x5AnAyBv0tPU8FwuUqrd9k=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nwSuAPWqaqygs8/6xKI/jAufMmo=
+		jrpmZYGm93Ea9KuKQyX50UNbqtY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>RateWithCommentViewController.nib</key>
 		<data>
-		OoHSo2WwTMTNfIrmtmN3RPA/yM0=
+		V1MpRTG1KpG9BHHdRvbRROIxtDE=
 		</data>
 		<key>ThanksForRatingViewController.nib</key>
 		<data>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YF5uy3lrrVozUpbnE7x5B1pFOZdOOhMKbNS4EFaGIsg=
+			sFftf4RiLjWUD7J5oWugTm2pN3I/8CJrtDOXQ+AdDtY=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -194,7 +194,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TFVog0lHw1dWZUT+aViXscgDm/3ui0wHLvlogK4s5uM=
+			qrL22CxLj576xFcjHkH3LHinH34BswnEntyqv49eF14=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -222,7 +222,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8EKKAjeNlLuMMK7gFS9WWNjEA0zIxjUBlkKBO/9AJcs=
+			lVJRcs8G7NTasyHuMwnBp68mHkJRonB7sH7s4TJvRwA=
 			</data>
 		</dict>
 		<key>ThanksForRatingViewController.nib</key>

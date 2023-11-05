@@ -19,6 +19,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RateWithCommentViewController" customModule="InManageRatingSDK" customModuleProvider="target">
             <connections>
+                <outlet property="VwBottomConstaint" destination="GKc-Yn-EUi" id="y2C-SD-XsV"/>
                 <outlet property="btnNoThanks" destination="RsZ-Gk-fEG" id="dhw-ZF-Syd"/>
                 <outlet property="btnSend" destination="f4E-8q-msH" id="Cdm-dZ-0Yb"/>
                 <outlet property="imgBackgroundHeader" destination="syO-ba-SyE" id="m8C-Tr-fqA"/>

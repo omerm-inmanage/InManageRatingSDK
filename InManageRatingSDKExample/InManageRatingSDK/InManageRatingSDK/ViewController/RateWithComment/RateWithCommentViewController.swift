@@ -22,6 +22,7 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var btnSend: UIButton!
     @IBOutlet weak var lblPlaceHolder: UILabel!
     @IBOutlet weak var btnNoThanks: UIButton!
+    @IBOutlet weak var VwBottomConstaint: NSLayoutConstraint!
     
     let viewModel: RateWithCommentViewModel = RateWithCommentViewModel()
     
@@ -36,9 +37,6 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
     //MARK: Setup
     
     private func setupTranslations() {
-        
-
-        
         if let translatingMainTitle = InManageRating.inManageRatingModel.rateWithCommentFields?.translatingMainTitle {
             if !translatingMainTitle.isEmpty {
                 lblMainTitle.text = translatingMainTitle
@@ -83,7 +81,7 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
         textView.layer.cornerRadius = 12
         textView.layer.masksToBounds = true
         textView.bottomSpace()
-
+        
         // Setup UIToolbar
         let bar = UIToolbar()
         let flexButtonRight = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
@@ -101,17 +99,47 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
         
         viewContent.roundCorners(corners: [.bottomRight, .bottomLeft], radius: 18)
         viewHeader.roundCorners(corners: [.topLeft, .topRight], radius: 18)
-
+        
         if let secondaryColor = InManageRating.inManageRatingModel.secondaryColor {
             btnSend.setAttributeSelected(color:colorApp)
             btnSend.setTitleColor(secondaryColor, for: .normal)
-
+            
             btnNoThanks.setAttributeUnSelected(color:colorApp)
             btnNoThanks.setTitleColor(colorApp, for: .normal)
         } else {
             btnSend.setAttributeSelected(color:colorApp)
             btnNoThanks.setAttributeUnSelected(color:colorApp)
         }
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    // MARK: NotificationCenter
+    
+    // Handle the keyboard opening event
+    @objc func keyboardWillShow(_ notification: Notification) {
+        // You can access keyboard info from the notification
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            // Perform actions when the keyboard is about to show
+            // You can use the keyboardSize to adjust your UI if needed
+            UIView.animate(withDuration: 0.3) {
+                self.VwBottomConstaint.constant = keyboardSize.height
+                self.view.layoutIfNeeded() // Update layout immediately
+            }
+        }
+    }
+    
+    // Handle the keyboard closing event
+    @objc func keyboardWillHide(_ notification: Notification) {
+        UIView.animate(withDuration: 0.3) {
+            self.VwBottomConstaint.constant = 50
+            self.view.layoutIfNeeded() // Update layout immediately
+        }
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
     // MARK: UITextViewDelegate
@@ -123,7 +151,7 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
     func textViewDidChangeSelection(_ textView: UITextView) {
         lblPlaceHolder.isHidden = !textView.text.isEmpty ? true : false
     }
-
+    
     //MARK: Actions
     
     @IBAction func didTapSend(_ sender: Any) {
@@ -132,7 +160,7 @@ class RateWithCommentViewController: UIViewController, UITextViewDelegate {
             InManageRating.shared().presentThanksForRatingScreen()
         }
     }
-
+    
     @IBAction func didTapNoThanks(_ sender: Any) {
         // Update Three App
         InManageRating.shared().delegate?.didTapCloseInManageRatingSDK()

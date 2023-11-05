@@ -2313,112 +2313,133 @@
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1673,
+      "offset": 1716,
       "length": 22,
       "value": "\"כתוב כאן עד\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1722,
+      "offset": 1765,
       "length": 12,
       "value": "\"תווים\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1908,
+      "offset": 1951,
       "length": 110,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1920,
+      "offset": 1963,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2002,
+      "offset": 2045,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 2049,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2017,
+      "offset": 2060,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2746,
+      "offset": 2789,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2788,
+      "offset": 2831,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3060,
+      "offset": 3111,
       "length": 12,
       "value": "\"אישור\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3860,
+      "offset": 3911,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3936,
+      "offset": 3987,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5330,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5656,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4731,
+      "offset": 5709,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6182,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4867,
+      "offset": 6318,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4874,
+      "offset": 6325,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/ViewController\/RateWithComment\/RateWithCommentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5466,
+      "offset": 6925,
       "length": 4,
       "value": "true"
     },
