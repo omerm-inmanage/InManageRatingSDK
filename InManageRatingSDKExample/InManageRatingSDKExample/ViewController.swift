@@ -29,11 +29,11 @@ class ViewController: UIViewController, InmanageDelegate {
     }
     
     private func setupAzrieli() {
-        let imgRateUs = UIImage(named: "mask_group")!
-        let imgThanksForRating = UIImage(named: "Group 37")!
-        let imgRateInAppstore = UIImage(named: "Group 37")!
-        let imgBackgroundHeader = UIImage(named: "subtract-azrieli")!
-        let imgBackgroundEmptyHeader = UIImage(named: "subtract-empty-azrieli")!
+        let imgRateUs = UIImage(named: "rate_star")!
+        let imgThanksForRating = UIImage(named: "rate_star")!
+        let imgRateInAppstore = UIImage(named: "rate_star")!
+        let imgBackgroundHeader = UIImage(named: "rate_star")!
+        let imgBackgroundEmptyHeader = UIImage(named: "rate_star")!
         let imgRateWithComment = UIImage(named: "Group 49")!
         let color = UIColor(red: 105/255.0, green: 151/255.0, blue: 245/255.0, alpha:  1.0)
         let secondary = UIColor.white

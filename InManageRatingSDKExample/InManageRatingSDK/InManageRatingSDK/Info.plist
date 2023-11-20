@@ -8,6 +8,9 @@
 		<string>Heebo-Bold</string>
 		<string>Heebo-Medium</string>
 		<string>Heebo</string>
+		<string>SimplerPro-Bold.ttf</string>
+		<string>SimplerPro-Black</string>
+		<string>SimplerPro-Regular</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>

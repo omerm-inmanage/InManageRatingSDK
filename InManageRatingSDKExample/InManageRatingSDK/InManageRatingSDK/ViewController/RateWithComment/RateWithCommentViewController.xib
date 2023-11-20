@@ -9,11 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Heebo-Bold.ttf">
-            <string>Heebo-Bold</string>
+        <array key="SimplerPro-Bold.ttf">
+            <string>SimplerPro-Bold</string>
         </array>
-        <array key="Heebo-Regular.ttf">
-            <string>Heebo-Regular</string>
+        <array key="SimplerPro-Regular.ttf">
+            <string>SimplerPro-Regular</string>
         </array>
     </customFonts>
     <objects>
@@ -44,7 +44,7 @@
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subtract.png" translatesAutoresizingMaskIntoConstraints="NO" id="syO-ba-SyE">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
                         </imageView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F8p-22-2Wu">
+                        <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F8p-22-2Wu">
                             <rect key="frame" x="98.333333333333343" y="0.0" width="123" height="81"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="123" id="5D6-Qy-IbK"/>
@@ -68,14 +68,14 @@
                     <rect key="frame" x="36.666666666666657" y="468" width="320" height="300"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ספר לנו" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6t-On-zcF">
-                            <rect key="frame" x="128.33333333333334" y="16" width="63.333333333333343" height="28"/>
-                            <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="19"/>
+                            <rect key="frame" x="130" y="16" width="60" height="19"/>
+                            <fontDescription key="fontDescription" name="SimplerPro-Bold" family="SimplerPro" pointSize="19"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="נשמח לשמוע על החוויה שלך" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jT-Os-JHP">
-                            <rect key="frame" x="48" y="48" width="224" height="28"/>
-                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="19"/>
+                            <rect key="frame" x="52.666666666666671" y="39" width="214.66666666666663" height="19"/>
+                            <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="19"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -87,7 +87,7 @@
                                     <constraints>
                                         <constraint firstAttribute="height" constant="41" id="PpK-64-Vqi"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="18"/>
+                                    <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="18"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="לא עכשיו"/>
                                     <connections>
@@ -99,7 +99,7 @@
                                     <constraints>
                                         <constraint firstAttribute="height" constant="41" id="jD6-Cy-CR5"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="18"/>
+                                    <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="18"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="שליחה"/>
                                     <connections>
@@ -109,10 +109,10 @@
                             </subviews>
                         </stackView>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="LAw-wK-TWN">
-                            <rect key="frame" x="16" y="97" width="288" height="121"/>
+                            <rect key="frame" x="16" y="79" width="288" height="139"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <color key="textColor" systemColor="labelColor"/>
-                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="14"/>
+                            <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -124,8 +124,8 @@
                             </userDefinedRuntimeAttributes>
                         </textView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="כתוב כאן" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohd-Um-OEX">
-                            <rect key="frame" x="229" y="105" width="63" height="25"/>
-                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
+                            <rect key="frame" x="231.33333333333334" y="87" width="60.666666666666657" height="17"/>
+                            <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="17"/>
                             <color key="textColor" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C71A12712B0B89B60004A2EF /* SimplerPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71A126F2B0B89B10004A2EF /* SimplerPro-Regular.ttf */; };
+		C71A12722B0B89B90004A2EF /* SimplerPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71A126E2B0B89B10004A2EF /* SimplerPro-Bold.ttf */; };
+		C71A12732B0B89BB0004A2EF /* SimplerPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71A12702B0B89B10004A2EF /* SimplerPro-Black.ttf */; };
 		C72CDBCE299E601F008D38EE /* RateWithCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBCA299E601F008D38EE /* RateWithCommentModel.swift */; };
 		C72CDBCF299E601F008D38EE /* RateWithCommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBCB299E601F008D38EE /* RateWithCommentViewModel.swift */; };
 		C72CDBD0299E601F008D38EE /* RateWithCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBCC299E601F008D38EE /* RateWithCommentViewController.swift */; };
@@ -53,6 +56,9 @@
 		7CDC34590015C8B30F8F2E67 /* Pods-InManageRatingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InManageRatingSDK.debug.xcconfig"; path = "Target Support Files/Pods-InManageRatingSDK/Pods-InManageRatingSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		89D13532B45B875D3D8198B3 /* Pods-InManageRatingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InManageRatingSDK.release.xcconfig"; path = "Target Support Files/Pods-InManageRatingSDK/Pods-InManageRatingSDK.release.xcconfig"; sourceTree = "<group>"; };
 		B070B9F20E514275CC28EFC3 /* Pods_InManageRatingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InManageRatingSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71A126E2B0B89B10004A2EF /* SimplerPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SimplerPro-Bold.ttf"; sourceTree = "<group>"; };
+		C71A126F2B0B89B10004A2EF /* SimplerPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SimplerPro-Regular.ttf"; sourceTree = "<group>"; };
+		C71A12702B0B89B10004A2EF /* SimplerPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SimplerPro-Black.ttf"; sourceTree = "<group>"; };
 		C72CDBCA299E601F008D38EE /* RateWithCommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateWithCommentModel.swift; sourceTree = "<group>"; };
 		C72CDBCB299E601F008D38EE /* RateWithCommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateWithCommentViewModel.swift; sourceTree = "<group>"; };
 		C72CDBCC299E601F008D38EE /* RateWithCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateWithCommentViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +198,9 @@
 		C7883AFA29937F6E009FB2A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C71A12702B0B89B10004A2EF /* SimplerPro-Black.ttf */,
+				C71A126E2B0B89B10004A2EF /* SimplerPro-Bold.ttf */,
+				C71A126F2B0B89B10004A2EF /* SimplerPro-Regular.ttf */,
 				C770C3382994E6260053AA19 /* Heebo-Black.ttf */,
 				C770C33E2994E6270053AA19 /* Heebo-Bold.ttf */,
 				C770C33A2994E6260053AA19 /* Heebo-ExtraBold.ttf */,
@@ -339,9 +348,12 @@
 				C770C3412994E6270053AA19 /* Heebo-ExtraBold.ttf in Resources */,
 				C770C3432994E6270053AA19 /* Heebo-Regular.ttf in Resources */,
 				C770C3422994E6270053AA19 /* Heebo-Thin.ttf in Resources */,
+				C71A12722B0B89B90004A2EF /* SimplerPro-Bold.ttf in Resources */,
+				C71A12732B0B89BB0004A2EF /* SimplerPro-Black.ttf in Resources */,
 				C770C3402994E6270053AA19 /* Heebo-Light.ttf in Resources */,
 				C7883B062993ECBD009FB2A5 /* star_selected.png in Resources */,
 				C770C3472994EFA20053AA19 /* star_not_selected.png in Resources */,
+				C71A12712B0B89B60004A2EF /* SimplerPro-Regular.ttf in Resources */,
 				C7883B092993ED81009FB2A5 /* subtract.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

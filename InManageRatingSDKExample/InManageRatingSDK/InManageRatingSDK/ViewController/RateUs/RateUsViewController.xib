@@ -9,11 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Heebo-Bold.ttf">
-            <string>Heebo-Bold</string>
+        <array key="SimplerPro-Bold.ttf">
+            <string>SimplerPro-Bold</string>
         </array>
-        <array key="Heebo-Regular.ttf">
-            <string>Heebo-Regular</string>
+        <array key="SimplerPro-Regular.ttf">
+            <string>SimplerPro-Regular</string>
         </array>
     </customFonts>
     <objects>
@@ -48,7 +48,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FmB-Ev-V0r" userLabel="Header">
                     <rect key="frame" x="36.666666666666657" y="466" width="320" height="81"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subtract.png" translatesAutoresizingMaskIntoConstraints="NO" id="B4g-BH-nuw">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subtract.png" translatesAutoresizingMaskIntoConstraints="NO" id="B4g-BH-nuw">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
                         </imageView>
                     </subviews>
@@ -65,19 +65,19 @@
                     <rect key="frame" x="36.666666666666657" y="547" width="320" height="221"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מרוצה מהאפליקציה?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvT-Id-RAw">
-                            <rect key="frame" x="72.666666666666643" y="16" width="174.33333333333337" height="28"/>
-                            <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="19"/>
+                            <rect key="frame" x="76.333333333333343" y="16" width="167" height="19"/>
+                            <fontDescription key="fontDescription" name="SimplerPro-Bold" family="SimplerPro" pointSize="19"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="נשמח לקבל דירוג" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNm-Lc-w7l">
-                            <rect key="frame" x="92.6666666666667" y="48" width="134.33333333333337" height="28"/>
-                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="19"/>
+                            <rect key="frame" x="94.666666666666671" y="39" width="130.66666666666663" height="19"/>
+                            <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="19"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tV4-jg-nMY">
-                            <rect key="frame" x="55" y="92" width="210" height="34"/>
+                            <rect key="frame" x="55" y="74" width="210" height="34"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Kq-23-Usy">
                                     <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
@@ -88,7 +88,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lO-Dd-vOj">
                                             <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="10"/>
+                                            <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="10"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -131,7 +131,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptQ-Vy-I0A">
                                             <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="10"/>
+                                            <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="10"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -174,7 +174,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCR-Q5-PW0">
                                             <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="10"/>
+                                            <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="10"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -217,7 +217,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtK-Wa-WIY">
                                             <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="10"/>
+                                            <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="10"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -260,7 +260,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZp-lD-KLh">
                                             <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="10"/>
+                                            <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="10"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -304,7 +304,7 @@
                                     <constraints>
                                         <constraint firstAttribute="height" constant="41" id="i6j-3G-CdP"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="18"/>
+                                    <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="18"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="סגור"/>
                                     <connections>
@@ -316,7 +316,7 @@
                                     <constraints>
                                         <constraint firstAttribute="height" constant="41" id="BCR-Jk-IrR"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="18"/>
+                                    <fontDescription key="fontDescription" name="SimplerPro-Regular" family="SimplerPro" pointSize="18"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="שלח דירוג"/>
                                     <connections>
@@ -341,7 +341,7 @@
                         <constraint firstAttribute="width" constant="320" id="lPd-yr-0Ga"/>
                     </constraints>
                 </view>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sbb-xB-hRc">
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sbb-xB-hRc">
                     <rect key="frame" x="156.66666666666666" y="438" width="80" height="109"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="80" id="j1v-Oa-3sH"/>
