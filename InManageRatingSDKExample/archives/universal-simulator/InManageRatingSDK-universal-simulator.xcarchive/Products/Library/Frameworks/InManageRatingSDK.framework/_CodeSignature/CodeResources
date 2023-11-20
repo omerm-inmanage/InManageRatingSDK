@@ -42,11 +42,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		A/r/YjZIC0DftmmJGCXN+uW9W64=
+		poFX9aiKE7Q9BMK9CiWiu13YLhM=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Wv4E+x5AnAyBv0tPU8FwuUqrd9k=
+		SrRRVVpJvq1Dw8KJiWPv2U9IkIw=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -70,19 +70,31 @@
 		</data>
 		<key>RateInAppstoreViewController.nib</key>
 		<data>
-		mPbv8i+p9Sgt+0r3/lUtf+zBsBU=
+		N1GVbXYaU/JMp8eRBgUDpYZUFz8=
 		</data>
 		<key>RateUsViewController.nib</key>
 		<data>
-		Ii6+KASTGrEE02k0vdnYhj/96SI=
+		OTgPO4Bn0WB+HR0Emb7sQ+Gvu5Q=
 		</data>
 		<key>RateWithCommentViewController.nib</key>
 		<data>
-		V1MpRTG1KpG9BHHdRvbRROIxtDE=
+		1H6feBDBb5BnnTTKe5PjTCniECc=
+		</data>
+		<key>SimplerPro-Black.ttf</key>
+		<data>
+		HCHKeI4zFbMRlnREc/xEx+pYW+c=
+		</data>
+		<key>SimplerPro-Bold.ttf</key>
+		<data>
+		rt+p/GMq6JZQzdBpP9JBwWRvggs=
+		</data>
+		<key>SimplerPro-Regular.ttf</key>
+		<data>
+		ipJFYaoPLBXIFtSxnB9exbJzkTY=
 		</data>
 		<key>ThanksForRatingViewController.nib</key>
 		<data>
-		NfGWoyCxxEx1oCzxoDQXHvX5bDE=
+		aUDVGkGQOjz3ByO+TkjXasYJD+c=
 		</data>
 		<key>star_not_selected.png</key>
 		<data>
@@ -166,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sFftf4RiLjWUD7J5oWugTm2pN3I/8CJrtDOXQ+AdDtY=
+			mNsgK/404Hw1VX7sqf2QAKjMIYi6AEnYcDBGORqD2G4=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -208,28 +220,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CbvIWHOeTUqPmxJ8uzRBFytpNKE8/QmTFGx/7trEOYg=
+			G97lqu6ZmTmtNw48QExm+4UJFCt/ZCk3DuXiZuk7jTE=
 			</data>
 		</dict>
 		<key>RateUsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			StAdMrnpDN/fwoafbvOodHjMhhW/ZClCe6ZQZDz9xE8=
+			mEcP3WuZ94kHsJ02b6cnBV8zJ5GYPxrE+O5mitGcxME=
 			</data>
 		</dict>
 		<key>RateWithCommentViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lVJRcs8G7NTasyHuMwnBp68mHkJRonB7sH7s4TJvRwA=
+			5OsXTP6jJomhnHMe0KJ3Qgsa5JvsRFagMbcoJGDUAYY=
+			</data>
+		</dict>
+		<key>SimplerPro-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dm2MAa/fh9PGiRAgQdIFvAH4kUsJfnEqPO5R5XZKuTY=
+			</data>
+		</dict>
+		<key>SimplerPro-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cAzh1KOib9Uubm4hU/q2vAA6F/lcsmDF9ot83zresRM=
+			</data>
+		</dict>
+		<key>SimplerPro-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZxpHfKoHGsM08ACTEAcrU7pHQKd7fD9vOgDPLYvvzrk=
 			</data>
 		</dict>
 		<key>ThanksForRatingViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xOIzEAb/5i8KYIXMioMoPH+IiDSDxd4AMeDdQiFQZDU=
+			Gu3/VVHx42jQNf91zSpIvs6O1Fu2B63EYGmVMkHKUCw=
 			</data>
 		</dict>
 		<key>star_not_selected.png</key>
