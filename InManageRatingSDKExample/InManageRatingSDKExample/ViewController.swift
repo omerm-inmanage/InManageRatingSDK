@@ -45,7 +45,7 @@ class ViewController: UIViewController, InmanageDelegate {
         
         let rateInAppstoreFields = RateInAppstoreFields(imgBackgroundHeader: imgBackgroundEmptyHeader, imgMainCenterHeader: imgRateInAppstore)
           
-        let rateWithCommentFields = RateWithCommentFields(imgBackgroundHeader: imgBackgroundEmptyHeader, imgMainCenterHeader: imgRateWithComment, limitCommentCount: 250, translatingMainTitle: "d" ,translatingMainContent: "dddf", translatingPlaceHolder: "dfdf", translatingBtnNoThanks: "dffdfdf", translatingBtnSendRating: "df")
+        let rateWithCommentFields = RateWithCommentFields(imgBackgroundHeader: imgBackgroundEmptyHeader, imgMainCenterHeader: imgRateWithComment, limitCommentCount: 250, translatingMainTitle: "d" ,translatingMainContent: "נשמח לקבל פרטים כדי להשתפר לקבל פרטים כדי להשתפר", translatingPlaceHolder: "dfdf", translatingBtnNoThanks: "dffdfdf", translatingBtnSendRating: "df")
 
         let thanksForRatingFields = ThanksForRatingFields(imgBackgroundHeader: imgBackgroundHeader, imgMainCenterHeader: imgThanksForRating, translatingMainTitleLowRating: "thanksForRatingFields12", translatingMainTitleHighRating: "dsfdsfdsfdsfdsfdsffdsfdsfdsfdsfdsdsfdsfdsfdsf", translatingMainContent: "thanksForRatingFields11", translatingBtnClose: "thanksForRatingFields")
 
