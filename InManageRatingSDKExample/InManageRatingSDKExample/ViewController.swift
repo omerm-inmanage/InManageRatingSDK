@@ -35,7 +35,7 @@ class ViewController: UIViewController, InmanageDelegate {
         let imgBackgroundHeader = UIImage(named: "rate_star")!
         let imgBackgroundEmptyHeader = UIImage(named: "rate_star")!
         let imgRateWithComment = UIImage(named: "Group 49")!
-        let color = UIColor(red: 105/255.0, green: 151/255.0, blue: 245/255.0, alpha:  1.0)
+        let color = UIColor(red: 1/255.0, green: 1/255.0, blue: 1/255.0, alpha:  1.0)
         let secondary = UIColor.white
 
         let strAppStore:String = "itms-apps://itunes.apple.com/app/id967762450"

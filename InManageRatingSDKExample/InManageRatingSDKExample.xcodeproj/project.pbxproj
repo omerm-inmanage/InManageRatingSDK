@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B3256A24AA64F3CDA65326A /* Pods_InManageRatingSDKExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213D1AAC5B4BDB13ACB95797 /* Pods_InManageRatingSDKExample.framework */; };
+		C709C81E2B13BC7100D76D78 /* SimplerPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C709C80F2B13BB7B00D76D78 /* SimplerPro-Regular.ttf */; };
+		C709C81F2B13BC7100D76D78 /* SimplerPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C709C8112B13BB7B00D76D78 /* SimplerPro-Black.ttf */; };
+		C709C8202B13BC7100D76D78 /* SimplerPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C709C8102B13BB7B00D76D78 /* SimplerPro-Bold.ttf */; };
 		C75CCDF0297C612900D03264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CCDEF297C612900D03264 /* AppDelegate.swift */; };
 		C75CCDF4297C612900D03264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CCDF3297C612900D03264 /* ViewController.swift */; };
 		C75CCDF7297C612900D03264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75CCDF5297C612900D03264 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 		213D1AAC5B4BDB13ACB95797 /* Pods_InManageRatingSDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InManageRatingSDKExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8955BFAF0623D4EF276A981 /* Pods-InManageRatingSDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InManageRatingSDKExample.release.xcconfig"; path = "Target Support Files/Pods-InManageRatingSDKExample/Pods-InManageRatingSDKExample.release.xcconfig"; sourceTree = "<group>"; };
 		ACFAE70F7540BFC1A6AE5233 /* Pods-InManageRatingSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InManageRatingSDKExample.debug.xcconfig"; path = "Target Support Files/Pods-InManageRatingSDKExample/Pods-InManageRatingSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C709C80F2B13BB7B00D76D78 /* SimplerPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SimplerPro-Regular.ttf"; sourceTree = "<group>"; };
+		C709C8102B13BB7B00D76D78 /* SimplerPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SimplerPro-Bold.ttf"; sourceTree = "<group>"; };
+		C709C8112B13BB7B00D76D78 /* SimplerPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SimplerPro-Black.ttf"; sourceTree = "<group>"; };
 		C75CCDEC297C612900D03264 /* InManageRatingSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InManageRatingSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75CCDEF297C612900D03264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C75CCDF3297C612900D03264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 		C75CCDEE297C612900D03264 /* InManageRatingSDKExample */ = {
 			isa = PBXGroup;
 			children = (
+				C709C8112B13BB7B00D76D78 /* SimplerPro-Black.ttf */,
+				C709C8102B13BB7B00D76D78 /* SimplerPro-Bold.ttf */,
+				C709C80F2B13BB7B00D76D78 /* SimplerPro-Regular.ttf */,
 				C75CCDEF297C612900D03264 /* AppDelegate.swift */,
 				C75CCDF3297C612900D03264 /* ViewController.swift */,
 				C75CCDF5297C612900D03264 /* Main.storyboard */,
@@ -169,6 +178,9 @@
 			files = (
 				C75CCDFC297C612A00D03264 /* LaunchScreen.storyboard in Resources */,
 				C75CCDF9297C612A00D03264 /* Assets.xcassets in Resources */,
+				C709C8202B13BC7100D76D78 /* SimplerPro-Bold.ttf in Resources */,
+				C709C81E2B13BC7100D76D78 /* SimplerPro-Regular.ttf in Resources */,
+				C709C81F2B13BC7100D76D78 /* SimplerPro-Black.ttf in Resources */,
 				C75CCDF7297C612900D03264 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -135,15 +135,15 @@ class InManageRatingModel: NSObject {
     
     private func initCustomFont() {
         UIFont.jbs_registerFont(
-            withFilenameString: "SimplerPro-Regular.ttf",
+            withFilenameString: "Heebo-Regular.ttf",
             bundle: frameworkBundle
         )
         UIFont.jbs_registerFont(
-            withFilenameString: "SimplerPro-Black.ttf",
+            withFilenameString: "Heebo-Black.ttf",
             bundle: frameworkBundle
         )
         UIFont.jbs_registerFont(
-            withFilenameString: "SimplerPro-Bold.ttf",
+            withFilenameString: "Heebo-Bold.ttf",
             bundle: frameworkBundle
         )
     }

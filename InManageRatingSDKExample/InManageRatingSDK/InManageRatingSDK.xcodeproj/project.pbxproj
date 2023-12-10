@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C71A12712B0B89B60004A2EF /* SimplerPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71A126F2B0B89B10004A2EF /* SimplerPro-Regular.ttf */; };
-		C71A12722B0B89B90004A2EF /* SimplerPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71A126E2B0B89B10004A2EF /* SimplerPro-Bold.ttf */; };
-		C71A12732B0B89BB0004A2EF /* SimplerPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71A12702B0B89B10004A2EF /* SimplerPro-Black.ttf */; };
+		C709C8212B13BE1300D76D78 /* SimplerPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71A126F2B0B89B10004A2EF /* SimplerPro-Regular.ttf */; };
+		C709C8222B13BE1300D76D78 /* SimplerPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71A12702B0B89B10004A2EF /* SimplerPro-Black.ttf */; };
+		C709C8232B13BE1300D76D78 /* SimplerPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71A126E2B0B89B10004A2EF /* SimplerPro-Bold.ttf */; };
 		C72CDBCE299E601F008D38EE /* RateWithCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBCA299E601F008D38EE /* RateWithCommentModel.swift */; };
 		C72CDBCF299E601F008D38EE /* RateWithCommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBCB299E601F008D38EE /* RateWithCommentViewModel.swift */; };
 		C72CDBD0299E601F008D38EE /* RateWithCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72CDBCC299E601F008D38EE /* RateWithCommentViewController.swift */; };
@@ -342,18 +342,18 @@
 				C770C3442994E6270053AA19 /* Heebo-Medium.ttf in Resources */,
 				C770C3452994E6270053AA19 /* Heebo-Bold.ttf in Resources */,
 				C7F8AF1E299D029800CDE55E /* RateUsViewController.xib in Resources */,
+				C709C8232B13BE1300D76D78 /* SimplerPro-Bold.ttf in Resources */,
 				C72CDBD3299E603C008D38EE /* RateWithCommentViewController.xib in Resources */,
 				C7883AFC29937FBB009FB2A5 /* ThanksForRatingViewController.xib in Resources */,
 				C770C3202994D3B90053AA19 /* RateInAppstoreViewController.xib in Resources */,
+				C709C8222B13BE1300D76D78 /* SimplerPro-Black.ttf in Resources */,
 				C770C3412994E6270053AA19 /* Heebo-ExtraBold.ttf in Resources */,
 				C770C3432994E6270053AA19 /* Heebo-Regular.ttf in Resources */,
 				C770C3422994E6270053AA19 /* Heebo-Thin.ttf in Resources */,
-				C71A12722B0B89B90004A2EF /* SimplerPro-Bold.ttf in Resources */,
-				C71A12732B0B89BB0004A2EF /* SimplerPro-Black.ttf in Resources */,
 				C770C3402994E6270053AA19 /* Heebo-Light.ttf in Resources */,
 				C7883B062993ECBD009FB2A5 /* star_selected.png in Resources */,
 				C770C3472994EFA20053AA19 /* star_not_selected.png in Resources */,
-				C71A12712B0B89B60004A2EF /* SimplerPro-Regular.ttf in Resources */,
+				C709C8212B13BE1300D76D78 /* SimplerPro-Regular.ttf in Resources */,
 				C7883B092993ED81009FB2A5 /* subtract.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

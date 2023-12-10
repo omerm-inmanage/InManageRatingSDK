@@ -2706,27 +2706,27 @@
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
       "offset": 5785,
-      "length": 24,
-      "value": "\"SimplerPro-Regular.ttf\""
+      "length": 19,
+      "value": "\"Heebo-Regular.ttf\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 5922,
-      "length": 22,
-      "value": "\"SimplerPro-Black.ttf\""
+      "offset": 5917,
+      "length": 17,
+      "value": "\"Heebo-Black.ttf\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 6057,
-      "length": 21,
-      "value": "\"SimplerPro-Bold.ttf\""
+      "offset": 6047,
+      "length": 16,
+      "value": "\"Heebo-Bold.ttf\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 6197,
+      "offset": 6182,
       "length": 4,
       "value": "true"
     },

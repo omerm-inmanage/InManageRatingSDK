@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SrRRVVpJvq1Dw8KJiWPv2U9IkIw=
+		aXZHnarNxqjzAa0iRN/tNZoFqAY=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -70,15 +70,15 @@
 		</data>
 		<key>RateInAppstoreViewController.nib</key>
 		<data>
-		N1GVbXYaU/JMp8eRBgUDpYZUFz8=
+		USpvCzGd+PLggZ/nZATPfn10VZM=
 		</data>
 		<key>RateUsViewController.nib</key>
 		<data>
-		OTgPO4Bn0WB+HR0Emb7sQ+Gvu5Q=
+		aePq/AEXOlccsOafsC7KMT5o/S8=
 		</data>
 		<key>RateWithCommentViewController.nib</key>
 		<data>
-		1H6feBDBb5BnnTTKe5PjTCniECc=
+		xhhKia7SQZDp8bu5ExPBF06B+IQ=
 		</data>
 		<key>SimplerPro-Black.ttf</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ThanksForRatingViewController.nib</key>
 		<data>
-		aUDVGkGQOjz3ByO+TkjXasYJD+c=
+		0pUl9RaB4EbcfFsnLx6V9o2bibI=
 		</data>
 		<key>star_not_selected.png</key>
 		<data>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mNsgK/404Hw1VX7sqf2QAKjMIYi6AEnYcDBGORqD2G4=
+			5ePCxc/dhaOgz2nZEsdsMzMMOejvpXnM1NVgnB1UF9s=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -220,21 +220,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G97lqu6ZmTmtNw48QExm+4UJFCt/ZCk3DuXiZuk7jTE=
+			g1Q09mb+xYVVXkeiTtiXGrxIsC0qNCthaEclQz1j9cw=
 			</data>
 		</dict>
 		<key>RateUsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mEcP3WuZ94kHsJ02b6cnBV8zJ5GYPxrE+O5mitGcxME=
+			NwGds/yWEnQD9eOSM8ZykBh7nW0rkeIPYu2ABV7prKA=
 			</data>
 		</dict>
 		<key>RateWithCommentViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5OsXTP6jJomhnHMe0KJ3Qgsa5JvsRFagMbcoJGDUAYY=
+			MjNmhzSPKzFf0zWGHq0/jKzLT4fCMJ5Msc4mxihZuUc=
 			</data>
 		</dict>
 		<key>SimplerPro-Black.ttf</key>
@@ -262,7 +262,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gu3/VVHx42jQNf91zSpIvs6O1Fu2B63EYGmVMkHKUCw=
+			3F/O0ITcRtFePX99yI60iHVclIeXqjjgzHRAQCOnIu4=
 			</data>
 		</dict>
 		<key>star_not_selected.png</key>

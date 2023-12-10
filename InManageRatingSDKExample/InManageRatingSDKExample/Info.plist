@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+    <dict>
+        <key>UIAppFonts</key>
+        <array>
+            <string>AlmoniDLAAA.ttf</string>
+            <string>AlmoniDLAAA-Bold.ttf</string>
+            <string>AlmoniDLAAA-Black.ttf</string>
+            <string>AlmoniDLAAA-Light.ttf</string>
+            <string>Simpler-Bold.ttf</string>
+            <string>Simpler-Light.ttf</string>
+            <string>Simpler-Regular.ttf</string>
+            <string>SimplerPro-Regular.ttf</string>
+            <string>SimplerPro-Black.ttf</string>
+            <string>SimplerPro-Semibold.ttf</string>
+            <string>SimplerPro-RegularItalic.ttf</string>
+            <string>SimplerPro-Light.ttf</string>
+            <string>SimplerPro-Bold.ttf</string>
+        </array>
+    </dict>
 </plist>
