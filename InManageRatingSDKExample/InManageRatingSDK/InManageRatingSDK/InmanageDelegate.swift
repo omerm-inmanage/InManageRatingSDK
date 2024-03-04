@@ -7,7 +7,7 @@
 
 import Foundation
 
-@objc public protocol InmanageDelegate: NSObjectProtocol {
+public protocol InmanageDelegate: NSObjectProtocol {
     func didTapCloseInManageRatingSDK()
     func didTapHighRatingScore(score: Int)
     func didTapLowRatingScore(score: Int)

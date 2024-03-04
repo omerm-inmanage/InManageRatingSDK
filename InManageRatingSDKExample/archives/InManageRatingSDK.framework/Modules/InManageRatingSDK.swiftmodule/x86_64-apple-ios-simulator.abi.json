@@ -125,12 +125,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)RateWithCommentFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:limitCommentCount:translatingMainTitle:translatingMainContent:translatingPlaceHolder:translatingBtnNoThanks:translatingBtnSendRating:",
+            "usr": "s:17InManageRatingSDK21RateWithCommentFieldsC19imgBackgroundHeader0i10MainCenterK005limitG5Count011translatingL5Title0pL7Content0P11PlaceHolder0P11BtnNoThanks0pu4SendC0ACSo7UIImageC_AMSiSSSgA4Ntcfc",
             "mangledName": "$s17InManageRatingSDK21RateWithCommentFieldsC19imgBackgroundHeader0i10MainCenterK005limitG5Count011translatingL5Title0pL7Content0P11PlaceHolder0P11BtnNoThanks0pu4SendC0ACSo7UIImageC_AMSiSSSgA4Ntcfc",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -167,7 +166,6 @@
         "moduleName": "InManageRatingSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -366,12 +364,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)RateUsFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:translatingMainTitle:translatingMainContent:translatingBtnNoThanks:translatingBtnSendRating:",
+            "usr": "s:17InManageRatingSDK12RateUsFieldsC19imgBackgroundHeader0h10MainCenterJ0011translatingK5Title0mK7Content0M11BtnNoThanks0mp4SendC0ACSo7UIImageC_AKSSSgA3Ltcfc",
             "mangledName": "$s17InManageRatingSDK12RateUsFieldsC19imgBackgroundHeader0h10MainCenterJ0011translatingK5Title0mK7Content0M11BtnNoThanks0mp4SendC0ACSo7UIImageC_AKSSSgA3Ltcfc",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -408,7 +405,6 @@
         "moduleName": "InManageRatingSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -607,12 +603,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)RateInAppstoreFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:translatingMainTitle:translatingMainContent:translatingBtnNoThanks:translatingBtnAppStore:",
+            "usr": "s:17InManageRatingSDK04RateA14AppstoreFieldsC19imgBackgroundHeader0h10MainCenterJ0011translatingK5Title0mK7Content0M11BtnNoThanks0mP8AppStoreACSo7UIImageC_AKSSSgA3Ltcfc",
             "mangledName": "$s17InManageRatingSDK04RateA14AppstoreFieldsC19imgBackgroundHeader0h10MainCenterJ0011translatingK5Title0mK7Content0M11BtnNoThanks0mP8AppStoreACSo7UIImageC_AKSSSgA3Ltcfc",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -649,7 +644,6 @@
         "moduleName": "InManageRatingSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -1009,7 +1003,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(py)delegate",
+            "usr": "s:17InManageRatingSDK0abC0C8delegateAA16InmanageDelegate_pSgvp",
             "mangledName": "$s17InManageRatingSDK0abC0C8delegateAA16InmanageDelegate_pSgvp",
             "moduleName": "InManageRatingSDK",
             "isOpen": true,
@@ -1018,7 +1012,6 @@
               "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "ownership": 1,
@@ -1038,21 +1031,18 @@
                         "kind": "TypeNominal",
                         "name": "InmanageDelegate",
                         "printedName": "InManageRatingSDK.InmanageDelegate",
-                        "usr": "c:@M@InManageRatingSDK@objc(pl)InmanageDelegate"
+                        "usr": "s:17InManageRatingSDK16InmanageDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)delegate",
+                "usr": "s:17InManageRatingSDK0abC0C8delegateAA16InmanageDelegate_pSgvg",
                 "mangledName": "$s17InManageRatingSDK0abC0C8delegateAA16InmanageDelegate_pSgvg",
                 "moduleName": "InManageRatingSDK",
                 "implicit": true,
                 "isOpen": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1074,21 +1064,18 @@
                         "kind": "TypeNominal",
                         "name": "InmanageDelegate",
                         "printedName": "InManageRatingSDK.InmanageDelegate",
-                        "usr": "c:@M@InManageRatingSDK@objc(pl)InmanageDelegate"
+                        "usr": "s:17InManageRatingSDK16InmanageDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)setDelegate:",
+                "usr": "s:17InManageRatingSDK0abC0C8delegateAA16InmanageDelegate_pSgvs",
                 "mangledName": "$s17InManageRatingSDK0abC0C8delegateAA16InmanageDelegate_pSgvs",
                 "moduleName": "InManageRatingSDK",
                 "implicit": true,
                 "isOpen": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1125,15 +1112,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(py)isDebugMode",
+            "usr": "s:17InManageRatingSDK0abC0C11isDebugModeSbvp",
             "mangledName": "$s17InManageRatingSDK0abC0C11isDebugModeSbvp",
             "moduleName": "InManageRatingSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1150,14 +1136,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)isDebugMode",
+                "usr": "s:17InManageRatingSDK0abC0C11isDebugModeSbvg",
                 "mangledName": "$s17InManageRatingSDK0abC0C11isDebugModeSbvg",
                 "moduleName": "InManageRatingSDK",
                 "implicit": true,
                 "isOpen": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1178,14 +1161,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)setIsDebugMode:",
+                "usr": "s:17InManageRatingSDK0abC0C11isDebugModeSbvs",
                 "mangledName": "$s17InManageRatingSDK0abC0C11isDebugModeSbvs",
                 "moduleName": "InManageRatingSDK",
                 "implicit": true,
                 "isOpen": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1222,14 +1202,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(cm)shared",
+            "usr": "s:17InManageRatingSDK0abC0C6sharedACyFZ",
             "mangledName": "$s17InManageRatingSDK0abC0C6sharedACyFZ",
             "moduleName": "InManageRatingSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -1254,98 +1233,6 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "initInManageRatingObjc",
-            "printedName": "initInManageRatingObjc(appBundle:colorApp:colorStarApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "RateUsFields",
-                "printedName": "InManageRatingSDK.RateUsFields",
-                "usr": "c:@M@InManageRatingSDK@objc(cs)RateUsFields"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ThanksForRatingFields",
-                "printedName": "InManageRatingSDK.ThanksForRatingFields",
-                "usr": "c:@M@InManageRatingSDK@objc(cs)ThanksForRatingFields"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "RateInAppstoreFields",
-                "printedName": "InManageRatingSDK.RateInAppstoreFields",
-                "usr": "c:@M@InManageRatingSDK@objc(cs)RateInAppstoreFields"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "RateWithCommentFields",
-                "printedName": "InManageRatingSDK.RateWithCommentFields",
-                "usr": "c:@M@InManageRatingSDK@objc(cs)RateWithCommentFields"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)initInManageRatingObjcWithAppBundle:colorApp:colorStarApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:",
-            "mangledName": "$s17InManageRatingSDK0abC0C04initabC4Objc9appBundle8colorApp0i4StarJ014secondaryColor12rateUsFields09thanksForcP00na8AppstoreP00n11WithCommentP003strS3Url17chosenDefaultRateySS_So7UIColorCA2PSgAA0zoP0CAA06ThanksrcP0CAA0zasP0CAA0ztuP0CSSSitF",
-            "moduleName": "InManageRatingSDK",
-            "objc_name": "initInManageRatingObjcWithAppBundle:colorApp:colorStarApp:secondaryColor:rateUsFields:thanksForRatingFields:rateInAppstoreFields:rateWithCommentFields:strAppstoreUrl:chosenDefaultRate:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1424,23 +1311,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
+                "name": "Int",
+                "printedName": "Swift.Int",
                 "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17InManageRatingSDK0abC0C04initabC09appBundle8colorApp0h4StarI014secondaryColor12rateUsFields09thanksForcO00ma8AppstoreO00m11WithCommentO003strR3Url17chosenDefaultRateyAA0iG0O_So7UIColorCA2RSgAA0ynO0CAA06ThanksqcO0CAA0yarO0CAA0ystO0CSSSiSgtF",
-            "mangledName": "$s17InManageRatingSDK0abC0C04initabC09appBundle8colorApp0h4StarI014secondaryColor12rateUsFields09thanksForcO00ma8AppstoreO00m11WithCommentO003strR3Url17chosenDefaultRateyAA0iG0O_So7UIColorCA2RSgAA0ynO0CAA06ThanksqcO0CAA0yarO0CAA0ystO0CSSSiSgtF",
+            "usr": "s:17InManageRatingSDK0abC0C04initabC09appBundle8colorApp0h4StarI014secondaryColor12rateUsFields09thanksForcO00ma8AppstoreO00m11WithCommentO003strR3Url17chosenDefaultRateyAA0iG0O_So7UIColorCA2RSgAA0ynO0CAA06ThanksqcO0CAA0yarO0CAA0ystO0CSSSitF",
+            "mangledName": "$s17InManageRatingSDK0abC0C04initabC09appBundle8colorApp0h4StarI014secondaryColor12rateUsFields09thanksForcO00ma8AppstoreO00m11WithCommentO003strR3Url17chosenDefaultRateyAA0iG0O_So7UIColorCA2RSgAA0ynO0CAA06ThanksqcO0CAA0yarO0CAA0ystO0CSSSitF",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
               "AccessControl"
@@ -1459,12 +1338,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)presentThanksForRatingScreen",
+            "usr": "s:17InManageRatingSDK0abC0C016presentThanksForC6ScreenyyF",
             "mangledName": "$s17InManageRatingSDK0abC0C016presentThanksForC6ScreenyyF",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1486,13 +1364,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)presentRateUsScreenTestWithUiview:",
+            "usr": "s:17InManageRatingSDK0abC0C23presentRateUsScreenTest6uiviewySo6UIViewC_tF",
             "mangledName": "$s17InManageRatingSDK0abC0C23presentRateUsScreenTest6uiviewySo6UIViewC_tF",
             "moduleName": "InManageRatingSDK",
-            "objc_name": "presentRateUsScreenTestWithUiview:",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1508,12 +1384,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)InManageRating(im)presentRateUsScreen",
+            "usr": "s:17InManageRatingSDK0abC0C19presentRateUsScreenyyF",
             "mangledName": "$s17InManageRatingSDK0abC0C19presentRateUsScreenyyF",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1682,15 +1557,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(pl)InmanageDelegate(im)didTapCloseInManageRatingSDK",
+            "usr": "s:17InManageRatingSDK16InmanageDelegateP011didTapCloseabcD0yyF",
             "mangledName": "$s17InManageRatingSDK16InmanageDelegateP011didTapCloseabcD0yyF",
             "moduleName": "InManageRatingSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : InManageRatingSDK.InmanageDelegate>",
             "sugared_genericSig": "<Self where Self : InManageRatingSDK.InmanageDelegate>",
             "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1712,15 +1584,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(pl)InmanageDelegate(im)didTapHighRatingScoreWithScore:",
+            "usr": "s:17InManageRatingSDK16InmanageDelegateP010didTapHighC5Score5scoreySi_tF",
             "mangledName": "$s17InManageRatingSDK16InmanageDelegateP010didTapHighC5Score5scoreySi_tF",
             "moduleName": "InManageRatingSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : InManageRatingSDK.InmanageDelegate>",
             "sugared_genericSig": "<Self where Self : InManageRatingSDK.InmanageDelegate>",
             "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1742,15 +1611,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(pl)InmanageDelegate(im)didTapLowRatingScoreWithScore:",
+            "usr": "s:17InManageRatingSDK16InmanageDelegateP09didTapLowC5Score5scoreySi_tF",
             "mangledName": "$s17InManageRatingSDK16InmanageDelegateP09didTapLowC5Score5scoreySi_tF",
             "moduleName": "InManageRatingSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : InManageRatingSDK.InmanageDelegate>",
             "sugared_genericSig": "<Self where Self : InManageRatingSDK.InmanageDelegate>",
             "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1772,28 +1638,24 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@InManageRatingSDK@objc(pl)InmanageDelegate(im)didSendCommentRatingWithComment:",
+            "usr": "s:17InManageRatingSDK16InmanageDelegateP014didSendCommentC07commentySS_tF",
             "mangledName": "$s17InManageRatingSDK16InmanageDelegateP014didSendCommentC07commentySS_tF",
             "moduleName": "InManageRatingSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : InManageRatingSDK.InmanageDelegate>",
             "sugared_genericSig": "<Self where Self : InManageRatingSDK.InmanageDelegate>",
             "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "c:@M@InManageRatingSDK@objc(pl)InmanageDelegate",
+        "usr": "s:17InManageRatingSDK16InmanageDelegateP",
         "mangledName": "$s17InManageRatingSDK16InmanageDelegateP",
         "moduleName": "InManageRatingSDK",
         "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
         "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
+          "AccessControl"
         ]
       },
       {
@@ -1916,12 +1778,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@InManageRatingSDK@objc(cs)ThanksForRatingFields(im)initWithImgBackgroundHeader:imgMainCenterHeader:translatingMainTitleLowRating:translatingMainTitleHighRating:translatingMainContent:translatingBtnClose:",
+            "usr": "s:17InManageRatingSDK09ThanksForC6FieldsC19imgBackgroundHeader0h10MainCenterJ0011translatingk8TitleLowC00mkn4HighC00mK7Content0M8BtnCloseACSo7UIImageC_AKSSSgA3Ltcfc",
             "mangledName": "$s17InManageRatingSDK09ThanksForC6FieldsC19imgBackgroundHeader0h10MainCenterJ0011translatingk8TitleLowC00mkn4HighC00mK7Content0M8BtnCloseACSo7UIImageC_AKSSSgA3Ltcfc",
             "moduleName": "InManageRatingSDK",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -1958,7 +1819,6 @@
         "moduleName": "InManageRatingSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -2187,49 +2047,49 @@
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateWithCommentFields.swift",
       "kind": "IntegerLiteral",
-      "offset": 292,
+      "offset": 279,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateWithCommentFields.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
+      "offset": 999,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateWithCommentFields.swift",
       "kind": "StringLiteral",
-      "offset": 1079,
+      "offset": 1066,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateWithCommentFields.swift",
       "kind": "StringLiteral",
-      "offset": 1146,
+      "offset": 1133,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateWithCommentFields.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1200,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateWithCommentFields.swift",
       "kind": "StringLiteral",
-      "offset": 1285,
+      "offset": 1272,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateWithCommentFields.swift",
       "kind": "StringLiteral",
-      "offset": 145,
+      "offset": 132,
       "length": 21,
       "value": "\"InManageRatingSDK.RateWithCommentFields\""
     },
@@ -2278,35 +2138,35 @@
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 792,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 872,
+      "offset": 859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 939,
+      "offset": 926,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 1011,
+      "offset": 998,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateUsFields.swift",
       "kind": "StringLiteral",
-      "offset": 137,
+      "offset": 124,
       "length": 12,
       "value": "\"InManageRatingSDK.RateUsFields\""
     },
@@ -2495,35 +2355,35 @@
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateInAppstoreFields.swift",
       "kind": "StringLiteral",
-      "offset": 816,
+      "offset": 803,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateInAppstoreFields.swift",
       "kind": "StringLiteral",
-      "offset": 883,
+      "offset": 870,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateInAppstoreFields.swift",
       "kind": "StringLiteral",
-      "offset": 950,
+      "offset": 937,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateInAppstoreFields.swift",
       "kind": "StringLiteral",
-      "offset": 1017,
+      "offset": 1004,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/RateInAppstoreFields.swift",
       "kind": "StringLiteral",
-      "offset": 144,
+      "offset": 131,
       "length": 20,
       "value": "\"InManageRatingSDK.RateInAppstoreFields\""
     },
@@ -2663,70 +2523,63 @@
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 1062,
+      "offset": 1044,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "IntegerLiteral",
-      "offset": 2206,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3341,
+      "offset": 2175,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 4404,
+      "offset": 3196,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 5284,
+      "offset": 4064,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 5555,
+      "offset": 4335,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 5785,
+      "offset": 4565,
       "length": 19,
       "value": "\"Heebo-Regular.ttf\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 5917,
+      "offset": 4697,
       "length": 17,
       "value": "\"Heebo-Black.ttf\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "StringLiteral",
-      "offset": 6047,
+      "offset": 4827,
       "length": 16,
       "value": "\"Heebo-Bold.ttf\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/InManageRating.swift",
       "kind": "BooleanLiteral",
-      "offset": 6182,
+      "offset": 4962,
       "length": 4,
       "value": "true"
     },
@@ -2796,35 +2649,35 @@
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/ThanksForRatingFields.swift",
       "kind": "StringLiteral",
-      "offset": 863,
+      "offset": 851,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/ThanksForRatingFields.swift",
       "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 934,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/ThanksForRatingFields.swift",
       "kind": "StringLiteral",
-      "offset": 1013,
+      "offset": 1001,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/ThanksForRatingFields.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1062,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/omercohen\/IOS - Project\/InManageRatingSDK\/InManageRatingSDKExample\/InManageRatingSDK\/InManageRatingSDK\/Object\/ThanksForRatingFields.swift",
       "kind": "StringLiteral",
-      "offset": 145,
+      "offset": 133,
       "length": 21,
       "value": "\"InManageRatingSDK.ThanksForRatingFields\""
     },

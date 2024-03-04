@@ -7,7 +7,6 @@
 
 import UIKit
 
-@objcMembers
 public class RateWithCommentFields : NSObject {
     
     let imgBackgroundHeader: UIImage

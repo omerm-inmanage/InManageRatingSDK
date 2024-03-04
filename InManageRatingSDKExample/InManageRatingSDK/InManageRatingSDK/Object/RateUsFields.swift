@@ -7,7 +7,6 @@
 
 import UIKit
 
-@objcMembers
 
 public class RateUsFields : NSObject {
     

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name InManageRatingSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -8,19 +8,20 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
-@objc @objcMembers public class RateWithCommentFields : ObjectiveC.NSObject {
-  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, limitCommentCount: Swift.Int, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingPlaceHolder: Swift.String? = nil, translatingBtnNoThanks: Swift.String? = nil, translatingBtnSendRating: Swift.String? = nil)
+import _SwiftConcurrencyShims
+@objc public class RateWithCommentFields : ObjectiveC.NSObject {
+  public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, limitCommentCount: Swift.Int, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingPlaceHolder: Swift.String? = nil, translatingBtnNoThanks: Swift.String? = nil, translatingBtnSendRating: Swift.String? = nil)
   @objc deinit
 }
-@objc @objcMembers public class RateUsFields : ObjectiveC.NSObject {
-  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnNoThanks: Swift.String? = nil, translatingBtnSendRating: Swift.String? = nil)
+@objc public class RateUsFields : ObjectiveC.NSObject {
+  public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnNoThanks: Swift.String? = nil, translatingBtnSendRating: Swift.String? = nil)
   @objc deinit
 }
 extension UIKit.UIFont {
   public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
 }
-@objc @objcMembers public class RateInAppstoreFields : ObjectiveC.NSObject {
-  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnNoThanks: Swift.String? = nil, translatingBtnAppStore: Swift.String? = nil)
+@objc public class RateInAppstoreFields : ObjectiveC.NSObject {
+  public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitle: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnNoThanks: Swift.String? = nil, translatingBtnAppStore: Swift.String? = nil)
   @objc deinit
 }
 public enum AppBundle {
@@ -33,29 +34,28 @@ public enum AppBundle {
     get
   }
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc open class InManageRating : ObjectiveC.NSObject {
-  @objc weak open var delegate: (any InManageRatingSDK.InmanageDelegate)?
-  @objc open var isDebugMode: Swift.Bool
-  @objc open class func shared() -> InManageRatingSDK.InManageRating
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class InManageRating : ObjectiveC.NSObject {
+  weak open var delegate: (any InManageRatingSDK.InmanageDelegate)?
+  open var isDebugMode: Swift.Bool
+  open class func shared() -> InManageRatingSDK.InManageRating
   open class func destroy()
-  @objc public func initInManageRatingObjc(appBundle: Swift.String, colorApp: UIKit.UIColor, colorStarApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int = 0)
-  public func initInManageRating(appBundle: InManageRatingSDK.AppBundle, colorApp: UIKit.UIColor, colorStarApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int? = 0)
-  @objc public func presentThanksForRatingScreen()
-  @objc public func presentRateUsScreenTest(uiview: UIKit.UIView)
-  @objc public func presentRateUsScreen()
+  public func initInManageRating(appBundle: InManageRatingSDK.AppBundle, colorApp: UIKit.UIColor, colorStarApp: UIKit.UIColor, secondaryColor: UIKit.UIColor? = nil, rateUsFields: InManageRatingSDK.RateUsFields, thanksForRatingFields: InManageRatingSDK.ThanksForRatingFields, rateInAppstoreFields: InManageRatingSDK.RateInAppstoreFields, rateWithCommentFields: InManageRatingSDK.RateWithCommentFields, strAppstoreUrl: Swift.String, chosenDefaultRate: Swift.Int = 0)
+  public func presentThanksForRatingScreen()
+  public func presentRateUsScreenTest(uiview: UIKit.UIView)
+  public func presentRateUsScreen()
   public func presentRateInAppstore()
   public func presentRateWithComment()
   public func closeSDK()
   @objc deinit
 }
-@objc public protocol InmanageDelegate : ObjectiveC.NSObjectProtocol {
-  @objc func didTapCloseInManageRatingSDK()
-  @objc func didTapHighRatingScore(score: Swift.Int)
-  @objc func didTapLowRatingScore(score: Swift.Int)
-  @objc func didSendCommentRating(comment: Swift.String)
+public protocol InmanageDelegate : ObjectiveC.NSObjectProtocol {
+  func didTapCloseInManageRatingSDK()
+  func didTapHighRatingScore(score: Swift.Int)
+  func didTapLowRatingScore(score: Swift.Int)
+  func didSendCommentRating(comment: Swift.String)
 }
-@objc @objcMembers public class ThanksForRatingFields : ObjectiveC.NSObject {
-  @objc public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitleLowRating: Swift.String? = nil, translatingMainTitleHighRating: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnClose: Swift.String? = nil)
+@objc public class ThanksForRatingFields : ObjectiveC.NSObject {
+  public init(imgBackgroundHeader: UIKit.UIImage, imgMainCenterHeader: UIKit.UIImage, translatingMainTitleLowRating: Swift.String? = nil, translatingMainTitleHighRating: Swift.String? = nil, translatingMainContent: Swift.String? = nil, translatingBtnClose: Swift.String? = nil)
   @objc deinit
 }
 public typealias Dict = [Swift.String : Any]

@@ -7,7 +7,6 @@
 
 import UIKit
 
-@objcMembers
 public class RateInAppstoreFields : NSObject {
     
     let imgBackgroundHeader: UIImage

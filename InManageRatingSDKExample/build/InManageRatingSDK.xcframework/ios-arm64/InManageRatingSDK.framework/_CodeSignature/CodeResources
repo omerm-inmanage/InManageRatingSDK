@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/InManageRatingSDK-Swift.h</key>
 		<data>
-		T5f/AakhxZGm51Yzms1uhgmTTfY=
+		kuzt0puxWjwicZy200AqnE3WTN4=
 		</data>
 		<key>Headers/InManageRatingSDK.h</key>
 		<data>
@@ -42,43 +42,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		np19oVC6mviUsrH5qZCvYo/oayU=
+		t4UG5IQ5nC+t/noEhUDfU0i61uw=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		aXZHnarNxqjzAa0iRN/tNZoFqAY=
+		w6fxArcC6gYcYX5D6K6NMxuaFC0=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		SSc75+H9lNHDGfHfD2/CotE08ns=
+		w+9qPQJyjwmRd6eXjCmB3WHBseU=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		+o/5pLrcdC0mBsBfSPJ06csv82M=
+		YzDFP8jLsahUZ4f7BVbCaqfQ1SY=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		SSc75+H9lNHDGfHfD2/CotE08ns=
+		w+9qPQJyjwmRd6eXjCmB3WHBseU=
 		</data>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jrpmZYGm93Ea9KuKQyX50UNbqtY=
+		BJTLXO93UpGhyhy32CD7hWZteiA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		F59zdcF2yjuYM3tgs/S21rwiHBA=
+		6W6o20pnab+DiIDxKvVBjd6Qt0E=
 		</data>
 		<key>RateInAppstoreViewController.nib</key>
 		<data>
-		USpvCzGd+PLggZ/nZATPfn10VZM=
+		xBiR3ZDWxyRfmEmPo12/8iqO8Sw=
 		</data>
 		<key>RateUsViewController.nib</key>
 		<data>
-		aePq/AEXOlccsOafsC7KMT5o/S8=
+		4VjnRiQ1sJNYAA0PYBFS1olU78Q=
 		</data>
 		<key>RateWithCommentViewController.nib</key>
 		<data>
-		xhhKia7SQZDp8bu5ExPBF06B+IQ=
+		iTm8F/Qt8Q3TXClT09MVYFWO1NA=
 		</data>
 		<key>SimplerPro-Black.ttf</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ThanksForRatingViewController.nib</key>
 		<data>
-		0pUl9RaB4EbcfFsnLx6V9o2bibI=
+		zIcJMRYepBKm7VzTCW7kWNLaWfo=
 		</data>
 		<key>star_not_selected.png</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pX4Nqc9PGYup+1xCjALokGlUZrHE3lpvXQWdE2kE1Kg=
+			dcKBDs/5PLbKnvK4TzzCRNlMOPxsFNz7YX+Lnc2MihE=
 			</data>
 		</dict>
 		<key>Headers/InManageRatingSDK.h</key>
@@ -178,63 +178,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ePCxc/dhaOgz2nZEsdsMzMMOejvpXnM1NVgnB1UF9s=
+			4FZbfH6wVeN2AwfPg0FmpDY62p0Uh4+jvenqYhcqfOQ=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kys/Im9ogHAOXzLFbpeTSYn9v1qFV3YvlQU5eOlIp5I=
+			uNZvuhxEP0ev25SFlYPucn2v4tT6pDTTYRON7TD1188=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nQD1m6y7rAefOQqhS0GVeVXDwqpZsPVX2FqXcOc4WE0=
+			RKxh7iHPhFKDtkD8HACI6H753JTm7yde+CnGh4Mduvc=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kys/Im9ogHAOXzLFbpeTSYn9v1qFV3YvlQU5eOlIp5I=
+			uNZvuhxEP0ev25SFlYPucn2v4tT6pDTTYRON7TD1188=
 			</data>
 		</dict>
 		<key>Modules/InManageRatingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qrL22CxLj576xFcjHkH3LHinH34BswnEntyqv49eF14=
+			SXvIA6hQ40XlmFayFlvzWykTulwhPwlWz8ktaShSUhg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3TXZTUuvhrATWfaQPKV/fjUgRYexXLi7/65MhXTSoow=
+			Lga7IThNUUMzfsQGgleb00J0q4EPxWx7TuIhMDHbN/U=
 			</data>
 		</dict>
 		<key>RateInAppstoreViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g1Q09mb+xYVVXkeiTtiXGrxIsC0qNCthaEclQz1j9cw=
+			UA+UBFtnzzI8MdDFXWYTbIknQ66+O4aLkzPbqqs4iJ0=
 			</data>
 		</dict>
 		<key>RateUsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NwGds/yWEnQD9eOSM8ZykBh7nW0rkeIPYu2ABV7prKA=
+			NQ0GeDWgzMmz1JVL1Wj6M5J+2oUZxONY6DK52zSncOA=
 			</data>
 		</dict>
 		<key>RateWithCommentViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MjNmhzSPKzFf0zWGHq0/jKzLT4fCMJ5Msc4mxihZuUc=
+			CR2zuvQQS1aARLOgH3gSbipr4hIi2SjxaS3gVBg9ctM=
 			</data>
 		</dict>
 		<key>SimplerPro-Black.ttf</key>
@@ -262,7 +262,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3F/O0ITcRtFePX99yI60iHVclIeXqjjgzHRAQCOnIu4=
+			xm2n0rz6LTeJRsLQ4+4paWMOw5i2kE7J4WIOY7NcM54=
 			</data>
 		</dict>
 		<key>star_not_selected.png</key>

@@ -26,8 +26,7 @@ class InManageRatingModel: NSObject {
     var thanksForRatingFields: ThanksForRatingFields?
     var userScoreRating: Int = 0
 }
-
-@objc open class InManageRating: NSObject {
+ open class InManageRating: NSObject {
     
     // MARK: Private
     private static var sharedInstance: InManageRating?
@@ -35,8 +34,8 @@ class InManageRatingModel: NSObject {
     private let frameworkBundle = Bundle(for: InManageRating.self)
     
     // MARK: Public
-    @objc open weak var delegate: InmanageDelegate?
-    @objc open var isDebugMode: Bool = false
+    open weak var delegate: InmanageDelegate?
+    open var isDebugMode: Bool = false
     
     private var window: UIWindow = UIWindow(frame: UIScreen.main.bounds)
     
@@ -47,7 +46,7 @@ class InManageRatingModel: NSObject {
      Returns the default singleton instance. You are not allowed to create your own instances of this class.
      */
     
-    @objc open class func shared() -> InManageRating {
+    open class func shared() -> InManageRating {
         guard let instance = self.sharedInstance else {
             self.sharedInstance = InManageRating()
             return sharedInstance!
@@ -68,7 +67,7 @@ class InManageRatingModel: NSObject {
         initCustomFont()
     }
     
-    @objc public func initInManageRatingObjc(appBundle: String, colorApp: UIColor, colorStarApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int = 0) {
+    public func initInManageRating(appBundle: AppBundle, colorApp: UIColor, colorStarApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int = 0) {
         
         InManageRating.inManageRatingModel.appBundle = .azrieli
         InManageRating.inManageRatingModel.colorApp = colorApp
@@ -79,38 +78,24 @@ class InManageRatingModel: NSObject {
         InManageRating.inManageRatingModel.rateInAppstoreFields = rateInAppstoreFields
         InManageRating.inManageRatingModel.rateWithCommentFields = rateWithCommentFields
         InManageRating.inManageRatingModel.thanksForRatingFields = thanksForRatingFields
-        InManageRating.inManageRatingModel.chosenDefaultRate = chosenDefaultRate
+            InManageRating.inManageRatingModel.chosenDefaultRate = chosenDefaultRate
+        
     }
     
-    public func initInManageRating(appBundle: AppBundle, colorApp: UIColor, colorStarApp: UIColor, secondaryColor: UIColor? = nil, rateUsFields: RateUsFields, thanksForRatingFields: ThanksForRatingFields, rateInAppstoreFields: RateInAppstoreFields, rateWithCommentFields: RateWithCommentFields, strAppstoreUrl: String, chosenDefaultRate: Int? = 0) {
-        InManageRating.inManageRatingModel.colorApp = colorApp
-        InManageRating.inManageRatingModel.secondaryColor = secondaryColor
-        InManageRating.inManageRatingModel.strAppstoreUrl = strAppstoreUrl
-        InManageRating.inManageRatingModel.colorStarApp = colorStarApp
-        InManageRating.inManageRatingModel.appBundle = appBundle
-        InManageRating.inManageRatingModel.rateUsFields = rateUsFields
-        InManageRating.inManageRatingModel.rateInAppstoreFields = rateInAppstoreFields
-        InManageRating.inManageRatingModel.rateWithCommentFields = rateWithCommentFields
-        InManageRating.inManageRatingModel.thanksForRatingFields = thanksForRatingFields
-        if let defaultRate = chosenDefaultRate {
-            InManageRating.inManageRatingModel.chosenDefaultRate = defaultRate
-        }
-    }
-    
-    @objc public func presentThanksForRatingScreen() {
+    public func presentThanksForRatingScreen() {
         let vc = ThanksForRatingViewController(nibName: ThanksForRatingViewController.className, bundle: frameworkBundle)
         navigation.popViewController(animated: true)
         navigation.viewControllers = [vc]
     }
     
-    @objc public func presentRateUsScreenTest(uiview: UIView) {
+    public func presentRateUsScreenTest(uiview: UIView) {
         let vc = RateUsViewController(nibName: RateUsViewController.className, bundle: frameworkBundle)
         navigation.viewControllers = [vc]
 //        self.window.rootViewController = navigation
 //        self.window.makeKeyAndVisible()
     }
     
-    @objc public func presentRateUsScreen() {
+    public func presentRateUsScreen() {
         let vc = RateUsViewController(nibName: RateUsViewController.className, bundle: frameworkBundle)
         navigation.viewControllers = [vc]
         self.window.rootViewController = navigation

@@ -7,7 +7,7 @@
 
 import UIKit
 
-@objcMembers
+
 public class ThanksForRatingFields : NSObject {
     
     let imgBackgroundHeader: UIImage
